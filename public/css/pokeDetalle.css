@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poke-detail-lord{
+    border: 1px black solid;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 10px;
+    padding: 20px;
+}
+
+.pokedex{
+    width: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.poke-detail-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.poke-detail-sub{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.poke-photo{
+    width: 125px;
+    height: 125px;
+    align-self: center;
+}
+
+
+.poke-name{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 8px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.poke-description{
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.poke-detail-sub-info{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 9px;
+}
+
+.poke-detail-sub-info .info-main{
+    align-items: center;
+    display: flex;
+}
+
+.poke-detail-sub-info .info{
+    text-align: right;
+    width: 100%
+}
+
+.poke-detail-sub-info .poke-info-value{
+    width: 100%;
+    text-align: right;
+    position: relative;
+    right: 5px;
+}
+
+
+
+.poke-mon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+
+.button{
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+    will-change: transform;
+    cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}

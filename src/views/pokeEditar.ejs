@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/pokeEditar.css">
+    <title>PokeDetail
+    </title>
+</head>
+<body>
+    <div class="team-rocket">
+        <img class="poke-photo" src="/<%= pokemonEdit.img%>">
+        <form action="/edit/<%=pokemonEdit.id%>?_method=PUT" method="POST" enctype="multipart/form-data">
+            <div class="form-edit-poke">
+            <label>Name:</label>
+            <input type="text" name="name" value="<%=pokemonEdit.name%>">
+            </div>
+
+            <div class="form-edit-poke">
+            <label>Type:</label>
+            <input type="text" name="type" value="<%=pokemonEdit.type%>">
+            </div>
+
+            <div class="form-edit-poke">
+            <label>Strong against:</label>
+            <input type="text" name="strongAgainst" value="<%=pokemonEdit.strongAgainst%>">
+            </div>
+
+            <div class="form-edit-poke">
+            <label>Weak against:</label>
+            <input type="text" name="weakAgainst" value="<%=pokemonEdit.weakAgainst%>">
+            </div>
+
+            <div class="form-edit-poke">
+            <label>Description:</label>
+            <input type="text" name="descripcion" value="<%=pokemonEdit.descripcion%>">
+            </div>
+
+            <div class="form-edit-poke">
+            <label>Generation:</label>
+            <input type="text" name="generation" value="<%=pokemonEdit.generation%>">
+            </div>
+
+            <div class="form-edit-poke">
+            <label>Specie:</label>
+            <input type="text" name="specie" value="<%=pokemonEdit.specie%>">
+            </div>
+
+            <div class="form-edit-poke">
+            <label>Region:</label>
+            <input type="text" name="region" value="<%=pokemonEdit.region%>">
+            </div>
+
+            <div class="form-edit-poke">
+            <label>Index:</label>
+            <input type="text" name="index" value="<%=pokemonEdit.index%>">
+            </div>
+
+            <div class="form-edit-poke">
+            <label>Photo:</label>
+            <input type="file" name="img">
+            </div>
+            
+            <a class="volver" href="/"><button class="button">Volver</button></a>
+            <button class="button" type="submit"> Editar Pokemon</button>
+                
+            </div>
+
+        </form>
+
+    </div>
+</body>
+</html>

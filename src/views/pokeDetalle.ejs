@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/pokeDetalle.css">
+    <title>PokeDetail
+    </title>
+</head>
+<body>
+
+    <img src="../img/pokedex.webp" class="pokedex">
+
+    <div class="poke-detail-lord">
+
+        <div class="poke-detail-main">
+            <img class="poke-photo" src="/<%= pokemonDetail.img%>">
+            <div class="poke-detail-sub">
+                <p class="poke-name"><%= pokemonDetail.name %></p>
+                <div class="poke-detail-sub-info">
+                    <p class="poke-info-property">Type:</p>
+                    <p class="poke-info-value"><%= pokemonDetail.type %></p>
+                </div>
+                <div class="poke-detail-sub-info">
+                    <p class="poke-info-property">Generation:</p>
+                    <p class="poke-info-value"><%= pokemonDetail.generation %></p>
+                </div>
+                <div class="poke-detail-sub-info">
+                    <p class="poke-info-property">Specie:</p>
+                    <p class="poke-info-value"><%= pokemonDetail.specie %></p>
+                </div>
+                <div class="poke-detail-sub-info">
+                    <p class="poke-info-property">Region:</p> 
+                    <p class="poke-info-value"><%= pokemonDetail.region %></p>
+                </div>
+                <div class="poke-detail-sub-info">
+                    <p class="poke-info-property">Index:</p>
+                    <p class="poke-info-value"><%= pokemonDetail.index %></p>
+                </div>
+            </div>
+        </div>
+        <p class="poke-description"><%= pokemonDetail.descripcion %></p>
+            
+ 
+                
+              
+       
+                    
+        <div class="poke-detail-sub-info">          
+        <p class="info-main">Strengths</p>
+        <p class="info">
+            <% for (let i=0 ; i<pokemonDetail.strongAgainst.length ; i++) { %>
+                <%= pokemonDetail.strongAgainst[i] %>
+            <% } %>
+        </p>
+        </div>
+        <div class="poke-detail-sub-info">
+        <p class="info-main">Weaknesses</p>
+        <p class="info">
+            <% for (let i=0 ; i<pokemonDetail.weakAgainst.length ; i++) { %>
+                <%= pokemonDetail.weakAgainst[i] %>
+            <% } %>
+        </p>
+        </div>
+                  
+            
+                <div class="poke-mon">
+
+                    <a href="/editPokemon/<%=pokemonDetail.id%>"><button class="button">Editar</button></a>
+
+                    <a class="volver" href="/"><button class="button">Home</button></a>
+                    
+                    <form method="POST" action="/<%=pokemonDetail.id%>?_method=DELETE">
+                    <button type="submit" class="button">Eliminar</button>
+                    </form>
+                </div>
+
+    </div>
+</body>
+</html>
