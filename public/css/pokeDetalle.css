@@ -36,7 +36,6 @@
     align-self: center;
 }
 
-
 .poke-name{
     font-size: 20px;
     font-weight: 800;
@@ -52,15 +51,23 @@
     text-align: justify;
 }
 
+.poke-ver{
+    display: flex;
+    flex-direction: row;
+}
+
 .poke-detail-sub-info{
     display: flex;
     flex-direction: row;
-    margin-bottom: 9px;
+}
+.info-main{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
 }
 
-.poke-detail-sub-info .info-main{
-    align-items: center;
-    display: flex;
+.poke-sub-menu{
+    margin-bottom: 10px;
 }
 
 .poke-detail-sub-info .info{
@@ -75,7 +82,15 @@
     right: 5px;
 }
 
-
+.info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 310px;
+    right: 10px;
+    position: relative;
+}
 
 .poke-mon{
     display: flex;
@@ -83,8 +98,6 @@
     justify-content: space-evenly;
     width: 100%;
 }
-
-
 
 .button{
     background-color: #000000;

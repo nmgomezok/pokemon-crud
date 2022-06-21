@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/pokeDetalle.css">
+    <link rel="stylesheet" href="/css/pokeTypes.css">
     <title>PokeDetail
     </title>
 </head>
@@ -43,38 +44,179 @@
         <p class="poke-description"><%= pokemonDetail.descripcion %></p>
             
  
-                
+        <div class="poke-sub-menu">
+            <p class="info-main">Strengths</p>
+            <div class="info">
+                <% for (let i=0 ; i<pokemonDetail.strongAgainst.length ; i++) { %>
+                    <% if (pokemonDetail.strongAgainst[i].includes("FIRE")) { %>
+                        <% weak = "FIRE" %>
+                        <p class="info-fire"><%= weak %></p>      
+                        
+                    <% } if (pokemonDetail.strongAgainst[i].includes("GRASS")) { %>
+                        <% weak = "GRASS" %>
+                        <p class="info-grass"><%= weak %></p>   
+                    
+                    <% } if (pokemonDetail.strongAgainst[i].includes("WATER")) { %>
+                        <% weak = "WATER" %>
+                        <p class="info-water"><%= weak %></p>
+
+                    <% }  if (pokemonDetail.strongAgainst[i].includes("ICE")) { %>
+                        <% weak = "ICE" %>
+                        <p class="info-ce"><%= weak %></p>
+
+                    <% } if (pokemonDetail.strongAgainst[i].includes("POISON")) { %>
+                        <% weak = "POISON" %>
+                        <p class="info-poison"><%= weak %></p>
+
+                    <% } if (pokemonDetail.strongAgainst[i].includes("FAIRY")) { %>
+                        <% weak = "FAIRY" %>
+                        <p class="info-fairy"><%= weak %></p>
+
+                    <% } if (pokemonDetail.strongAgainst[i].includes("STELL")) { %>
+                        <% weak = "STELL" %>
+                        <p class="info-stell"><%= weak %></p>
+
+                    <% } if (pokemonDetail.strongAgainst[i].includes("DRAGON")) { %>
+                        <% weak = "DRAGON" %>
+                        <p class="info-dragon"><%= weak %></p>
+
+                    <% } if (pokemonDetail.strongAgainst[i].includes("ELECTRIC")) { %>
+                        <% weak = "ELECTRIC" %>
+                        <p class="info-electric"><%= weak %></p>  
+
+                    <% } if (pokemonDetail.strongAgainst[i].includes("DARK")) { %>
+                        <% weak = "DARK" %>
+                        <p class="info-dark"><%= weak %></p>
+
+                    <% } if (pokemonDetail.strongAgainst[i].includes("GHOST")) { %>
+                        <% weak = "GHOST" %>
+                        <p class="info-ghost"><%= weak %></p>
+
+                    <% } if (pokemonDetail.strongAgainst[i].includes("ROCK")) { %>
+                        <% weak = "ROCK" %>
+                        <p class="info-rock"><%= weak %></p>
+
+                    <% } if (pokemonDetail.strongAgainst[i].includes("BUG")) { %>
+                        <% weak = "BUG" %>
+                        <p class="info-bug"><%= weak %></p>
+
+                    <% } if (pokemonDetail.strongAgainst[i].includes("PSYCHIC")) { %>
+                        <% weak = "PSYCHIC" %>
+                        <p class="info-psychic"><%= weak %></p>
+
+                    <% } if (pokemonDetail.strongAgainst[i].includes("FLYING")) { %>
+                        <% weak = "FLYING" %>
+                        <p class="info-flying"><%= weak %></p>
+
+                    <% } if (pokemonDetail.strongAgainst[i].includes("GROUND")) { %>
+                        <% weak = "GROUND" %>
+                        <p class="info-ground"><%= weak %></p>
+
+                    <% } if (pokemonDetail.strongAgainst[i].includes("FIGHTING")) { %>
+                        <% weak = "FIGHTING" %>
+                        <p class="info-fighting"><%= weak %></p>
+
+                    <% } if (pokemonDetail.strongAgainst[i].includes("NORMAL")) { %>
+                        <% weak = "NORMAL" %>
+                        <p class="info-normal"><%= weak %></p>
+                    <% } %>
+                <% } %>
+            </p>
+            </div>
+        </div>
+
+        <div class="poke-sub-menu">
+            <p class="info-main">Weaknesses</p>     
+            <div class="info">
+                <% for (let i=0 ; i<pokemonDetail.weakAgainst.length ; i++) { %>
+                    
+                    <% if (pokemonDetail.weakAgainst[i].includes("FIRE")) { %>
+                        <% weak = "FIRE" %>
+                        <p class="info-fire"><%= weak %></p>        
+                        
+                    <% } if (pokemonDetail.weakAgainst[i].includes("GRASS")) { %>
+                        <% weak = "GRASS" %>
+                        <p class="info-grass"><%= weak %></p>
+                    
+                    <% } if (pokemonDetail.weakAgainst[i].includes("WATER")) { %>
+                        <% weak = "WATER" %>
+                        <p class="info-water"><%= weak %></p>
+
+                    <% }  if (pokemonDetail.weakAgainst[i].includes("ICE")) { %>
+                        <% weak = "ICE" %>
+                        <p class="info-ce"><%= weak %></p>
+
+                    <% } if (pokemonDetail.weakAgainst[i].includes("POISON")) { %>
+                        <% weak = "POISON" %>
+                        <p class="info-poison"><%= weak %></p>
+
+                    <% } if (pokemonDetail.weakAgainst[i].includes("FAIRY")) { %>
+                        <% weak = "FAIRY" %>
+                        <p class="info-fairy"><%= weak %></p>
+
+                    <% } if (pokemonDetail.weakAgainst[i].includes("STELL")) { %>
+                        <% weak = "STELL" %>
+                        <p class="info-stell"><%= weak %></p>
+
+                    <% } if (pokemonDetail.weakAgainst[i].includes("DRAGON")) { %>
+                        <% weak = "DRAGON" %>
+                        <p class="info-dragon"><%= weak %></p>
+
+                    <% } if (pokemonDetail.weakAgainst[i].includes("ELECTRIC")) { %>
+                        <% weak = "ELECTRIC" %>
+                        <p class="info-electric"><%= weak %></p>  
+
+                    <% } if (pokemonDetail.weakAgainst[i].includes("DARK")) { %>
+                        <% weak = "DARK" %>
+                        <p class="info-dark"><%= weak %></p>
+
+                    <% } if (pokemonDetail.weakAgainst[i].includes("GHOST")) { %>
+                        <% weak = "GHOST" %>
+                        <p class="info-ghost"><%= weak %></p>
+
+                    <% } if (pokemonDetail.weakAgainst[i].includes("ROCK")) { %>
+                        <% weak = "ROCK" %>
+                        <p class="info-rock"><%= weak %></p>
+
+                    <% } if (pokemonDetail.weakAgainst[i].includes("BUG")) { %>
+                        <% weak = "BUG" %>
+                        <p class="info-bug"><%= weak %></p>
+
+                    <% } if (pokemonDetail.weakAgainst[i].includes("PSYCHIC")) { %>
+                        <% weak = "PSYCHIC" %>
+                        <p class="info-psychic"><%= weak %></p>
+
+                    <% } if (pokemonDetail.weakAgainst[i].includes("FLYING")) { %>
+                        <% weak = "FLYING" %>
+                        <p class="info-flying"><%= weak %></p>
+
+                    <% } if (pokemonDetail.weakAgainst[i].includes("GROUND")) { %>
+                        <% weak = "GROUND" %>
+                        <p class="info-ground"><%= weak %></p>
+
+                    <% } if (pokemonDetail.weakAgainst[i].includes("FIGHTING")) { %>
+                        <% weak = "FIGHTING" %>
+                        <p class="info-fighting"><%= weak %></p>
+
+                    <% } if (pokemonDetail.weakAgainst[i].includes("NORMAL")) { %>
+                        <% weak = "NORMAL" %>
+                        <p class="info-normal"><%= weak %></p>
+                    <% } %>
+                <% } %>
+            </p>
+            </div>
+        </div>
               
-       
-                    
-        <div class="poke-detail-sub-info">          
-        <p class="info-main">Strengths</p>
-        <p class="info">
-            <% for (let i=0 ; i<pokemonDetail.strongAgainst.length ; i++) { %>
-                <%= pokemonDetail.strongAgainst[i] %>
-            <% } %>
-        </p>
-        </div>
-        <div class="poke-detail-sub-info">
-        <p class="info-main">Weaknesses</p>
-        <p class="info">
-            <% for (let i=0 ; i<pokemonDetail.weakAgainst.length ; i++) { %>
-                <%= pokemonDetail.weakAgainst[i] %>
-            <% } %>
-        </p>
-        </div>
-                  
-            
-                <div class="poke-mon">
+        <div class="poke-mon">
 
-                    <a href="/editPokemon/<%=pokemonDetail.id%>"><button class="button">Editar</button></a>
+            <a href="/editPokemon/<%=pokemonDetail.id%>"><button class="button">Editar</button></a>
 
-                    <a class="volver" href="/"><button class="button">Home</button></a>
+            <a class="volver" href="/"><button class="button">Home</button></a>
                     
-                    <form method="POST" action="/<%=pokemonDetail.id%>?_method=DELETE">
+            <form method="POST" action="/<%=pokemonDetail.id%>?_method=DELETE">
                     <button type="submit" class="button">Eliminar</button>
                     </form>
-                </div>
+        </div>
 
     </div>
 </body>
