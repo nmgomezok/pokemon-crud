@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Bulbasaur",
         "prefix": "001",
-        "img": "img/bulbasaur.png",
+        "img": "img/Bulbasaur.png",
         "descripcion": "Known as the Seed Pokémon, Bulbasaur resembles a small, squating dinosaur that walks on four legs and has a large plant bulb on its back. It also has large red eyes and very sharp teeth. Its skin is a light turquoise color with dark green spots. Its most notable feature, however, is the aforementioned bulb on its back, which as the Pokédex states, was planted on it at birth.",
         "generation": "I",
         "specie": "Seed",
