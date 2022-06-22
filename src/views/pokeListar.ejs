@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/pokeListar.css">
+    <link rel="stylesheet" href="/css/pokeTypes.css">
     <title>Pokelistar</title>
 </head>
     <body>
@@ -16,10 +17,13 @@
                 <div class="ash">
                     <a href="/editar/<%=pokemon[i].id%>"><img class="poke-photo" src="/<%= pokemon[i].img%>"></a>
                     <span class="poke-prefix"> #<%= pokemon[i].prefix %> </span>
-                    <span class="poke-name"> <%= pokemon[i].name %> </span>
-                </div>
+                    <span class="poke-name"> <%= pokemon[i].name %> </span>  
+                    <div class="poke-flex-typo">
+                        <span class="<%= pokemon[i].type[0]%>"> <%= pokemon[i].type[0] %></span>
+                        <span class="<%= pokemon[i].type[1]%>"> <%= pokemon[i].type[1] %></span>
+                    </div> 
+                </div>    
             <% } %>
-                        
-        </div>
+        </div> 
     </body>
 </html>

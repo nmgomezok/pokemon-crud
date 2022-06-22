@@ -1,108 +1,103 @@
 
-.info-fire {
+.FIRE {
     background-color: #ef803c;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-electric {
+.ELECTRIC {
     background-color: #f8cf43;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-water {
+.WATER {
     background-color: #6a93ee;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-ice {
+.ICE {
     background-color: #9bd9d8;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-poison {
+.POISON {
     background-color: #a0449f;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-fairy {
+.FAIRY {
     background-color: #4fb170;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-stell {
+.STEEL {
     background-color: #b9b9d0;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-dragon {
+.DRAGON {
     background-color: #7043f5;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-dark {
-    background-color: #4fb170;
-    padding: 4px 5px;
-    font-size: 12px;
-}
-
-.info-ghost {
+.GHOST {
     background-color: #705a97;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-rock {
+.ROCK {
     background-color: #b8a041;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-bug {
+.BUG {
     background-color: #a9b732;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-psychic {
+.PSYCHIC {
     background-color: #f65b89;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-flying {
+.FLYING {
     background-color: #a893ee;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-ground {
+.GROUND {
     background-color: #e0c06e;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-fighting {
+.FIGHTING {
     background-color: #bf322e;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-normal {
+.NORMAL {
     background-color: #a8a87b;
     padding: 4px 5px;
-    font-size: 12px;
+    font-size: 8px;
 }
 
-.info-grass {
+.GRASS{
     background-color: #7bc757;
     padding: 4px 5px;
-    font-size: 12px;
-}
+    font-size: 8px;
+} 
+

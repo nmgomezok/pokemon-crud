@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .new-pokemon{
     margin: auto;
     text-decoration: none;
@@ -49,7 +50,7 @@
 
 .poke-name{
     font-size: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 3.5px;
     font-family: "Flexo-Demi",arial,sans-serif;
 }
 
