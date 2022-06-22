@@ -101,3 +101,9 @@
     font-size: 8px;
 } 
 
+@media (min-width: 1200px){
+    .FIRE, .ELECTRIC, .WATER, .ICE, .POISON, .FAIRY, .STEEL, .DRAGON, .GHOST, .ROCK, .BUG, .PSYCHIC, .FLYING, .GROUND, .FIGHTING, .NORMAL, .GRASS {
+        font-size: 15px;
+        padding: 2px 5px;
+    }
+}

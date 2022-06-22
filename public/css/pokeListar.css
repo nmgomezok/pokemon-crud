@@ -44,12 +44,12 @@
 }
 
 .poke-photo{
-    width: 95px;
-    height: 95px;
+    width: 115px;
+    height: 115px;
 }
 
 .poke-name{
-    font-size: 10px;
+    font-size: 16px;
     margin-bottom: 3.5px;
     font-family: "Flexo-Demi",arial,sans-serif;
 }
