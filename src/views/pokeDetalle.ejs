@@ -10,16 +10,18 @@
     <div class="background-image">
         <img src="../img/pokedex.webp" class="pokedex-image">
         <div class="main-flex-scheme">
-            <% if (pokemon[(pokemonDetail.id -2 )]) { %>
-                <div class="flex-previous-pokemon">
-                    <div class="flex-previous-next">
-                        <a href="<%=pokemonDetail.id - 1 %>"><img class="previous-image" src="../img/PREVIOUS.PNG"></a>
-                        <img class="flex-pokemon-photo" src="/<%=pokemon[(pokemonDetail.id -2 )].img %>">
-                        <p class="flex-pokemon-name"><%=pokemon[(pokemonDetail.id -2 )].name %></p>
-                        <p class="flex-pokemon-prefix">#<%=pokemon[(pokemonDetail.id -2 )].prefix %></p>
+            <div class="previous-next">
+                <% if (pokemon[(pokemonDetail.id -2 )]) { %>
+                    <div class="flex-previous-pokemon">
+                        <div class="flex-previous-next">
+                            <a href="<%=pokemonDetail.id - 1 %>"><img class="previous-image" src="../img/PREVIOUS.PNG"></a>
+                            <img class="flex-pokemon-photo" src="/<%=pokemon[(pokemonDetail.id -2 )].img %>">
+                            <p class="flex-pokemon-name"><%=pokemon[(pokemonDetail.id -2 )].name %></p>
+                            <p class="flex-pokemon-prefix">#<%=pokemon[(pokemonDetail.id -2 )].prefix %></p>
+                        </div>
                     </div>
-                </div>
-            <% } %>
+                <% } %>
+            </div>
             <div class="pokemon-detail-main">
                 <div class="pokemon-detail-submain">
                     <img class="pokemon-detail-submain-photo" src="/<%= pokemonDetail.img%>">
@@ -71,16 +73,18 @@
                     </div>
                 </div> 
             </div>
-            <% if (pokemon[(pokemonDetail.id +0 )]) { %> 
-                <div class="next-pokemon-flex">
-                    <div class="flex-previous-next">
-                        <a href="<%=pokemonDetail.id + 1 %>"><img class="next-image" src="../img/NEXT.PNG"></a>
-                        <img class="flex-pokemon-photo" src="/<%=pokemon[(pokemonDetail.id +0 )].img%>">
-                        <p class="flex-pokemon-name"><%=pokemon[(pokemonDetail.id +0 )].name %></p>
-                        <p class="flex-pokemon-prefix">#<%=pokemon[(pokemonDetail.id +0 )].prefix %></p>
+           <div class="previous-next">
+                <% if (pokemon[(pokemonDetail.id +0 )]) { %> 
+                    <div class="next-pokemon-flex">
+                        <div class="flex-previous-next">
+                            <a href="<%=pokemonDetail.id + 1 %>"><img class="next-image" src="../img/NEXT.PNG"></a>
+                            <img class="flex-pokemon-photo" src="/<%=pokemon[(pokemonDetail.id +0 )].img%>">
+                            <p class="flex-pokemon-name"><%=pokemon[(pokemonDetail.id +0 )].name %></p>
+                            <p class="flex-pokemon-prefix">#<%=pokemon[(pokemonDetail.id +0 )].prefix %></p>
+                        </div>
                     </div>
-                </div>
-            <% } %>
+                <% } %>
+           </div>
         </div>
         <div class="poke-bottons">
             <a href="/editPokemon/<%=pokemonDetail.id%>"><div id="bulbasaur" class="pokemon"></div></a>
