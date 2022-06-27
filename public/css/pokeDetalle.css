@@ -42,7 +42,7 @@ body{
     margin-bottom: 15px;
     width: 90%;
     margin: 20px 10px 15px 10px;
-    height: 75vh;
+    height: fit-content;
     margin: auto;
 }
 
