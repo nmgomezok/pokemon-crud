@@ -15,7 +15,7 @@ const controller = {
 
         if (pokemon.find((item)=> item.id == id)){
             let pokemonDetail = pokemon.find((item)=> item.id == id);
-            res.render("pokeDetalle", {pokemonDetail})
+            res.render("pokeDetalle", {pokemonDetail, pokemon})
         } else {
             res.render("error404")
         }

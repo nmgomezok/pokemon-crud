@@ -7,7 +7,7 @@ const router = express.Router();
 router.get("/", controller.listAll);
 
 //detail one pokemon
-router.get("/editar/:id", controller.detail)
+router.get("/edit/:id", controller.detail)
 
 //list one pokemon to edit
 router.get("/editPokemon/:id", controller.editA);

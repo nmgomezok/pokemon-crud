@@ -1,96 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include("./partials/head")%>
     <link rel="stylesheet" href="/css/pokeDetalle.css">
     <link rel="stylesheet" href="/css/pokeTypes.css">
-    <title>PokeDetail
-    </title>
+    <title>PokeDetail</title>
 </head>
 <body>
-
-    <img src="../img/pokedex.webp" class="pokedex">
-
-
-    <div class="main-flex-scheme">
-        
-        <a class="pre-next" href="<%=pokemonDetail.id - 1 %>"><img class="pre-pre" src="../img/PREVIOUS.PNG"></a>
-        
-        
-        <div class="poke-detail-lord">
-
-            <div class="poke-detail-main">
-                <img class="poke-photo" src="/<%= pokemonDetail.img%>">
-                <div class="poke-detail-sub">
-                    <p class="poke-name"><%= pokemonDetail.name %></p>
-                    <div class="poke-detail-sub-info">
-                        <p class="poke-info-property">Type:</p>
-                        <p class="poke-info-value"><%= pokemonDetail.type %></p>
-                    </div>
-                    <div class="poke-detail-sub-info">
-                        <p class="poke-info-property">Generation:</p>
-                        <p class="poke-info-value"><%= pokemonDetail.generation %></p>
-                    </div>
-                    <div class="poke-detail-sub-info">
-                        <p class="poke-info-property">Specie:</p>
-                        <p class="poke-info-value"><%= pokemonDetail.specie %></p>
-                    </div>
-                    <div class="poke-detail-sub-info">
-                        <p class="poke-info-property">Region:</p> 
-                        <p class="poke-info-value"><%= pokemonDetail.region %></p>
-                    </div>
-                    <div class="poke-detail-sub-info">
-                        <p class="poke-info-property">Index:</p>
-                        <p class="poke-info-value"><%= pokemonDetail.index %></p>
+    <div class="background-image">
+        <img src="../img/pokedex.webp" class="pokedex-image">
+        <div class="main-flex-scheme">
+            <% if (pokemon[(pokemonDetail.id -2 )]) { %>
+                <div class="flex-previous-pokemon">
+                    <div class="flex-previous-next">
+                        <a href="<%=pokemonDetail.id - 1 %>"><img class="previous-image" src="../img/PREVIOUS.PNG"></a>
+                        <img class="flex-pokemon-photo" src="/<%=pokemon[(pokemonDetail.id -2 )].img %>">
+                        <p class="flex-pokemon-name"><%=pokemon[(pokemonDetail.id -2 )].name %></p>
+                        <p class="flex-pokemon-prefix">#<%=pokemon[(pokemonDetail.id -2 )].prefix %></p>
                     </div>
                 </div>
-            </div>
-            <p class="poke-description"><%= pokemonDetail.descripcion %></p>
-                
-    
-            <div class="poke-sub-menu">
-                <p class="info-main">Strengths</p>
-                <div class="info">
-                    <% for (let i=0 ; i<pokemonDetail.strongAgainst.length ; i++) { %>
-                        <p class="<%=pokemonDetail.strongAgainst[i]%>"> <%= pokemonDetail.strongAgainst[i] %></p>
-                        
-                    <% } %>
-                </p>
+            <% } %>
+            <div class="pokemon-detail-main">
+                <div class="pokemon-detail-submain">
+                    <img class="pokemon-detail-submain-photo" src="/<%= pokemonDetail.img%>">
+                    <div class="pokemon-detail-submain-flex">
+                        <div class="pokedex-name-prefix">
+                            <p class="poke-name-main"><%= pokemonDetail.name %></p>
+                            <p class="poke-prefix-main">#<%= pokemonDetail.prefix %></p>
+                        </div>
+                        <p class="pokemon-text-maindescription"> <%=pokemonDetail.mainDescripcion%> </p>
+                        <div class="pokedex-background-sub">
+                            <div class="pokemon-detail-flex-column">
+                                <p class="poke-info-property">Type</p>
+                                <p class="poke-info-value"><%= pokemonDetail.type %></p>
+                            </div>
+                            <div class="pokemon-detail-flex-column">
+                                <p class="poke-info-property">Generation</p>
+                                <p class="poke-info-value"><%= pokemonDetail.generation %></p>
+                            </div>
+                            <div class="pokemon-detail-flex-column">
+                                <p class="poke-info-property">Specie</p>
+                                <p class="poke-info-value"><%= pokemonDetail.specie %></p>
+                            </div>
+                            <div class="pokemon-detail-flex-column">
+                                <p class="poke-info-property">Region</p> 
+                                <p class="poke-info-value"><%= pokemonDetail.region %></p>
+                            </div>
+                            <div class="pokemon-detail-flex-column">
+                                <p class="poke-info-property">Index</p>
+                                <p class="poke-info-value"><%= pokemonDetail.index %></p>
+                            </div>  
+                        </div>
+                    </div>
                 </div>
-            </div>
-
-            <div class="poke-sub-menu">
-                <p class="info-main">Weaknesses</p>     
-                <div class="info">
-                    <% for (let i=0 ; i<pokemonDetail.weakAgainst.length ; i++) { %>
-                        
-                        <p class="<%=pokemonDetail.weakAgainst[i]%>"> <%= pokemonDetail.weakAgainst[i] %></p>
-                
-                    
-                    
-                    <% } %>
-                </p>
+                <p class="poke-description"><%= pokemonDetail.descripcion %></p>
+                <div class="poke-sub-menu">
+                    <p class="poke-sub-menu-info">Strengths</p>
+                    <div class="poke-sub-menu-information">
+                        <% for (let i=0 ; i<pokemonDetail.strongAgainst.length ; i++) { %>
+                            <p class="<%=pokemonDetail.strongAgainst[i]%>"> <%= pokemonDetail.strongAgainst[i] %></p>
+                        <% } %>
+                    </div>
                 </div>
+                <div class="poke-sub-menu">
+                    <p class="poke-sub-menu-info">Weaknesses</p>     
+                    <div class="poke-sub-menu-information">
+                        <% for (let i=0 ; i<pokemonDetail.weakAgainst.length ; i++) { %>
+                            <p class="<%=pokemonDetail.weakAgainst[i]%>"> <%= pokemonDetail.weakAgainst[i] %></p>
+                        <% } %>
+                    </div>
+                </div> 
             </div>
-                
-            <div class="poke-mon">
-
-                <a href="/editPokemon/<%=pokemonDetail.id%>"><button class="button">Editar</button></a>
-
-                <a class="volver" href="/"><button class="button">Home</button></a>
-                        
-                <form method="POST" action="/<%=pokemonDetail.id%>?_method=DELETE">
-                    <button type="submit" class="button">Eliminar</button>
-                </form>
-            </div>
-
+            <% if (pokemon[(pokemonDetail.id +0 )]) { %> 
+                <div class="next-pokemon-flex">
+                    <div class="flex-previous-next">
+                        <a href="<%=pokemonDetail.id + 1 %>"><img class="next-image" src="../img/NEXT.PNG"></a>
+                        <img class="flex-pokemon-photo" src="/<%=pokemon[(pokemonDetail.id +0 )].img%>">
+                        <p class="flex-pokemon-name"><%=pokemon[(pokemonDetail.id +0 )].name %></p>
+                        <p class="flex-pokemon-prefix">#<%=pokemon[(pokemonDetail.id +0 )].prefix %></p>
+                    </div>
+                </div>
+            <% } %>
         </div>
-
-        <a class="pre-next" href="<%=pokemonDetail.id + 1 %>"><img class="next-next" src="../img/NEXT.PNG"></a>
-
+        <div class="poke-bottons">
+            <a href="/editPokemon/<%=pokemonDetail.id%>"><div id="bulbasaur" class="pokemon"></div></a>
+            <a href="/"><div id="charmander" class="pokemon"></div></a>
+            <form method="POST" action="/<%=pokemonDetail.id%>?_method=DELETE">
+                <button id="squirtle" type="submit" class="pokemon"></button>
+            </form>
+        </div>
     </div>
-
 </body>
 </html>

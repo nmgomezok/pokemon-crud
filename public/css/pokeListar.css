@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+.background-image{
+    background: url("../img//back-list.jpg");
+    overflow: hidden;
+    background-size: contain;
+    background-attachment:fixed;
+}
+
 .new-pokemon-photo{
     width: 250px;
     display: block;
@@ -25,6 +32,7 @@
     padding: 5px;
     margin: 5px;
     box-shadow: 0px 0px 5px rgb(100, 100, 100);
+    background-color: rgba(255, 255, 255, 0.9)
 }
 
 .poke-photo{
