@@ -13,207 +13,84 @@
 
     <img src="../img/pokedex.webp" class="pokedex">
 
-    <div class="poke-detail-lord">
 
-        <div class="poke-detail-main">
-            <img class="poke-photo" src="/<%= pokemonDetail.img%>">
-            <div class="poke-detail-sub">
-                <p class="poke-name"><%= pokemonDetail.name %></p>
-                <div class="poke-detail-sub-info">
-                    <p class="poke-info-property">Type:</p>
-                    <p class="poke-info-value"><%= pokemonDetail.type %></p>
-                </div>
-                <div class="poke-detail-sub-info">
-                    <p class="poke-info-property">Generation:</p>
-                    <p class="poke-info-value"><%= pokemonDetail.generation %></p>
-                </div>
-                <div class="poke-detail-sub-info">
-                    <p class="poke-info-property">Specie:</p>
-                    <p class="poke-info-value"><%= pokemonDetail.specie %></p>
-                </div>
-                <div class="poke-detail-sub-info">
-                    <p class="poke-info-property">Region:</p> 
-                    <p class="poke-info-value"><%= pokemonDetail.region %></p>
-                </div>
-                <div class="poke-detail-sub-info">
-                    <p class="poke-info-property">Index:</p>
-                    <p class="poke-info-value"><%= pokemonDetail.index %></p>
+    <div class="main-flex-scheme">
+        
+        <a class="pre-next" href="<%=pokemonDetail.id - 1 %>"><img class="pre-pre" src="../img/PREVIOUS.PNG"></a>
+        
+        
+        <div class="poke-detail-lord">
+
+            <div class="poke-detail-main">
+                <img class="poke-photo" src="/<%= pokemonDetail.img%>">
+                <div class="poke-detail-sub">
+                    <p class="poke-name"><%= pokemonDetail.name %></p>
+                    <div class="poke-detail-sub-info">
+                        <p class="poke-info-property">Type:</p>
+                        <p class="poke-info-value"><%= pokemonDetail.type %></p>
+                    </div>
+                    <div class="poke-detail-sub-info">
+                        <p class="poke-info-property">Generation:</p>
+                        <p class="poke-info-value"><%= pokemonDetail.generation %></p>
+                    </div>
+                    <div class="poke-detail-sub-info">
+                        <p class="poke-info-property">Specie:</p>
+                        <p class="poke-info-value"><%= pokemonDetail.specie %></p>
+                    </div>
+                    <div class="poke-detail-sub-info">
+                        <p class="poke-info-property">Region:</p> 
+                        <p class="poke-info-value"><%= pokemonDetail.region %></p>
+                    </div>
+                    <div class="poke-detail-sub-info">
+                        <p class="poke-info-property">Index:</p>
+                        <p class="poke-info-value"><%= pokemonDetail.index %></p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <p class="poke-description"><%= pokemonDetail.descripcion %></p>
-            
- 
-        <div class="poke-sub-menu">
-            <p class="info-main">Strengths</p>
-            <div class="info">
-                <% for (let i=0 ; i<pokemonDetail.strongAgainst.length ; i++) { %>
-                    <% if (pokemonDetail.strongAgainst[i].includes("FIRE")) { %>
-                        <% weak = "FIRE" %>
-                        <p class="FIRE"><%= weak %></p>      
-                        
-                    <% } if (pokemonDetail.strongAgainst[i].includes("GRASS")) { %>
-                        <% weak = "GRASS" %>
-                        <p class="GRASS"><%= weak %></p>   
-                    
-                    <% } if (pokemonDetail.strongAgainst[i].includes("WATER")) { %>
-                        <% weak = "WATER" %>
-                        <p class="WATER"><%= weak %></p>
-
-                    <% }  if (pokemonDetail.strongAgainst[i].includes("ICE")) { %>
-                        <% weak = "ICE" %>
-                        <p class="ICE"><%= weak %></p>
-
-                    <% } if (pokemonDetail.strongAgainst[i].includes("POISON")) { %>
-                        <% weak = "POISON" %>
-                        <p class="POISON"><%= weak %></p>
-
-                    <% } if (pokemonDetail.strongAgainst[i].includes("FAIRY")) { %>
-                        <% weak = "FAIRY" %>
-                        <p class="FAIRY"><%= weak %></p>
-
-                    <% } if (pokemonDetail.strongAgainst[i].includes("STELL")) { %>
-                        <% weak = "STELL" %>
-                        <p class="STEEL"><%= weak %></p>
-
-                    <% } if (pokemonDetail.strongAgainst[i].includes("DRAGON")) { %>
-                        <% weak = "DRAGON" %>
-                        <p class="DRAGON"><%= weak %></p>
-
-                    <% } if (pokemonDetail.strongAgainst[i].includes("ELECTRIC")) { %>
-                        <% weak = "ELECTRIC" %>
-                        <p class="ELECTRIC"><%= weak %></p>  
-
-                    <% } if (pokemonDetail.strongAgainst[i].includes("GHOST")) { %>
-                        <% weak = "GHOST" %>
-                        <p class="GHOST"><%= weak %></p>
-
-                    <% } if (pokemonDetail.strongAgainst[i].includes("ROCK")) { %>
-                        <% weak = "ROCK" %>
-                        <p class="ROCK"><%= weak %></p>
-
-                    <% } if (pokemonDetail.strongAgainst[i].includes("BUG")) { %>
-                        <% weak = "BUG" %>
-                        <p class="BUG"><%= weak %></p>
-
-                    <% } if (pokemonDetail.strongAgainst[i].includes("PSYCHIC")) { %>
-                        <% weak = "PSYCHIC" %>
-                        <p class="PSYCHIC"><%= weak %></p>
-
-                    <% } if (pokemonDetail.strongAgainst[i].includes("FLYING")) { %>
-                        <% weak = "FLYING" %>
-                        <p class="FLYING"><%= weak %></p>
-
-                    <% } if (pokemonDetail.strongAgainst[i].includes("GROUND")) { %>
-                        <% weak = "GROUND" %>
-                        <p class="GROUND"><%= weak %></p>
-
-                    <% } if (pokemonDetail.strongAgainst[i].includes("FIGHTING")) { %>
-                        <% weak = "FIGHTING" %>
-                        <p class="FIGHTING"><%= weak %></p>
-
-                    <% } if (pokemonDetail.strongAgainst[i].includes("NORMAL")) { %>
-                        <% weak = "NORMAL" %>
-                        <p class="NORMAL"><%= weak %></p>
-
-                    <% } %>
-                <% } %>
-            </p>
-            </div>
-        </div>
-
-        <div class="poke-sub-menu">
-            <p class="info-main">Weaknesses</p>     
-            <div class="info">
-                <% for (let i=0 ; i<pokemonDetail.weakAgainst.length ; i++) { %>
-                    
-                    <% if (pokemonDetail.weakAgainst[i].includes("FIRE")) { %>
-                        <% weak = "FIRE" %>
-                        <p class="FIRE"><%= weak %></p>        
-                        
-                    <% } if (pokemonDetail.weakAgainst[i].includes("GRASS")) { %>
-                        <% weak = "GRASS" %>
-                        <p class="GRASS"><%= weak %></p>
-                    
-                    <% } if (pokemonDetail.weakAgainst[i].includes("WATER")) { %>
-                        <% weak = "WATER" %>
-                        <p class="WATER"><%= weak %></p>
-
-                    <% }  if (pokemonDetail.weakAgainst[i].includes("ICE")) { %>
-                        <% weak = "ICE" %>
-                        <p class="ICE"><%= weak %></p>
-
-                    <% } if (pokemonDetail.weakAgainst[i].includes("POISON")) { %>
-                        <% weak = "POISON" %>
-                        <p class="POISON"><%= weak %></p>
-
-                    <% } if (pokemonDetail.weakAgainst[i].includes("FAIRY")) { %>
-                        <% weak = "FAIRY" %>
-                        <p class="FAIRY"><%= weak %></p>
-
-                    <% } if (pokemonDetail.weakAgainst[i].includes("STELL")) { %>
-                        <% weak = "STELL" %>
-                        <p class="STEEL"><%= weak %></p>
-
-                    <% } if (pokemonDetail.weakAgainst[i].includes("DRAGON")) { %>
-                        <% weak = "DRAGON" %>
-                        <p class="DRAGON"><%= weak %></p>
-
-                    <% } if (pokemonDetail.weakAgainst[i].includes("ELECTRIC")) { %>
-                        <% weak = "ELECTRIC" %>
-                        <p class="ELECTRIC"><%= weak %></p>  
-
-                    <% } if (pokemonDetail.weakAgainst[i].includes("GHOST")) { %>
-                        <% weak = "GHOST" %>
-                        <p class="GHOST"><%= weak %></p>
-
-                    <% } if (pokemonDetail.weakAgainst[i].includes("ROCK")) { %>
-                        <% weak = "ROCK" %>
-                        <p class="ROCK"><%= weak %></p>
-
-                    <% } if (pokemonDetail.weakAgainst[i].includes("BUG")) { %>
-                        <% weak = "BUG" %>
-                        <p class="BUG"><%= weak %></p>
-
-                    <% } if (pokemonDetail.weakAgainst[i].includes("PSYCHIC")) { %>
-                        <% weak = "PSYCHIC" %>
-                        <p class="PSYCHIC"><%= weak %></p>
-
-                    <% } if (pokemonDetail.weakAgainst[i].includes("FLYING")) { %>
-                        <% weak = "FLYING" %>
-                        <p class="FLYING"><%= weak %></p>
-
-                    <% } if (pokemonDetail.weakAgainst[i].includes("GROUND")) { %>
-                        <% weak = "GROUND" %>
-                        <p class="GROUND"><%= weak %></p>
-
-                    <% } if (pokemonDetail.weakAgainst[i].includes("FIGHTING")) { %>
-                        <% weak = "FIGHTING" %>
-                        <p class="FIGHTING"><%= weak %></p>
-
-                    <% } if (pokemonDetail.weakAgainst[i].includes("NORMAL")) { %>
-                        <% weak = "NORMAL" %>
-                        <p class="NORMAL"><%= weak %></p>
-
-                    <% } %>
+            <p class="poke-description"><%= pokemonDetail.descripcion %></p>
                 
-                
-                <% } %>
-            </p>
+    
+            <div class="poke-sub-menu">
+                <p class="info-main">Strengths</p>
+                <div class="info">
+                    <% for (let i=0 ; i<pokemonDetail.strongAgainst.length ; i++) { %>
+                        <p class="<%=pokemonDetail.strongAgainst[i]%>"> <%= pokemonDetail.strongAgainst[i] %></p>
+                        
+                    <% } %>
+                </p>
+                </div>
             </div>
-        </div>
-              
-        <div class="poke-mon">
 
-            <a href="/editPokemon/<%=pokemonDetail.id%>"><button class="button">Editar</button></a>
-
-            <a class="volver" href="/"><button class="button">Home</button></a>
+            <div class="poke-sub-menu">
+                <p class="info-main">Weaknesses</p>     
+                <div class="info">
+                    <% for (let i=0 ; i<pokemonDetail.weakAgainst.length ; i++) { %>
+                        
+                        <p class="<%=pokemonDetail.weakAgainst[i]%>"> <%= pokemonDetail.weakAgainst[i] %></p>
+                
                     
-            <form method="POST" action="/?_method=DELETE">
+                    
+                    <% } %>
+                </p>
+                </div>
+            </div>
+                
+            <div class="poke-mon">
+
+                <a href="/editPokemon/<%=pokemonDetail.id%>"><button class="button">Editar</button></a>
+
+                <a class="volver" href="/"><button class="button">Home</button></a>
+                        
+                <form method="POST" action="/<%=pokemonDetail.id%>?_method=DELETE">
                     <button type="submit" class="button">Eliminar</button>
-                    </form>
+                </form>
+            </div>
+
         </div>
+
+        <a class="pre-next" href="<%=pokemonDetail.id + 1 %>"><img class="next-next" src="../img/NEXT.PNG"></a>
 
     </div>
+
 </body>
 </html>

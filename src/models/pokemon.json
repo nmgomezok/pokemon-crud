@@ -10,8 +10,8 @@
         "region": "Kanto",
         "index": "001/151",
         "type": ["GRASS", "POISON"],
-        "strongAgainst": ["WATER, GROUND, ROCK, GRASS, BUG, FAIRY"],
-        "weakAgainst": ["FIRE, GRASS, POISON, FLYING, BUG, DRAGON, GROUND, ROCK, GHOST"]
+        "strongAgainst": ["WATER", "GROUND", "ROCK", "GRASS", "BUG", "FAIRY"],
+        "weakAgainst": ["FIRE", "GRASS", "POISON", "FLYING", "BUG", "DRAGON", "GROUND", "ROCK", "GHOST"]
     },
     {
         "id": 2,
@@ -23,9 +23,12 @@
         "specie": "Seed",
         "region": "Kanto",
         "index": "002/151",
-        "type": ["GRASS", "POISON"],
-        "strongAgainst": ["WATER, GROUND, ROCK, GRASS, BUG, FAIRY"],
-        "weakAgainst": ["FIRE, GRASS, POISON, FLYING, BUG, DRAGON, GROUND, ROCK, GHOST"]
+        "type": [
+            "GRASS",
+            "POISON"
+        ],
+        "strongAgainst": ["WATER", "GROUND", "ROCK", "GRASS", "BUG", "FAIRY"],
+        "weakAgainst": ["FIRE", "GRASS", "POISON", "FLYING", "BUG", "DRAGON", "GROUND", "ROCK", "GHOST"]
     },
     {
         "id": 3,
@@ -37,9 +40,12 @@
         "specie": "Seed",
         "region": "Kanto",
         "index": "003/151",
-        "type": ["GRASS", "POISON"],
-        "strongAgainst": ["WATER, GROUND, ROCK, GRASS, BUG, FAIRY"],
-        "weakAgainst": ["FIRE, GRASS, POISON, FLYING, BUG, DRAGON, GROUND, ROCK, GHOST"]
+        "type": [
+            "GRASS",
+            "POISON"
+        ],
+        "strongAgainst": ["WATER", "GROUND", "ROCK", "GRASS", "BUG", "FAIRY"],
+        "weakAgainst": ["FIRE", "GRASS", "POISON", "FLYING", "BUG", "DRAGON", "GROUND", "ROCK", "GHOST"]
     },
     {
         "id": 4,
@@ -51,9 +57,15 @@
         "specie": "Lizard",
         "region": "Kanto",
         "index": "004/151",
-        "type": ["FIRE"],
-        "strongAgainst": ["GRASS, ICE, BUG, STEEL, FAIRY"],
-        "weakAgainst": ["FIRE, WATER, ROCK, DRAGON"]
+        "type": [
+            "FIRE"
+        ],
+        "strongAgainst": [
+            "GRASS", "ICE", "BUG", "STEEL", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE", "WATER", "ROCK", "DRAGON"
+        ]
     },
     {
         "id": 5,
@@ -65,9 +77,15 @@
         "specie": "Flame",
         "region": "Kanto",
         "index": "005/151",
-        "type": ["FIRE"],
-        "strongAgainst": ["GRASS, ICE, BUG, STEEL, FAIRY"],
-        "weakAgainst": ["FIRE, WATER, ROCK, DRAGON"]
+        "type": [
+            "FIRE"
+        ],
+        "strongAgainst": [
+            "GRASS", "ICE", "BUG", "STEEL", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE", "WATER", "ROCK", "DRAGON"
+        ]
     },
     {
         "id": 6,
@@ -76,12 +94,19 @@
         "img": "img/Charizard.webp",
         "descripcion": "Charizard is a large, dragon-like Pokémon that differs greatly from its pre-evolved form. The red skin coloration of Charmeleon is no longer apparent, as Charizard appears to have reverted to the orange/yellow coloration of Charmander. Two large fangs can be seen when its mouth is closed. When its mouth is open, its lower fangs and a slender but long tongue can be seen. The single horn that was on the back of its head is now two, one on either side. The most notable difference between Charizard and its pre-evolved forms are the large wings that have developed on its back, which gives Charizard the capability of flying.",
         "generation": "I",
-        "specie": "Flame Dragon",
+        "specie": "Flame DRAGON",
         "region": "Kanto",
         "index": "006/151",
-        "type": ["FIRE", "FLYING"],
-        "strongAgainst": ["GRASS, ICE, BUG, STEEL, FAIRY, FIGHTING"],
-        "weakAgainst": ["FIRE, WATER, ROCK, DRAGON, ELECTRIC"]
+        "type": [
+            "FIRE",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "ICE", "BUG", "STEEL", "FAIRY", "FIGHTING"
+        ],
+        "weakAgainst": [
+            "FIRE", "WATER", "ROCK", "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 7,
@@ -93,9 +118,15 @@
         "specie": "Tiny Turtle",
         "region": "Kanto",
         "index": "007/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"] 
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE", "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER", "GRASS", "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 8,
@@ -107,9 +138,15 @@
         "specie": "Turtle",
         "region": "Kanto",
         "index": "008/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"] 
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE", "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER", "GRASS", "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 9,
@@ -121,9 +158,15 @@
         "specie": "Shellfish",
         "region": "Kanto",
         "index": "009/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"] 
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE", "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER", "GRASS", "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 10,
@@ -135,9 +178,15 @@
         "specie": "Work",
         "region": "Kanto",
         "index": "010/151",
-        "type": ["BUG"],
-        "strongAgainst": ["Grass, Poison, Psychic"],
-        "weakAgainst": ["Fire, Fighting, Flying, Ghost"]
+        "type": [
+            "BUG"
+        ],
+        "strongAgainst": [
+            "GRASS", "POISON", "PSYCHIC"
+        ],
+        "weakAgainst": [
+            "FIRE", "FIGHTING", "FLYING", "GHOST"
+        ]
     },
     {
         "id": 11,
@@ -149,9 +198,15 @@
         "specie": "Cocoon",
         "region": "Kanto",
         "index": "011/151",
-        "type": ["BUG"],
-        "strongAgainst": ["GRASS, POISON, PSYCHIC"],
-        "weakAgainst": ["FIRE, FIGHTING, FLYING, GHOST"]
+        "type": [
+            "BUG"
+        ],
+        "strongAgainst": [
+            "GRASS", "POISON", "PSYCHIC"
+        ],
+        "weakAgainst": [
+            "FIRE", "FIGHTING", "FLYING", "GHOST"
+        ]
     },
     {
         "id": 12,
@@ -163,9 +218,16 @@
         "specie": "Butterfly",
         "region": "Kanto",
         "index": "012/151",
-        "type": ["BUG", "FLYING"],
-        "strongAgainst": ["GRASS, POISON, PSYCHIC, FIGHTING, BUG"],
-        "weakAgainst": ["FIRE, FIGHTING, FLYING, GHOST, ELECTRIC, ROCK"]
+        "type": [
+            "BUG",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "POISON", "PSYCHIC", "FIGHTING", "BUG"
+        ],
+        "weakAgainst": [
+            "FIRE", "FIGHTING", "FLYING", "GHOST", "ELECTRIC", "ROCK"
+        ]
     },
     {
         "id": 13,
@@ -177,9 +239,16 @@
         "specie": "Hairy Bug",
         "region": "Kanto",
         "index": "013/151",
-        "type": ["BUG", "POISON"],
-        "strongAgainst": ["GRASS, POISON, PSYCHIC, BUG, FAIRY"],
-        "weakAgainst": ["FIRE, FIGHTING, FLYING, GHOST, POISON, GROUND, ROCK"]
+        "type": [
+            "BUG",
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "POISON", "PSYCHIC", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE", "FIGHTING", "FLYING", "GHOST", "POISON", "GROUND", "ROCK"
+        ]
     },
     {
         "id": 14,
@@ -191,9 +260,16 @@
         "specie": "Cocoon",
         "region": "Kanto",
         "index": "014/151",
-        "type": ["BUG", "POISON"],
-        "strongAgainst": ["GRASS, POISON, PSYCHIC, BUG, FAIRY"],
-        "weakAgainst": ["FIRE, FIGHTING, FLYING, GHOST, POISON, GROUND, ROCK"]
+        "type": [
+            "BUG",
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "POISON", "PSYCHIC", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE", "FIGHTING", "FLYING", "GHOST", "POISON", "GROUND", "ROCK"
+        ]
     },
     {
         "id": 15,
@@ -205,9 +281,16 @@
         "specie": "Poison Bee",
         "region": "Kanto",
         "index": "015/151",
-        "type": ["BUG", "POISON"],
-        "strongAgainst": ["GRASS, POISON, PSYCHIC, BUG, FAIRY"],
-        "weakAgainst": ["FIRE, FIGHTING, FLYING, GHOST, POISON, GROUND, ROCK"]
+        "type": [
+            "BUG",
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "POISON", "PSYCHIC", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE", "FIGHTING", "FLYING", "GHOST", "POISON", "GROUND", "ROCK"
+        ]
     },
     {
         "id": 16,
@@ -219,9 +302,16 @@
         "specie": "Tiny Bird",
         "region": "Kanto",
         "index": "016/151",
-        "type": ["NORMAL", "FLYING"],
-        "strongAgainst": ["GRASS, FIGHTING, BUG"],
-        "weakAgainst": ["ELECTRIC, ROCK"]
+        "type": [
+            "NORMAL",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "FIGHTING", "BUG"
+        ],
+        "weakAgainst": [
+            "ELECTRIC", "ROCK"
+        ]
     },
     {
         "id": 17,
@@ -233,9 +323,16 @@
         "specie": "Bird",
         "region": "Kanto",
         "index": "017/151",
-        "type": ["NORMAL", "FLYING"],
-        "strongAgainst": ["GRASS, FIGHTING, BUG"],
-        "weakAgainst": ["ELECTRIC, ROCK"]
+        "type": [
+            "NORMAL",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "FIGHTING", "BUG"
+        ],
+        "weakAgainst": [
+            "ELECTRIC", "ROCK"
+        ]
     },
     {
         "id": 18,
@@ -247,9 +344,16 @@
         "specie": "Bird",
         "region": "Kanto",
         "index": "018/151",
-        "type": ["NORMAL", "FLYING"],
-        "strongAgainst": ["GRASS, FIGHTING, BUG"],
-        "weakAgainst": ["ELECTRIC, ROCK"]
+        "type": [
+            "NORMAL",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "FIGHTING", "BUG"
+        ],
+        "weakAgainst": [
+            "ELECTRIC", "ROCK"
+        ]
     },
     {
         "id": 19,
@@ -261,8 +365,12 @@
         "specie": "Mouse",
         "region": "Kanto",
         "index": "019/151",
-        "type": ["NORMAL"],
-        "strongAgainst": [" "],
+        "type": [
+            "NORMAL"
+        ],
+        "strongAgainst": [
+            " "
+        ],
         "weakAgainst": ["ROCK"]
     },
     {
@@ -275,9 +383,15 @@
         "specie": "Mouse",
         "region": "Kanto",
         "index": "020/151",
-        "type": ["NORMAL"],
-        "strongAgainst": [" "],
-        "weakAgainst": ["ROCK"]
+        "type": [
+            "NORMAL"
+        ],
+        "strongAgainst": [
+            " "
+        ],
+        "weakAgainst": [
+            "ROCK"
+        ]
     },
     {
         "id": 21,
@@ -289,9 +403,16 @@
         "specie": "Tiny Bird",
         "region": "Kanto",
         "index": "021/151",
-        "type": ["NORMAL", "FLYING"],
-        "strongAgainst": ["GRASS, FIGHTING, BUG"],
-        "weakAgainst": ["ELECTRIC, ROCK"]
+        "type": [
+            "NORMAL",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "FIGHTING", "BUG"
+        ],
+        "weakAgainst": [
+            "ELECTRIC", "ROCK"
+        ]
     },
     {
         "id": 22,
@@ -303,9 +424,16 @@
         "specie": "Beak",
         "region": "Kanto",
         "index": "022/151",
-        "type": ["NORMAL", "FLYING"],
-        "strongAgainst": ["GRASS, FIGHTING, BUG"],
-        "weakAgainst": ["ELECTRIC, ROCK"]
+        "type": [
+            "NORMAL",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "FIGHTING", "BUG"
+        ],
+        "weakAgainst": [
+            "ELECTRIC", "ROCK"
+        ]
     },
     {
         "id": 23,
@@ -317,9 +445,15 @@
         "specie": "Snake",
         "region": "Kanto",
         "index": "023/151",
-        "type": ["POISON"],
-        "strongAgainst": ["GRASS, BUG, FAIRY"],
-        "weakAgainst": ["POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "POISON", "GROUND", "ROCK", "GHOST"
+        ]
     },
     {
         "id": 24,
@@ -331,9 +465,15 @@
         "specie": "Cobra",
         "region": "Kanto",
         "index": "024/151",
-        "type": ["POISON"],
-        "strongAgainst": ["GRASS, BUG, FAIRY"],
-        "weakAgainst": ["POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "POISON", "GROUND", "ROCK", "GHOST"
+        ]
     },
     {
         "id": 25,
@@ -346,22 +486,24 @@
         "region": "Kanto",
         "index": "025/151",
         "type": ["ELECTRIC"],
-        "strongAgainst": ["WATER, FLYING"],
-        "weakAgainst": ["ELECTRIC, GRASS, DRAGON"]
+        "strongAgainst": ["WATER", "FLYING"],
+        "weakAgainst": ["ELECTRIC", "GRASS", "DRAGON"]
     },
     {
         "id": 26,
         "name": "Raichu",
         "prefix": "026",
         "img": "img/Raichu.png",
-        "descripcion": "Raichu is a rodent-like Pokémon, similar to its previous evolution forms. Unlike Pichu or Pikachu, which both have yellow fur, Raichu has orange fur with two strips of brown fur on its back. It has long ears and feet, but has little stubby arms with no noticeable fingers. Additionally, its electrical sacs are yellow, unlike its previous form's red coloring. It has a plump white belly, the tips of its arms and toes are brown. The soles of its feet are tan-colored and the paw pads on the undersides are yellowish orange. Raichu also have a long, thin, black tail that ends in a large lightning bolt shape." ,
+        "descripcion": "Raichu is a rodent-like Pokémon, similar to its previous evolution forms. Unlike Pichu or Pikachu, which both have yellow fur, Raichu has orange fur with two strips of brown fur on its back. It has long ears and feet, but has little stubby arms with no noticeable fingers. Additionally, its electrical sacs are yellow, unlike its previous form's red coloring. It has a plump white belly, the tips of its arms and toes are brown. The soles of its feet are tan-colored and the paw pads on the undersides are yellowish orange. Raichu also have a long, thin, black tail that ends in a large lightning bolt shape.",
         "generation": "I",
         "specie": "Mouse",
         "region": "Kanto",
         "index": "026/151",
-        "type": ["ELECTRIC"],
-        "strongAgainst": ["WATER, FLYING"],
-        "weakAgainst": ["ELECTRIC, GRASS, DRAGON"]
+        "type": [
+            "ELECTRIC"
+        ],
+        "strongAgainst": ["WATER", "FLYING"],
+        "weakAgainst": ["ELECTRIC", "GRASS", "DRAGON"]
     },
     {
         "id": 27,
@@ -373,51 +515,75 @@
         "specie": "Mouse",
         "region": "Kanto",
         "index": "027/151",
-        "type": ["GROUND"],
-        "strongAgainst": ["FIRE, ELECTRIC, POISON, ROCK, STEEL"],
-        "weakAgainst": ["GRASS, BUG"]
+        "type": [
+            "GROUND"
+        ],
+        "strongAgainst": [
+            "FIRE", "ELECTRIC", "POISON", "ROCK", "STEEL"
+        ],
+        "weakAgainst": [
+            "GRASS", "BUG"
+        ]
     },
     {
         "id": 28,
         "name": "Sandslash",
         "prefix": "028",
         "img": "img/Sandslash.webp",
-        "descripcion":"Sandslash is a tall, yellow, mammalian porcupine-like creature with brown quills on its back. It has two very long claws on each hand used for digging and battling. Sandslash can curl up to a small size just like its pre-evolved form Sandshrew, but it is of a much larger stature, which enhances its defense.",
+        "descripcion": "Sandslash is a tall, yellow, mammalian porcupine-like creature with brown quills on its back. It has two very long claws on each hand used for digging and battling. Sandslash can curl up to a small size just like its pre-evolved form Sandshrew, but it is of a much larger stature, which enhances its defense.",
         "generation": "I",
         "specie": "Mouse",
         "region": "Kanto",
         "index": "028/151",
-        "type": ["GROUND"],
-        "strongAgainst": ["FIRE, ELECTRIC, POISON, ROCK, STEEL"],
-        "weakAgainst": ["GRASS, BUG"]
+        "type": [
+            "GROUND"
+        ],
+        "strongAgainst": [
+            "FIRE", "ELECTRIC", "POISON", "ROCK", "STEEL"
+        ],
+        "weakAgainst": [
+            "GRASS", "BUG"
+        ]
     },
     {
         "id": 29,
         "name": "Nidoran♀",
         "prefix": "029",
         "img": "img/NidoranM.png",
-        "descripcion":"Nidoran♀ is a small, rabbit-shaped Pokémon with large whiskers and front teeth. It is said to resemble Nidoran♂, but is lavender-bluish and has a much smaller horn on her head. She has darker spots on her body." ,
+        "descripcion": "Nidoran♀ is a small, rabbit-shaped Pokémon with large whiskers and front teeth. It is said to resemble Nidoran♂, but is lavender-bluish and has a much smaller horn on her head. She has darker spots on her body.",
         "generation": "I",
         "specie": "Poison Pin",
         "region": "Kanto",
         "index": "029/151",
-        "type": ["POISON"],
-        "strongAgainst": ["GRASS, BUG, FAIRY"],
-        "weakAgainst": ["POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "POISON", "GROUND", "ROCK", "GHOST"
+        ]
     },
     {
         "id": 30,
         "name": "Nidorina",
         "prefix": "030",
         "img": "img/Nidorina.png",
-        "descripcion":"Nidorina is a rodent-like Pokémon with big ears, reminiscent of a rabbit. She has blue skin, with darker spots around the body. Her male counterpart is Nidorino. She has horns on her back. Like Nidoran♀, Nidorina tend to avoid confrontation but are fiercely defensive of their young." ,
+        "descripcion": "Nidorina is a rodent-like Pokémon with big ears, reminiscent of a rabbit. She has blue skin, with darker spots around the body. Her male counterpart is Nidorino. She has horns on her back. Like Nidoran♀, Nidorina tend to avoid confrontation but are fiercely defensive of their young.",
         "generation": "I",
         "specie": "Poison Pin",
         "region": "Kanto",
         "index": "030/151",
-        "type": ["POISON"],
-        "strongAgainst": ["GRASS, BUG, FAIRY"],
-        "weakAgainst": ["POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "POISON", "GROUND", "ROCK", "GHOST"
+        ]
     },
     {
         "id": 31,
@@ -429,93 +595,137 @@
         "specie": "Drill",
         "region": "Kanto",
         "index": "031/151",
-        "type": ["POISON", "GROUND"],
-        "strongAgainst": ["FIRE, ELECTRIC, POISON, ROCK, STEEL, GRASS, BUG, FAIRY"],
-        "weakAgainst": ["GRASS, BUG, POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON",
+            "GROUND"
+        ],
+        "strongAgainst": [
+            "FIRE", "ELECTRIC", "POISON", "ROCK", "STEEL", "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "GRASS", "BUG", "POISON", "GROUND", "ROCK", "GHOST"
+        ]
     },
     {
         "id": 32,
         "name": "Nidoran♂",
         "prefix": "032",
         "img": "img/NidoranF.png",
-        "descripcion":"Nidoran♂ is a small, rabbit-based Pokémon with large ears, whiskers and front teeth. They are covered with spines, primarily on their back, which can release potent poisons if Nidoran♂ is threatened. Nidoran♂ have a larger forehead horn than their female counterparts, Nidoran♀. He has darker spots all over his body.",
+        "descripcion": "Nidoran♂ is a small, rabbit-based Pokémon with large ears, whiskers and front teeth. They are covered with spines, primarily on their back, which can release potent poisons if Nidoran♂ is threatened. Nidoran♂ have a larger forehead horn than their female counterparts, Nidoran♀. He has darker spots all over his body.",
         "generation": "I",
         "specie": "Poison Pin",
         "region": "Kanto",
         "index": "032/151",
-        "type": ["POISON"],
-        "strongAgainst": ["GRASS, BUG, FAIRY"],
-        "weakAgainst": ["POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "POISON", "GROUND", "ROCK", "GHOST"
+        ]
     },
     {
         "id": 33,
         "name": "Nidorino",
         "prefix": "033",
         "img": "img/Nidorino.png",
-        "descripcion":"Nidorino is a rabbit-like Pokémon, just like his previous evolution, though he acquires a more rugged look. Sharp teeth protrude from his upper jaw and his spikes have grown larger. He is a red-purple color with slightly darker spots. He has very large ears." ,
+        "descripcion": "Nidorino is a rabbit-like Pokémon, just like his previous evolution, though he acquires a more rugged look. Sharp teeth protrude from his upper jaw and his spikes have grown larger. He is a red-purple color with slightly darker spots. He has very large ears.",
         "generation": "I",
         "specie": "Poison Pin",
         "region": "Kanto",
         "index": "033/151",
-        "type": ["POISON"],
-        "strongAgainst": ["GRASS, BUG, FAIRY"],
-        "weakAgainst": ["POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "POISON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
     {
         "id": 34,
         "name": "Nidoking",
         "prefix": "034",
         "img": "img/Nidoking.png",
-        "descripcion":"Nidoking is a large purple Pokémon with a very large horn and large ears. He has a large bulky tail and he has one-toed feet and three-fingered hands. Nidoking attacks his foes by sweeping his large and bulky tail, his horn also contains venom.In Nidoran families, Nidoking assume the roles of protectors and hunters, patrolling in search of food to bring back to their burrows for their mates and offspring.An enraged Nidoking is particularly dangerous, as it will go on a rampage that can only be stopped either by defeating the Pokémon--a difficult task that only a few Pokémon can accomplish--or by being calmed down by its partner Nidoqueen." ,
+        "descripcion": "Nidoking is a large purple Pokémon with a very large horn and large ears. He has a large bulky tail and he has one-toed feet and three-fingered hands. Nidoking attacks his foes by sweeping his large and bulky tail, his horn also contains venom.In Nidoran families, Nidoking assume the roles of protectors and hunters, patrolling in search of food to bring back to their burrows for their mates and offspring.An enraged Nidoking is particularly dangerous, as it will go on a rampage that can only be stopped either by defeating the Pokémon--a difficult task that only a few Pokémon can accomplish--or by being calmed down by its partner Nidoqueen.",
         "generation": "I",
         "specie": "Drill",
         "region": "Kanto",
         "index": "034/151",
-        "type": ["POISON", "GROUND"],
-        "strongAgainst": ["FIRE, ELECTRIC, POISON, ROCK, STEEL, GRASS, BUG, FAIRY"],
-        "weakAgainst": ["GRASS, BUG, POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON",
+            "GROUND"
+        ],
+        "strongAgainst": [
+            "FIRE", "ELECTRIC",  "POISON",  "ROCK",  "STEEL",  "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "GRASS", "BUG",  "POISON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
     {
         "id": 35,
         "name": "Clefairy",
         "prefix": "035",
         "img": "img/Clefairy.png",
-        "descripcion":"Clefairy is a small, round, pink, star-shaped Pokémon. Its hands have two white claws and a thumb. Its ears are short and pointy with dark tips. It has a long, curled tail and swirly hair and pink cheeks. On its back, it has small wings." ,
+        "descripcion": "Clefairy is a small, round, pink, star-shaped Pokémon. Its hands have two white claws and a thumb. Its ears are short and pointy with dark tips. It has a long, curled tail and swirly hair and pink cheeks. On its back, it has small wings.",
         "generation": "I",
         "specie": "Fairy",
         "region": "Kanto",
         "index": "035/151",
-        "type": ["FAIRY"],
-        "strongAgainst": ["FIGHTING, BUG, SHADOW"],
-        "weakAgainst": ["POISON, STEEL"]
+        "type": [
+            "FAIRY"
+        ],
+        "strongAgainst": [
+            "FIGHTING", "BUG", "SHADOW"
+        ],
+        "weakAgainst": [
+            "POISON", "STEEL"
+        ]
     },
     {
         "id": 36,
         "name": "Clefable",
         "prefix": "036",
         "img": "img/Clefable.png",
-        "descripcion":"Clefable resembles a larger Clefairy, with bigger ears and tail, larger wings, and no claws on its hands. Clefable is shyer than Clefairy. Due to its highly sensitive hearing, it will avoid noisy areas.On moonlit nights, they can rarely be seen walking towards secluded, deserted lakes; they are said to gaze at the moon in longing to return home, straining their ears to hear the voices of their brethren on its surface. It is said seeing a pair of them is a sign of a happy marriage." ,
+        "descripcion": "Clefable resembles a larger Clefairy, with bigger ears and tail, larger wings, and no claws on its hands. Clefable is shyer than Clefairy. Due to its highly sensitive hearing, it will avoid noisy areas.On moonlit nights, they can rarely be seen walking towards secluded, deserted lakes; they are said to gaze at the moon in longing to return home, straining their ears to hear the voices of their brethren on its surface. It is said seeing a pair of them is a sign of a happy marriage.",
         "generation": "I",
         "specie": "Fairy",
         "region": "Kanto",
         "index": "036/151",
-        "type": ["FAIRY"],
-        "strongAgainst": ["FIGHTING, BUG, SHADOW"],
-        "weakAgainst": ["POISON, STEEL"]
+        "type": [
+            "FAIRY"
+        ],
+        "strongAgainst": [
+            "FIGHTING", "BUG", "SHADOW"
+        ],
+        "weakAgainst": [
+            "POISON", "STEEL"
+        ]
     },
     {
         "id": 37,
         "name": "Vulpix",
         "prefix": "037",
         "img": "img/Vulpix.png",
-        "descripcion":"Vulpix are fox-like Pokémon with reddish-brown fur. Vulpix's most distinctive feature is its six orange tails that are curled at the tips. According to the Pokédex, when it is born, Vulpix possesses one snow white tail that eventually splits into many tails as it grows older. On the top of its head, Vulpix has a tuft of bright orange fur that curls into three rolls at the top and falls over its forehead at the bottom. Its underbelly is cream-colored and slightly plump. Additionally, a shiny Vulpix has a golden color scheme as opposed to its original red-brown. Also, Vulpix do not have any differences in appearance between genders." ,
+        "descripcion": "Vulpix are fox-like Pokémon with reddish-brown fur. Vulpix's most distinctive feature is its six orange tails that are curled at the tips. According to the Pokédex, when it is born, Vulpix possesses one snow white tail that eventually splits into many tails as it grows older. On the top of its head, Vulpix has a tuft of bright orange fur that curls into three rolls at the top and falls over its forehead at the bottom. Its underbelly is cream-colored and slightly plump. Additionally, a shiny Vulpix has a golden color scheme as opposed to its original red-brown. Also, Vulpix do not have any differences in appearance between genders.",
         "generation": "I",
         "specie": "Fox",
         "region": "Kanto",
         "index": "037/151",
-        "type": ["FIRE"],
-        "strongAgainst": ["GRASS, ICE, BUG, STEEL, FAIRY"],
-        "weakAgainst": ["FIRE, WATER, ROCK, DRAGON"]
+        "type": [
+            "FIRE"
+        ],
+        "strongAgainst": [
+            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",  "WATER",  "ROCK", "DRAGON"
+        ]
     },
     {
         "id": 38,
@@ -527,9 +737,15 @@
         "specie": "Fox",
         "region": "Kanto",
         "index": "039/151",
-        "type": ["FIRE"],
-        "strongAgainst": ["GRASS, ICE, BUG, STEEL, FAIRY"],
-        "weakAgainst": ["FIRE, WATER, ROCK, DRAGON"]
+        "type": [
+            "FIRE"
+        ],
+        "strongAgainst": [
+            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",  "WATER",  "ROCK", "DRAGON"
+        ]
     },
     {
         "id": 39,
@@ -541,65 +757,100 @@
         "specie": "Balloon ",
         "region": "Kanto",
         "index": "039/151",
-        "type": ["NORMAL", "FAIRY"],
-        "strongAgainst": ["FIGHTING, BUG, SHADOW"],
-        "weakAgainst": ["POISON, STEEL, ROCK"]
+        "type": [
+            "NORMAL",
+            "FAIRY"
+        ],
+        "strongAgainst": [
+            "FIGHTING", "BUG", "SHADOW"
+        ],
+        "weakAgainst": [
+            "POISON",  "STEEL", "ROCK"
+        ]
     },
     {
         "id": 40,
         "name": "Wigglytuff",
         "prefix": "040",
         "img": "img/Wigglytuff.png",
-        "descripcion":"Wigglytuff resembles a larger Jigglypuff. It is pink and oval-shaped with a white stomach and short, digitless limbs. Its eyes are the same as its pre-evolution. It has a tuft on its head and long, rabbit-like ears. Wigglytuff can inflate its soft body, just like its pre-evolution." ,
+        "descripcion": "Wigglytuff resembles a larger Jigglypuff. It is pink and oval-shaped with a white stomach and short, digitless limbs. Its eyes are the same as its pre-evolution. It has a tuft on its head and long, rabbit-like ears. Wigglytuff can inflate its soft body, just like its pre-evolution.",
         "generation": "I",
         "specie": "Balloon",
         "region": "Kanto",
         "index": "040/151",
-        "type": ["NORMAL", "FAIRY"],
-        "strongAgainst": ["FIGHTING, BUG, SHADOW"],
-        "weakAgainst": ["POISON, STEEL, ROCK"]
+        "type": [
+            "NORMAL",
+            "FAIRY"
+        ],
+        "strongAgainst": [
+            "FIGHTING", "BUG", "SHADOW"
+        ],
+        "weakAgainst": [
+            "POISON",  "STEEL", "ROCK"
+        ]
     },
     {
         "id": 41,
         "name": "Zubat",
         "prefix": "041",
         "img": "img/Zubat.png",
-        "descripcion":"Zubat resembles a blue bat. It has a short, round body, purple wings, and slim legs missing feet. Zubat has no eyes, so it uses sound waves (echolocation) to navigate, like a real bat does. Strangely, it can use the move Mean Look, despite not having any eyes. Male Zubat have bigger fangs than the females." ,
+        "descripcion": "Zubat resembles a blue bat. It has a short, round body, purple wings, and slim legs missing feet. Zubat has no eyes, so it uses sound waves (echolocation) to navigate, like a real bat does. Strangely, it can use the move Mean Look, despite not having any eyes. Male Zubat have bigger fangs than the females.",
         "generation": "I",
         "specie": "Bat",
         "region": "Kanto",
         "index": "041/151",
-        "type": ["POISON", "FLYING"],
-        "strongAgainst": ["GRASS, FIGHTING, BUG, FAIRY"],
-        "weakAgainst": ["ELECTRIC, ROCK, POISON, GROUND, GHOST"]
+        "type": [
+            "POISON",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "FIGHTING", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "ELECTRIC",  "ROCK",  "POISON",  "GROUND", "GHOST"
+        ]
     },
     {
         "id": 42,
         "name": "Golbat",
         "prefix": "042",
         "img": "img/Golbat.png",
-        "descripcion":"Golbat is a large, blue bat with super long wings. Unlike its pre-evolved form, named Zubat, Golbat has eyes. It also has two long, skinny feet. The most distinct feature of Golbat is its large mouth with four teeth. A female Golbat has smaller teeth than those of a male's." ,
+        "descripcion": "Golbat is a large, blue bat with super long wings. Unlike its pre-evolved form, named Zubat, Golbat has eyes. It also has two long, skinny feet. The most distinct feature of Golbat is its large mouth with four teeth. A female Golbat has smaller teeth than those of a male's.",
         "generation": "I",
         "specie": "Bat",
         "region": "Kanto",
         "index": "042/151",
-        "type": ["POISON", "FLYING"],
-        "strongAgainst": ["GRASS, FIGHTING, BUG, FAIRY"],
-        "weakAgainst": ["ELECTRIC, ROCK, POISON, GROUND, GHOST"]
+        "type": [
+            "POISON",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "FIGHTING", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "ELECTRIC",  "ROCK",  "POISON",  "GROUND", "GHOST"
+        ]
     },
     {
         "id": 43,
         "name": "Oddish",
         "prefix": "043",
         "img": "img/Oddish.png",
-        "descripcion":"Oddish is a nocturnal Pokémon, using moonlight rather than the sun's rays for photosynthesis. During the day, Oddish avoids the sun's heat and brightness by burying itself into the earth, leaving only the leaves on top of its head visible above ground. This way, it disguises itself as a plant, misdirecting its carnivorous diurnal predators." ,
+        "descripcion": "Oddish is a nocturnal Pokémon, using moonlight rather than the sun's rays for photosynthesis. During the day, Oddish avoids the sun's heat and brightness by burying itself into the earth, leaving only the leaves on top of its head visible above ground. This way, it disguises itself as a plant, misdirecting its carnivorous diurnal predators.",
         "generation": "I",
         "specie": "Weed",
         "region": "Kanto",
         "index": "043/151",
-        "type": ["GRASS", "POISON"],
-        "strongAgainst": ["WATER, GROUND, ROCK, GRASS, BUG, FAIRY"],
-        "weakAgainst": ["FIRE, GRASS, POISON, FLYING, BUG, DRAGON, GROUND, ROCK, GHOST"]
+        "type": [
+            "GRASS",
+            "POISON"
+        ],
+        "strongAgainst": [
+            "WATER",  "GROUND",  "ROCK",  "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
     {
         "id": 44,
@@ -611,9 +862,16 @@
         "specie": "Weed",
         "region": "Kanto",
         "index": "044/151",
-        "type": ["GRASS", "POISON"],
-        "strongAgainst": ["WATER, GROUND, ROCK, GRASS, BUG, FAIRY"],
-        "weakAgainst": ["FIRE, GRASS, POISON, FLYING, BUG, DRAGON, GROUND, ROCK, GHOST"]
+        "type": [
+            "GRASS",
+            "POISON"
+        ],
+        "strongAgainst": [
+            "WATER",  "GROUND",  "ROCK",  "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
     {
         "id": 45,
@@ -625,23 +883,37 @@
         "specie": "Flower",
         "region": "Kanto",
         "index": "045/151",
-        "type": ["GRASS", "POISON"],
-        "strongAgainst": ["WATER, GROUND, ROCK, GRASS, BUG, FAIRY"],
-        "weakAgainst": ["FIRE, GRASS, POISON, FLYING, BUG, DRAGON, GROUND, ROCK, GHOST"]
+        "type": [
+            "GRASS",
+            "POISON"
+        ],
+        "strongAgainst": [
+            "WATER",  "GROUND",  "ROCK",  "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
     {
         "id": 46,
         "name": "Paras",
         "prefix": "046",
         "img": "img/Paras.png",
-        "descripcion":"Paras resembles a cross between a cicada nymph and a crab. It has an orange shell-like exterior. Its two front legs are very large, allowing Paras to grip on to prey and its environment. The most distinct feature are the two mushrooms on its back. It also has very large eyes on the top of its head." ,
+        "descripcion": "Paras resembles a cross between a cicada nymph and a crab. It has an orange shell-like exterior. Its two front legs are very large, allowing Paras to grip on to prey and its environment. The most distinct feature are the two mushrooms on its back. It also has very large eyes on the top of its head.",
         "generation": "I",
         "specie": "Mushroom",
         "region": "Kanto",
         "index": "046/151",
-        "type": ["BUG", "GRASS"],
-        "strongAgainst": ["GRASS, POISON, PSYCHIC, WATER, GROUND, ROCK"],
-        "weakAgainst": ["FIRE, FIGHTING, FLYING, GHOST, GRASS, POISON, BUG, DRAGON"]
+        "type": [
+            "BUG",
+            "GRASS"
+        ],
+        "strongAgainst": [
+            "GRASS",  "POISON",  "PSYCHIC",  "WATER",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "FIRE", "FIGHTING",  "FLYING",  "GHOST",  "GRASS",  "POISON", "BUG", "DRAGON"
+        ]
     },
     {
         "id": 47,
@@ -653,37 +925,58 @@
         "specie": "Mushroom",
         "region": "Kanto",
         "index": "047/151",
-        "type": ["BUG", "GRASS"],
-        "strongAgainst": ["GRASS, POISON, PSYCHIC, WATER, GROUND, ROCK"],
-        "weakAgainst": ["FIRE, FIGHTING, FLYING, GHOST, GRASS, POISON, BUG, DRAGON"]
+        "type": [
+            "BUG",
+            "GRASS"
+        ],
+        "strongAgainst": [
+            "GRASS",  "POISON",  "PSYCHIC",  "WATER",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "FIRE", "FIGHTING",  "FLYING",  "GHOST",  "GRASS",  "POISON", "BUG", "DRAGON"
+        ]
     },
     {
         "id": 48,
         "name": "Venonat",
         "prefix": "048",
         "img": "img/Venonat.png",
-        "descripcion":"Venonat is covered in large, purple fur. The feet of Venonat are brown and are about half as long as Venonat itself with its hands being the same color but a third of the size. Venonat have two white antennae that stick out of their head. The most notable feature of Venonat is their large, red eyes. It also has a small nose just under its eyes." ,
+        "descripcion": "Venonat is covered in large, purple fur. The feet of Venonat are brown and are about half as long as Venonat itself with its hands being the same color but a third of the size. Venonat have two white antennae that stick out of their head. The most notable feature of Venonat is their large, red eyes. It also has a small nose just under its eyes.",
         "generation": "I",
         "specie": "Insect",
         "region": "Kanto",
         "index": "048/151",
-        "type": ["BUG", "POISON"],
-        "strongAgainst": ["GRASS, POISON, PSYCHIC, BUG, FAIRY"],
-        "weakAgainst": ["FIRE, FIGHTING, FLYING, GHOST, POISON, GROUND, ROCK"]
+        "type": [
+            "BUG",
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS",  "POISON",  "PSYCHIC", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE", "FIGHTING",  "FLYING",  "GHOST",  "POISON",  "GROUND", "ROCK"
+        ]
     },
     {
         "id": 49,
         "name": "Venomoth",
         "prefix": "049",
         "img": "img/Venomoth.png",
-        "descripcion":"Venomoth is a purple moth Pokémon. The eyes of Venomoth are black and much smaller than its pre-evolved form. Venomoth has two white fangs protruding from its mouthpart. Venomoth has a head, thorax, and abdomen, unlike some other Bug Pokémon. The wings of Venomoth are larger than its body, with the top sections of its wings being much larger than the bottoms. Its shiny incarnation has a pale blue wing coloration on its head and upper body, whereas its lower body (abdomen) and legs are a light brown." ,
+        "descripcion": "Venomoth is a purple moth Pokémon. The eyes of Venomoth are black and much smaller than its pre-evolved form. Venomoth has two white fangs protruding from its mouthpart. Venomoth has a head, thorax, and abdomen, unlike some other Bug Pokémon. The wings of Venomoth are larger than its body, with the top sections of its wings being much larger than the bottoms. Its shiny incarnation has a pale blue wing coloration on its head and upper body, whereas its lower body (abdomen) and legs are a light brown.",
         "generation": "I",
         "specie": "Poison Moth",
         "region": "Kanto",
         "index": "049/151",
-        "type": ["BUG", "POISON"],
-        "strongAgainst": ["GRASS, POISON, PSYCHIC, BUG, FAIRY"],
-        "weakAgainst": ["FIRE, FIGHTING, FLYING, GHOST, POISON, GROUND, ROCK"]
+        "type": [
+            "BUG",
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS",  "POISON",  "PSYCHIC", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE", "FIGHTING",  "FLYING",  "GHOST",  "POISON",  "GROUND", "ROCK"
+        ]
     },
     {
         "id": 50,
@@ -695,9 +988,15 @@
         "specie": "Mole",
         "region": "Kanto",
         "index": "050/151",
-        "type": ["GROUND"],
-        "strongAgainst": ["FIRE, ELECTRIC, POISON, ROCK, STEEL"],
-        "weakAgainst": ["GRASS, BUG"]
+        "type": [
+            "GROUND"
+        ],
+        "strongAgainst": [
+            "FIRE", "ELECTRIC",  "POISON",  "ROCK", "STEEL"
+        ],
+        "weakAgainst": [
+            "GRASS", "BUG"
+        ]
     },
     {
         "id": 51,
@@ -709,9 +1008,15 @@
         "specie": "Mole",
         "region": "Kanto",
         "index": "051/151",
-        "type": ["GROUND"],
-        "strongAgainst": ["FIRE, ELECTRIC, POISON, ROCK, STEEL"],
-        "weakAgainst": ["GRASS, BUG"]
+        "type": [
+            "GROUND"
+        ],
+        "strongAgainst": [
+            "FIRE", "ELECTRIC",  "POISON",  "ROCK", "STEEL"
+        ],
+        "weakAgainst": [
+            "GRASS", "BUG"
+        ]
     },
     {
         "id": 52,
@@ -723,9 +1028,15 @@
         "specie": "Scratch Cat",
         "region": "Kanto",
         "index": "052/151",
-        "type": ["NORMAL"],
-        "strongAgainst": [""],
-        "weakAgainst": ["ROCK"]
+        "type": [
+            "NORMAL"
+        ],
+        "strongAgainst": [
+            ""
+        ],
+        "weakAgainst": [
+            "ROCK"
+        ]
     },
     {
         "id": 53,
@@ -737,9 +1048,15 @@
         "specie": "Classy Cat",
         "region": "Kanto",
         "index": "053/151",
-        "type": ["NORMAL"],
-        "strongAgainst": [""],
-        "weakAgainst": ["ROCK"]
+        "type": [
+            "NORMAL"
+        ],
+        "strongAgainst": [
+            ""
+        ],
+        "weakAgainst": [
+            "ROCK"
+        ]
     },
     {
         "id": 54,
@@ -751,9 +1068,15 @@
         "specie": "Duck",
         "region": "Kanto",
         "index": "054/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 55,
@@ -765,9 +1088,15 @@
         "specie": "Duck",
         "region": "Kanto",
         "index": "055/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 56,
@@ -779,9 +1108,15 @@
         "specie": "Pig Monkey",
         "region": "Kanto",
         "index": "056/151",
-        "type": ["FIGHTING"],
-        "strongAgainst": ["NORMAL, ICE, ROCK, STEEL"],
-        "weakAgainst": ["POISON, FLYING, PSYCHIC, BUG, FAIRY"]
+        "type": [
+            "FIGHTING"
+        ],
+        "strongAgainst": [
+            "NORMAL", "ICE",  "ROCK", "STEEL"
+        ],
+        "weakAgainst": [
+            "POISON",  "FLYING",  "PSYCHIC", "BUG", "FAIRY"
+        ]
     },
     {
         "id": 57,
@@ -793,9 +1128,15 @@
         "specie": "Pig Monkey",
         "region": "Kanto",
         "index": "057/151",
-        "type": ["FIGHTING"],
-        "strongAgainst": ["NORMAL, ICE, ROCK, STEEL"],
-        "weakAgainst": ["POISON, FLYING, PSYCHIC, BUG, FAIRY"]
+        "type": [
+            "FIGHTING"
+        ],
+        "strongAgainst": [
+            "NORMAL", "ICE",  "ROCK", "STEEL"
+        ],
+        "weakAgainst": [
+            "POISON",  "FLYING",  "PSYCHIC", "BUG", "FAIRY"
+        ]
     },
     {
         "id": 58,
@@ -807,9 +1148,15 @@
         "specie": "Puppy",
         "region": "Kanto",
         "index": "058/151",
-        "type": ["FIRE"],
-        "strongAgainst": ["GRASS, ICE, BUG, STEEL, FAIRY"],
-        "weakAgainst": ["FIRE, WATER, ROCK, DRAGON"]
+        "type": [
+            "FIRE"
+        ],
+        "strongAgainst": [
+            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",  "WATER",  "ROCK", "DRAGON"
+        ]
     },
     {
         "id": 59,
@@ -821,9 +1168,15 @@
         "specie": "Legendary",
         "region": "Kanto",
         "index": "059/151",
-        "type": ["FIRE"],
-        "strongAgainst": ["GRASS, ICE, BUG, STEEL, FAIRY"],
-        "weakAgainst": ["FIRE, WATER, ROCK, DRAGON"]
+        "type": [
+            "FIRE"
+        ],
+        "strongAgainst": [
+            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",  "WATER",  "ROCK", "DRAGON"
+        ]
     },
     {
         "id": 60,
@@ -835,23 +1188,35 @@
         "specie": "Tadpole",
         "region": "Kanto",
         "index": "060/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 61,
         "name": "Poliwhirl",
         "prefix": "061",
         "img": "img/Poliwhirl.webp",
-        "descripcion": "Poliwhirl is a large, amphibious froglet-like Pokémon. Poliwhirl has large hands and the hands appear to be like gloves. When a Poliwag evolves, the spiral on its belly reverses direction. Poliwhirl are amphibious. Though they are not nearly as clumsy on land as Poliwag, they still prefer to remain in the water, where they have fewer predators.",
+        "descripcion": "Poliwhirl is a large, amphibious froglet-like Pokémon. Poliwhirl has large hands and the hands appear to be like gloves. When a Poliwag evolves, the spiral on its belly reverses direction. Poliwhirl are amphibious. Though they are not nearly as clumsy on land as Poliwag, they still prefer to remain in the  WATER, where they have fewer predators.",
         "generation": "I",
         "specie": "Tadpole",
         "region": "Kanto",
         "index": "061/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 62,
@@ -863,9 +1228,16 @@
         "specie": "Tadpole",
         "region": "Kanto",
         "index": "062/151",
-        "type": ["WATER", "FIGHTING"],
-        "strongAgainst": ["NORMAL, ICE, ROCK, STEEL, FIRE, GROUND"],
-        "weakAgainst": ["POISON, FLYING, PSYCHIC, BUG, FAIRY, WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER",
+            "FIGHTING"
+        ],
+        "strongAgainst": [
+            "NORMAL", "ICE",  "ROCK",  "STEEL",  "FIRE", "GROUND"
+        ],
+        "weakAgainst": [
+            "POISON",  "FLYING",  "PSYCHIC", "BUG",  "FAIRY",  "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 63,
@@ -877,9 +1249,15 @@
         "specie": "Psi",
         "region": "Kanto",
         "index": "063/151",
-        "type": ["PSYCHIC"],
-        "strongAgainst": ["FIGHTING, POISON, GHOST"],
-        "weakAgainst": ["BUG, SHADOW"]
+        "type": [
+            "PSYCHIC"
+        ],
+        "strongAgainst": [
+            "FIGHTING",  "POISON", "GHOST"
+        ],
+        "weakAgainst": [
+            "BUG", "SHADOW"
+        ]
     },
     {
         "id": 64,
@@ -891,9 +1269,15 @@
         "specie": "Psi",
         "region": "Kanto",
         "index": "064/151",
-        "type": ["PSYCHIC"],
-        "strongAgainst": ["FIGHTING, POISON, GHOST"],
-        "weakAgainst": ["BUG, SHADOW"]
+        "type": [
+            "PSYCHIC"
+        ],
+        "strongAgainst": [
+            "FIGHTING",  "POISON", "GHOST"
+        ],
+        "weakAgainst": [
+            "BUG", "SHADOW"
+        ]
     },
     {
         "id": 65,
@@ -905,9 +1289,15 @@
         "specie": "Psi",
         "region": "Kanto",
         "index": "065/151",
-        "type": ["PSYCHIC"],
-        "strongAgainst": ["FIGHTING, POISON, GHOST"],
-        "weakAgainst": ["BUG, SHADOW"]
+        "type": [
+            "PSYCHIC"
+        ],
+        "strongAgainst": [
+            "FIGHTING",  "POISON", "GHOST"
+        ],
+        "weakAgainst": [
+            "BUG", "SHADOW"
+        ]
     },
     {
         "id": 66,
@@ -919,9 +1309,15 @@
         "specie": "Superpower",
         "region": "Kanto",
         "index": "066/151",
-        "type": ["FIGHTING"],
-        "strongAgainst": ["NORMAL, ICE, ROCK, STEEL"],
-        "weakAgainst": ["POISON, FLYING, PSYCHIC, BUG, FAIRY"]
+        "type": [
+            "FIGHTING"
+        ],
+        "strongAgainst": [
+            "NORMAL", "ICE",  "ROCK", "STEEL"
+        ],
+        "weakAgainst": [
+            "POISON",  "FLYING",  "PSYCHIC", "BUG", "FAIRY"
+        ]
     },
     {
         "id": 67,
@@ -933,9 +1329,15 @@
         "specie": "Superpower",
         "region": "Kanto",
         "index": "067/151",
-        "type": ["FIGHTING"],
-        "strongAgainst": ["NORMAL, ICE, ROCK, STEEL"],
-        "weakAgainst": ["POISON, FLYING, PSYCHIC, BUG, FAIRY"]
+        "type": [
+            "FIGHTING"
+        ],
+        "strongAgainst": [
+            "NORMAL", "ICE",  "ROCK", "STEEL"
+        ],
+        "weakAgainst": [
+            "POISON",  "FLYING",  "PSYCHIC", "BUG", "FAIRY"
+        ]
     },
     {
         "id": 68,
@@ -947,9 +1349,15 @@
         "specie": "Superpower",
         "region": "Kanto",
         "index": "068/151",
-        "type": ["FIGHTING"],
-        "strongAgainst": ["NORMAL, ICE, ROCK, STEEL"],
-        "weakAgainst": ["POISON, FLYING, PSYCHIC, BUG, FAIRY"]
+        "type": [
+            "FIGHTING"
+        ],
+        "strongAgainst": [
+            "NORMAL", "ICE",  "ROCK", "STEEL"
+        ],
+        "weakAgainst": [
+            "POISON",  "FLYING",  "PSYCHIC", "BUG", "FAIRY"
+        ]
     },
     {
         "id": 69,
@@ -961,9 +1369,16 @@
         "specie": "Flower",
         "region": "Kanto",
         "index": "069/151",
-        "type": ["GRASS", "POISON"],
-        "strongAgainst": ["WATER, GROUND, ROCK, GRASS, BUG, FAIRY"],
-        "weakAgainst": ["FIRE, GRASS, POISON, FLYING, BUG, DRAGON, GROUND, ROCK, GHOST"]
+        "type": [
+            "GRASS",
+            "POISON"
+        ],
+        "strongAgainst": [
+            "WATER",  "GROUND",  "ROCK",  "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
     {
         "id": 70,
@@ -975,9 +1390,16 @@
         "specie": "Flycatcher",
         "region": "Kanto",
         "index": "070/151",
-        "type": ["GRASS", "POISON"],
-        "strongAgainst": ["WATER, GROUND, ROCK, GRASS, BUG, FAIRY"],
-        "weakAgainst": ["FIRE, GRASS, POISON, FLYING, BUG, DRAGON, GROUND, ROCK, GHOST"]
+        "type": [
+            "GRASS",
+            "POISON"
+        ],
+        "strongAgainst": [
+            "WATER",  "GROUND",  "ROCK",  "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
     {
         "id": 71,
@@ -989,9 +1411,16 @@
         "specie": "Flycatcher",
         "region": "Kanto",
         "index": "071/151",
-        "type": ["GRASS", "POISON"],
-        "strongAgainst": ["WATER, GROUND, ROCK, GRASS, BUG, FAIRY"],
-        "weakAgainst": ["FIRE, GRASS, POISON, FLYING, BUG, DRAGON, GROUND, ROCK, GHOST"]
+        "type": [
+            "GRASS",
+            "POISON"
+        ],
+        "strongAgainst": [
+            "WATER",  "GROUND",  "ROCK",  "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
     {
         "id": 72,
@@ -1003,9 +1432,16 @@
         "specie": "Jellyfish",
         "region": "Kanto",
         "index": "072/151",
-        "type": ["WATER", "POISON"],
-        "strongAgainst": ["GRASS, BUG, FAIRY, FIRE, GROUND, ROCK"],
-        "weakAgainst": ["POISON, GROUND, ROCK, GHOST, WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER",
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG",  "FAIRY",  "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "POISON",  "GROUND",  "ROCK",  "GHOST",  "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 73,
@@ -1017,9 +1453,16 @@
         "specie": "Jellyfish",
         "region": "Kanto",
         "index": "073/151",
-        "type": ["WATER", "POISON"],
-        "strongAgainst": ["GRASS, BUG, FAIRY, FIRE, GROUND, ROCK"],
-        "weakAgainst": ["POISON, GROUND, ROCK, GHOST, WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER",
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG",  "FAIRY",  "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "POISON",  "GROUND",  "ROCK",  "GHOST",  "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 74,
@@ -1031,9 +1474,16 @@
         "specie": "Rock",
         "region": "Kanto",
         "index": "074/151",
-        "type": ["ROCK", "GROUND"],
-        "strongAgainst": ["FIRE, ELECTRIC, POISON, ROCK, STEEL, FLYING, BUG"],
-        "weakAgainst": ["GRASS, BUG, WATER"]
+        "type": [
+            "ROCK",
+            "GROUND"
+        ],
+        "strongAgainst": [
+            "FIRE", "ELECTRIC",  "POISON",  "ROCK",  "STEEL",  "FLYING", "BUG"
+        ],
+        "weakAgainst": [
+            "GRASS", "BUG", "WATER"
+        ]
     },
     {
         "id": 75,
@@ -1045,9 +1495,16 @@
         "specie": "Rock",
         "region": "Kanto",
         "index": "075/151",
-        "type": ["ROCK", "GROUND"],
-        "strongAgainst": ["FIRE, ELECTRIC, POISON, ROCK, STEEL, FLYING, BUG"],
-        "weakAgainst": ["GRASS, BUG, WATER"]
+        "type": [
+            "ROCK",
+            "GROUND"
+        ],
+        "strongAgainst": [
+            "FIRE", "ELECTRIC",  "POISON",  "ROCK",  "STEEL",  "FLYING", "BUG"
+        ],
+        "weakAgainst": [
+            "GRASS", "BUG", "WATER"
+        ]
     },
     {
         "id": 76,
@@ -1059,9 +1516,16 @@
         "specie": "Megaton",
         "region": "Kanto",
         "index": "076/151",
-        "type": ["ROCK", "GROUND"],
-        "strongAgainst": ["FIRE, ELECTRIC, POISON, ROCK, STEEL, FLYING, BUG"],
-        "weakAgainst": ["GRASS, BUG, WATER"]
+        "type": [
+            "ROCK",
+            "GROUND"
+        ],
+        "strongAgainst": [
+            "FIRE", "ELECTRIC",  "POISON",  "ROCK",  "STEEL",  "FLYING", "BUG"
+        ],
+        "weakAgainst": [
+            "GRASS", "BUG", "WATER"
+        ]
     },
     {
         "id": 77,
@@ -1073,9 +1537,15 @@
         "specie": "Fire Horse",
         "region": "Kanto",
         "index": "077/151",
-        "type": ["FIRE"],
-        "strongAgainst": ["GRASS, ICE, BUG, STEEL, FAIRY"],
-        "weakAgainst": ["FIRE, WATER, ROCK, DRAGON"]
+        "type": [
+            "FIRE"
+        ],
+        "strongAgainst": [
+            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",  "WATER",  "ROCK", "DRAGON"
+        ]
     },
     {
         "id": 78,
@@ -1087,9 +1557,15 @@
         "specie": "Fire Horse",
         "region": "Kanto",
         "index": "078/151",
-        "type": ["FIRE"],
-        "strongAgainst": ["GRASS, ICE, BUG, STEEL, FAIRY"],
-        "weakAgainst": ["FIRE, WATER, ROCK, DRAGON"]
+        "type": [
+            "FIRE"
+        ],
+        "strongAgainst": [
+            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",  "WATER",  "ROCK", "DRAGON"
+        ]
     },
     {
         "id": 79,
@@ -1101,9 +1577,16 @@
         "specie": "Dopey",
         "region": "Kanto",
         "index": "079/151",
-        "type": ["WATER", "PSYCHIC"],
-        "strongAgainst": ["FIGHTING, POISON, GHOST, FIRE, GROUND, ROCK"],
-        "weakAgainst": ["BUG, SHADOW, WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER",
+            "PSYCHIC"
+        ],
+        "strongAgainst": [
+            "FIGHTING",  "POISON",  "GHOST",  "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "BUG", "SHADOW",  "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 80,
@@ -1115,9 +1598,16 @@
         "specie": "Hermit Crab",
         "region": "Kanto",
         "index": "080/151",
-        "type": ["WATER", "PSYCHIC"],
-        "strongAgainst": ["FIGHTING, POISON, GHOST, FIRE, GROUND, ROCK"],
-        "weakAgainst": ["BUG, SHADOW, WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER",
+            "PSYCHIC"
+        ],
+        "strongAgainst": [
+            "FIGHTING",  "POISON",  "GHOST",  "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "BUG", "SHADOW",  "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 81,
@@ -1129,9 +1619,16 @@
         "specie": "Magnet",
         "region": "Kanto",
         "index": "081/151",
-        "type": ["ELECTRIC", "STEEL"],
-        "strongAgainst": ["WATER, FLYING, ICE, ROCK, FAIRY"],
-        "weakAgainst": ["ELECTRIC, GRASS, DRAGON, FIRE, GROUND, FLYING"]
+        "type": [
+            "ELECTRIC",
+            "STEEL"
+        ],
+        "strongAgainst": [
+            "WATER",  "FLYING", "ICE",  "ROCK", "FAIRY"
+        ],
+        "weakAgainst": [
+            "ELECTRIC",  "GRASS",  "DRAGON",  "FIRE",  "GROUND", "FLYING"
+        ]
     },
     {
         "id": 82,
@@ -1143,9 +1640,16 @@
         "specie": "Magnet",
         "region": "Kanto",
         "index": "082/151",
-        "type": ["ELECTRIC", "STEEL"],
-        "strongAgainst": ["WATER, FLYING, ICE, ROCK, FAIRY"],
-        "weakAgainst": ["ELECTRIC, GRASS, DRAGON, FIRE, GROUND, FLYING"]
+        "type": [
+            "ELECTRIC",
+            "STEEL"
+        ],
+        "strongAgainst": [
+            "WATER",  "FLYING", "ICE",  "ROCK", "FAIRY"
+        ],
+        "weakAgainst": [
+            "ELECTRIC",  "GRASS",  "DRAGON",  "FIRE",  "GROUND", "FLYING"
+        ]
     },
     {
         "id": 83,
@@ -1157,9 +1661,16 @@
         "specie": "Wild Duck",
         "region": "Kanto",
         "index": "083/151",
-        "type": ["NORMAL", "FLYING"],
-        "strongAgainst": ["GRASS, FIGHTING, BUG"],
-        "weakAgainst": ["ELECTRIC, ROCK"]
+        "type": [
+            "NORMAL",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "FIGHTING", "BUG"
+        ],
+        "weakAgainst": [
+            "ELECTRIC", "ROCK"
+        ]
     },
     {
         "id": 84,
@@ -1171,9 +1682,16 @@
         "specie": "Twin Bird",
         "region": "Kanto",
         "index": "084/151",
-        "type": ["NORMAL", "FLYING"],
-        "strongAgainst": ["GRASS, FIGHTING, BUG"],
-        "weakAgainst": ["ELECTRIC, ROCK"]
+        "type": [
+            "NORMAL",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "FIGHTING", "BUG"
+        ],
+        "weakAgainst": [
+            "ELECTRIC", "ROCK"
+        ]
     },
     {
         "id": 85,
@@ -1185,9 +1703,16 @@
         "specie": "Triple Bird",
         "region": "Kanto",
         "index": "085/151",
-        "type": ["NORMAL", "FLYING"],
-        "strongAgainst": ["GRASS, FIGHTING, BUG"],
-        "weakAgainst": ["ELECTRIC, ROCK"]
+        "type": [
+            "NORMAL",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "FIGHTING", "BUG"
+        ],
+        "weakAgainst": [
+            "ELECTRIC", "ROCK"
+        ]
     },
     {
         "id": 86,
@@ -1199,9 +1724,15 @@
         "specie": "Sea Lion",
         "region": "Kanto",
         "index": "086/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 87,
@@ -1213,9 +1744,16 @@
         "specie": "Sea Lion",
         "region": "Kanto",
         "index": "087/151",
-        "type": ["WATER", "ICE"],
-        "strongAgainst": ["GRASS, GROUND, FLYING, DRAGON, FIRE, ROCK"],
-        "weakAgainst": ["WATER, ICE, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER",
+            "ICE"
+        ],
+        "strongAgainst": [
+            "GRASS",  "GROUND",  "FLYING",  "DRAGON",  "FIRE", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER", "ICE",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 88,
@@ -1227,9 +1765,15 @@
         "specie": "Sludge",
         "region": "Kanto",
         "index": "088/151",
-        "type": ["POISON"],
-        "strongAgainst": ["GRASS, BUG, FAIRY"],
-        "weakAgainst": ["POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "POISON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
     {
         "id": 89,
@@ -1241,9 +1785,15 @@
         "specie": "Sludge ",
         "region": "Kanto",
         "index": "089/151",
-        "type": ["POISON"],
-        "strongAgainst": ["GRASS, BUG, FAIRY"],
-        "weakAgainst": ["POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "POISON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
     {
         "id": 90,
@@ -1255,9 +1805,15 @@
         "specie": "Bivalve",
         "region": "Kanto",
         "index": "090/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 91,
@@ -1269,9 +1825,16 @@
         "specie": "Bivalve",
         "region": "Kanto",
         "index": "091/151",
-        "type": ["WATER", "ICE"],
-        "strongAgainst": ["GRASS, GROUND, FLYING, DRAGON, FIRE, ROCK"],
-        "weakAgainst": ["WATER, ICE, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER",
+            "ICE"
+        ],
+        "strongAgainst": [
+            "GRASS",  "GROUND",  "FLYING",  "DRAGON",  "FIRE", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER", "ICE",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 92,
@@ -1283,9 +1846,16 @@
         "specie": "Gas",
         "region": "Kanto",
         "index": "092/151",
-        "type": ["POISON", "GHOST"],
-        "strongAgainst": ["GRASS, BUG, FAIRY"],
-        "weakAgainst": ["PSYCHIC, POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON",
+            "GHOST"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "PSYCHIC",  "POISON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
     {
         "id": 93,
@@ -1297,9 +1867,16 @@
         "specie": "Gas",
         "region": "Kanto",
         "index": "093/151",
-        "type": ["POISON", "GHOST"],
-        "strongAgainst": ["GRASS, BUG, FAIRY"],
-        "weakAgainst": ["PSYCHIC, POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON",
+            "GHOST"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "PSYCHIC",  "POISON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
     {
         "id": 94,
@@ -1311,9 +1888,16 @@
         "specie": "Shadow",
         "region": "Kanto",
         "index": "094/151",
-        "type": ["POISON", "GHOST"],
-        "strongAgainst": ["GRASS, BUG, FAIRY"],
-        "weakAgainst": ["PSYCHIC, POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON",
+            "GHOST"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "PSYCHIC",  "POISON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
     {
         "id": 95,
@@ -1325,9 +1909,16 @@
         "specie": "Rock Snake",
         "region": "Kanto",
         "index": "095/151",
-        "type": ["ROCK", "GROUND"],
-        "strongAgainst": ["FIRE, ELECTRIC, POISON, ROCK, STEEL, FLYING, BUG"],
-        "weakAgainst": ["GRASS, BUG, WATER"]
+        "type": [
+            "ROCK",
+            "GROUND"
+        ],
+        "strongAgainst": [
+            "FIRE", "ELECTRIC",  "POISON",  "ROCK",  "STEEL",  "FLYING", "BUG"
+        ],
+        "weakAgainst": [
+            "GRASS", "BUG", "WATER"
+        ]
     },
     {
         "id": 96,
@@ -1339,9 +1930,15 @@
         "specie": "Hypnosis",
         "region": "Kanto",
         "index": "096/151",
-        "type": ["PSYCHIC"],
-        "strongAgainst": ["FIGHTING, POISON, GHOST"],
-        "weakAgainst": ["BUG, SHADOW"]
+        "type": [
+            "PSYCHIC"
+        ],
+        "strongAgainst": [
+            "FIGHTING",  "POISON", "GHOST"
+        ],
+        "weakAgainst": [
+            "BUG", "SHADOW"
+        ]
     },
     {
         "id": 97,
@@ -1353,9 +1950,15 @@
         "specie": "Hypnosis",
         "region": "Kanto",
         "index": "097/151",
-        "type": ["PSYCHIC"],
-        "strongAgainst": ["FIGHTING, POISON, GHOST"],
-        "weakAgainst": ["BUG, SHADOW"]
+        "type": [
+            "PSYCHIC"
+        ],
+        "strongAgainst": [
+            "FIGHTING",  "POISON", "GHOST"
+        ],
+        "weakAgainst": [
+            "BUG", "SHADOW"
+        ]
     },
     {
         "id": 98,
@@ -1367,9 +1970,15 @@
         "specie": "River Crab",
         "region": "Kanto",
         "index": "098/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 99,
@@ -1381,9 +1990,15 @@
         "specie": "Pincer",
         "region": "Kanto",
         "index": "099/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 100,
@@ -1395,9 +2010,15 @@
         "specie": "Ball",
         "region": "Kanto",
         "index": "100/151",
-        "type": ["ELECTRIC"],
-        "strongAgainst": ["WATER, FLYING"],
-        "weakAgainst": ["ELECTRIC, GRASS, DRAGON"]
+        "type": [
+            "ELECTRIC"
+        ],
+        "strongAgainst": [
+            "WATER", "FLYING"
+        ],
+        "weakAgainst": [
+            "ELECTRIC",  "GRASS", "DRAGON"
+        ]
     },
     {
         "id": 101,
@@ -1409,9 +2030,15 @@
         "specie": "Ball",
         "region": "Kanto",
         "index": "101/151",
-        "type": ["ELECTRIC"],
-        "strongAgainst": ["WATER, FLYING"],
-        "weakAgainst": ["ELECTRIC, GRASS, DRAGON"]
+        "type": [
+            "ELECTRIC"
+        ],
+        "strongAgainst": [
+            "WATER", "FLYING"
+        ],
+        "weakAgainst": [
+            "ELECTRIC",  "GRASS", "DRAGON"
+        ]
     },
     {
         "id": 102,
@@ -1423,9 +2050,16 @@
         "specie": "Egg",
         "region": "Kanto",
         "index": "102/151",
-        "type": ["GRASS", "PSYCHIC"],
-        "strongAgainst": ["WATER, GROUND, ROCK, FIGHTING, POISON, GHOST"],
-        "weakAgainst": ["FIRE, GRASS, POISON, FLYING, BUG, DRAGON, SHADOW"]
+        "type": [
+            "GRASS",
+            "PSYCHIC"
+        ],
+        "strongAgainst": [
+            "WATER",  "GROUND",  "ROCK", "FIGHTING",  "POISON", "GHOST"
+        ],
+        "weakAgainst": [
+            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON", "SHADOW"
+        ]
     },
     {
         "id": 103,
@@ -1437,9 +2071,16 @@
         "specie": "Coconut",
         "region": "Kanto",
         "index": "103/151",
-        "type": ["GRASS", "PSYCHIC"],
-        "strongAgainst": ["WATER, GROUND, ROCK, FIGHTING, POISON, GHOST"],
-        "weakAgainst": ["FIRE, GRASS, POISON, FLYING, BUG, DRAGON, SHADOW"]
+        "type": [
+            "GRASS",
+            "PSYCHIC"
+        ],
+        "strongAgainst": [
+            "WATER",  "GROUND",  "ROCK", "FIGHTING",  "POISON", "GHOST"
+        ],
+        "weakAgainst": [
+            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON", "SHADOW"
+        ]
     },
     {
         "id": 104,
@@ -1451,9 +2092,15 @@
         "specie": "Lonely",
         "region": "Kanto",
         "index": "104/151",
-        "type": ["GROUND"],
-        "strongAgainst": ["FIRE, ELECTRIC, POISON, ROCK, STEEL"],
-        "weakAgainst": ["GRASS, BUG"]
+        "type": [
+            "GROUND"
+        ],
+        "strongAgainst": [
+            "FIRE", "ELECTRIC",  "POISON",  "ROCK", "STEEL"
+        ],
+        "weakAgainst": [
+            "GRASS", "BUG"
+        ]
     },
     {
         "id": 105,
@@ -1465,9 +2112,15 @@
         "specie": "Bone Keeper",
         "region": "Kanto",
         "index": "105/151",
-        "type": ["GROUND"],
-        "strongAgainst": ["FIRE, ELECTRIC, POISON, ROCK, STEEL"],
-        "weakAgainst": ["GRASS, BUG"]
+        "type": [
+            "GROUND"
+        ],
+        "strongAgainst": [
+            "FIRE", "ELECTRIC",  "POISON",  "ROCK", "STEEL"
+        ],
+        "weakAgainst": [
+            "GRASS", "BUG"
+        ]
     },
     {
         "id": 106,
@@ -1479,9 +2132,15 @@
         "specie": "Kicking",
         "region": "Kanto",
         "index": "106/151",
-        "type": ["FIGHTING"],
-        "strongAgainst": ["NORMAL, ICE, ROCK, STEEL"],
-        "weakAgainst": ["POISON, FLYING, PSYCHIC, BUG, FAIRY"]
+        "type": [
+            "FIGHTING"
+        ],
+        "strongAgainst": [
+            "NORMAL", "ICE",  "ROCK", "STEEL"
+        ],
+        "weakAgainst": [
+            "POISON",  "FLYING",  "PSYCHIC", "BUG", "FAIRY"
+        ]
     },
     {
         "id": 107,
@@ -1493,9 +2152,15 @@
         "specie": "Punching",
         "region": "Kanto",
         "index": "107/151",
-        "type": ["FIGHTING"],
-        "strongAgainst": ["NORMAL, ICE, ROCK, STEEL"],
-        "weakAgainst": ["POISON, FLYING, PSYCHIC, BUG, FAIRY"]
+        "type": [
+            "FIGHTING"
+        ],
+        "strongAgainst": [
+            "NORMAL", "ICE",  "ROCK", "STEEL"
+        ],
+        "weakAgainst": [
+            "POISON",  "FLYING",  "PSYCHIC", "BUG", "FAIRY"
+        ]
     },
     {
         "id": 108,
@@ -1507,9 +2172,15 @@
         "specie": "Licking",
         "region": "Kanto",
         "index": "108/151",
-        "type": ["NORMAL"],
-        "strongAgainst": [""],
-        "weakAgainst": ["ROCK"]
+        "type": [
+            "NORMAL"
+        ],
+        "strongAgainst": [
+            ""
+        ],
+        "weakAgainst": [
+            "ROCK"
+        ]
     },
     {
         "id": 109,
@@ -1521,9 +2192,15 @@
         "specie": "Poison Gas",
         "region": "Kanto",
         "index": "109/151",
-        "type": ["POISON"],
-        "strongAgainst": ["GRASS, BUG, FAIRY"],
-        "weakAgainst": ["POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "POISON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
     {
         "id": 110,
@@ -1535,11 +2212,17 @@
         "specie": "Poison Gas",
         "region": "Kanto",
         "index": "110/151",
-        "type": ["POISON"],
-        "strongAgainst": ["GRASS, BUG, FAIRY"],
-        "weakAgainst": ["POISON, GROUND, ROCK, GHOST"]
+        "type": [
+            "POISON"
+        ],
+        "strongAgainst": [
+            "GRASS", "BUG", "FAIRY"
+        ],
+        "weakAgainst": [
+            "POISON",  "GROUND",  "ROCK", "GHOST"
+        ]
     },
-    {   
+    {
         "id": 111,
         "name": "Rhyhorn",
         "prefix": "111",
@@ -1549,9 +2232,16 @@
         "specie": "Spikes",
         "region": "Kanto",
         "index": "111/151",
-        "type": ["GROUND", "ROCK"],
-        "strongAgainst": ["FIRE, ELECTRIC, POISON, ROCK, STEEL, FLYING, BUG"],
-        "weakAgainst": ["GRASS, BUG, WATER"]
+        "type": [
+            "GROUND",
+            "ROCK"
+        ],
+        "strongAgainst": [
+            "FIRE", "ELECTRIC",  "POISON",  "ROCK",  "STEEL",  "FLYING", "BUG"
+        ],
+        "weakAgainst": [
+            "GRASS", "BUG", "WATER"
+        ]
     },
     {
         "id": 112,
@@ -1563,9 +2253,16 @@
         "specie": "Drill",
         "region": "Kanto",
         "index": "112/151",
-        "type": ["GROUND", "ROCK"],
-        "strongAgainst": ["FIRE, ELECTRIC, POISON, ROCK, STEEL, FLYING, BUG"],
-        "weakAgainst": ["GRASS, BUG, WATER"]
+        "type": [
+            "GROUND",
+            "ROCK"
+        ],
+        "strongAgainst": [
+            "FIRE", "ELECTRIC",  "POISON",  "ROCK",  "STEEL",  "FLYING", "BUG"
+        ],
+        "weakAgainst": [
+            "GRASS", "BUG", "WATER"
+        ]
     },
     {
         "id": 113,
@@ -1577,9 +2274,15 @@
         "specie": "Egg",
         "region": "Kanto",
         "index": "113/151",
-        "type": ["NORMAL"],
-        "strongAgainst": [""],
-        "weakAgainst": ["ROCK"]
+        "type": [
+            "NORMAL"
+        ],
+        "strongAgainst": [
+            ""
+        ],
+        "weakAgainst": [
+            "ROCK"
+        ]
     },
     {
         "id": 114,
@@ -1591,9 +2294,15 @@
         "specie": "Vine",
         "region": "Kanto",
         "index": "114/151",
-        "type": ["GRASS"],
-        "strongAgainst": ["WATER, GROUND, ROCK"],
-        "weakAgainst": ["FIRE, GRASS, POISON, FLYING, BUG, DRAGON"]
+        "type": [
+            "GRASS"
+        ],
+        "strongAgainst": [
+            "WATER",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG", "DRAGON"
+        ]
     },
     {
         "id": 115,
@@ -1605,9 +2314,15 @@
         "specie": "Parent",
         "region": "Kanto",
         "index": "115/151",
-        "type": ["NORMAL"],
-        "strongAgainst": [""],
-        "weakAgainst": ["ROCK"]
+        "type": [
+            "NORMAL"
+        ],
+        "strongAgainst": [
+            ""
+        ],
+        "weakAgainst": [
+            "ROCK"
+        ]
     },
     {
         "id": 116,
@@ -1619,9 +2334,15 @@
         "specie": "Dragon",
         "region": "Kanto",
         "index": "116/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 117,
@@ -1633,9 +2354,15 @@
         "specie": "Dragon",
         "region": "Kanto",
         "index": "117/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 118,
@@ -1647,9 +2374,15 @@
         "specie": "Goldfish",
         "region": "Kanto",
         "index": "118/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 119,
@@ -1661,9 +2394,15 @@
         "specie": "Goldfish",
         "region": "Kanto",
         "index": "119/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 120,
@@ -1675,9 +2414,15 @@
         "specie": "Star Shape",
         "region": "Kanto",
         "index": "120/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 121,
@@ -1689,9 +2434,16 @@
         "specie": "Mysterious",
         "region": "Kanto",
         "index": "121/151",
-        "type": ["WATER", "PSYCHIC"],
-        "strongAgainst": ["FIGHTING, POISON, GHOST, FIRE, GROUND, ROCK"],
-        "weakAgainst": ["BUG, SHADOW, WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER",
+            "PSYCHIC"
+        ],
+        "strongAgainst": [
+            "FIGHTING",  "POISON",  "GHOST",  "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "BUG", "SHADOW",  "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 122,
@@ -1703,9 +2455,16 @@
         "specie": "Barrier",
         "region": "Kanto",
         "index": "122/151",
-        "type": ["PSYCHIC", "FAIRY"],
-        "strongAgainst": ["FIGHTING, BUG, SHADOW, POISON, GHOST"],
-        "weakAgainst": ["POISON, STEEL, BUG, SHADOW"]
+        "type": [
+            "PSYCHIC",
+            "FAIRY"
+        ],
+        "strongAgainst": [
+            "FIGHTING", "BUG", "SHADOW",  "POISON", "GHOST"
+        ],
+        "weakAgainst": [
+            "POISON",  "STEEL", "BUG", "SHADOW"
+        ]
     },
     {
         "id": 123,
@@ -1717,9 +2476,16 @@
         "specie": "Mantis",
         "region": "Kanto",
         "index": "123/151",
-        "type": ["BUG", "FLYING"],
-        "strongAgainst": ["GRASS, POISON, PSYCHIC, FIGHTING, BUG"],
-        "weakAgainst": ["FIRE, FIGHTING, FLYING, GHOST, ELECTRIC, ROCK"]
+        "type": [
+            "BUG",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS",  "POISON",  "PSYCHIC", "FIGHTING", "BUG"
+        ],
+        "weakAgainst": [
+            "FIRE", "FIGHTING",  "FLYING",  "GHOST", "ELECTRIC", "ROCK"
+        ]
     },
     {
         "id": 124,
@@ -1731,9 +2497,16 @@
         "specie": "Human Shape",
         "region": "Kanto",
         "index": "124/151",
-        "type": ["ICE", "PSYCHIC"],
-        "strongAgainst": ["GRASS, GROUND, FLYING, DRAGON, FIGHTING, POISON, GHOST"],
-        "weakAgainst": ["WATER, ICE, BUG, SHADOW"]
+        "type": [
+            "ICE",
+            "PSYCHIC"
+        ],
+        "strongAgainst": [
+            "GRASS",  "GROUND",  "FLYING",  "DRAGON", "FIGHTING",  "POISON", "GHOST"
+        ],
+        "weakAgainst": [
+            "WATER", "ICE", "BUG", "SHADOW"
+        ]
     },
     {
         "id": 125,
@@ -1745,9 +2518,15 @@
         "specie": "Electric",
         "region": "Kanto",
         "index": "125/151",
-        "type": ["ELECTRIC"],
-        "strongAgainst": ["WATER, FLYING"],
-        "weakAgainst": ["ELECTRIC, GRASS, DRAGON"]
+        "type": [
+            "ELECTRIC"
+        ],
+        "strongAgainst": [
+            "WATER", "FLYING"
+        ],
+        "weakAgainst": [
+            "ELECTRIC",  "GRASS", "DRAGON"
+        ]
     },
     {
         "id": 126,
@@ -1759,9 +2538,15 @@
         "specie": "Spitfire",
         "region": "Kanto",
         "index": "126/151",
-        "type": ["FIRE"],
-        "strongAgainst": ["GRASS, ICE, BUG, STEEL, FAIRY"],
-        "weakAgainst": ["FIRE, WATER, ROCK, DRAGON"]
+        "type": [
+            "FIRE"
+        ],
+        "strongAgainst": [
+            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",  "WATER",  "ROCK", "DRAGON"
+        ]
     },
     {
         "id": 127,
@@ -1773,9 +2558,15 @@
         "specie": "Stag Beetle",
         "region": "Kanto",
         "index": "127/151",
-        "type": ["BUG"],
-        "strongAgainst": ["GRASS, POISON, PSYCHIC"],
-        "weakAgainst": ["FIRE, FIGHTING, FLYING, GHOST"]
+        "type": [
+            "BUG"
+        ],
+        "strongAgainst": [
+            "GRASS",  "POISON", "PSYCHIC"
+        ],
+        "weakAgainst": [
+            "FIRE", "FIGHTING",  "FLYING", "GHOST"
+        ]
     },
     {
         "id": 128,
@@ -1787,9 +2578,15 @@
         "specie": "Wild Bull",
         "region": "Kanto",
         "index": "128/151",
-        "type": ["NORMAL"],
-        "strongAgainst": [""],
-        "weakAgainst": ["ROCK"]
+        "type": [
+            "NORMAL"
+        ],
+        "strongAgainst": [
+            ""
+        ],
+        "weakAgainst": [
+            "ROCK"
+        ]
     },
     {
         "id": 129,
@@ -1801,9 +2598,15 @@
         "specie": "Fish",
         "region": "Kanto",
         "index": "129/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 130,
@@ -1815,9 +2618,16 @@
         "specie": "Atrocious",
         "region": "Kanto",
         "index": "130/151",
-        "type": ["WATER", "FLYING"],
-        "strongAgainst": ["GRASS, FIGHTING, BUG, FIRE, GROUND, ROCK"],
-        "weakAgainst": ["ELECTRIC, ROCK, WATER, GRASS, DRAGON"]
+        "type": [
+            "WATER",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "FIGHTING", "BUG",  "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "ELECTRIC",  "ROCK",  "WATER",  "GRASS", "DRAGON"
+        ]
     },
     {
         "id": 131,
@@ -1829,9 +2639,16 @@
         "specie": "Transport",
         "region": "Kanto",
         "index": "131/151",
-        "type": ["WATER", "ICE"],
-        "strongAgainst": ["GRASS, GROUND, FLYING, DRAGON, FIRE, ROCK"],
-        "weakAgainst": ["WATER, ICE, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER",
+            "ICE"
+        ],
+        "strongAgainst": [
+            "GRASS",  "GROUND",  "FLYING",  "DRAGON",  "FIRE", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER", "ICE",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 132,
@@ -1843,9 +2660,15 @@
         "specie": "Transform",
         "region": "Kanto",
         "index": "132/151",
-        "type": ["NORMAL"],
-        "strongAgainst": [""],
-        "weakAgainst": ["ROCK"]
+        "type": [
+            "NORMAL"
+        ],
+        "strongAgainst": [
+            ""
+        ],
+        "weakAgainst": [
+            "ROCK"
+        ]
     },
     {
         "id": 133,
@@ -1857,9 +2680,15 @@
         "specie": "Evolution",
         "region": "Kanto",
         "index": "133/151",
-        "type": ["NORMAL"],
-        "strongAgainst": [""],
-        "weakAgainst": ["ROCK"]
+        "type": [
+            "NORMAL"
+        ],
+        "strongAgainst": [
+            ""
+        ],
+        "weakAgainst": [
+            "ROCK"
+        ]
     },
     {
         "id": 134,
@@ -1871,9 +2700,15 @@
         "specie": "Bubble Jet",
         "region": "Kanto",
         "index": "134/151",
-        "type": ["WATER"],
-        "strongAgainst": ["FIRE, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 135,
@@ -1885,9 +2720,15 @@
         "specie": "Lightning",
         "region": "Kanto",
         "index": "135/151",
-        "type": ["ELECTRIC"],
-        "strongAgainst": ["WATER, FLYING"],
-        "weakAgainst": ["ELECTRIC, GRASS, DRAGON"]
+        "type": [
+            "ELECTRIC"
+        ],
+        "strongAgainst": [
+            "WATER", "FLYING"
+        ],
+        "weakAgainst": [
+            "ELECTRIC",  "GRASS", "DRAGON"
+        ]
     },
     {
         "id": 136,
@@ -1899,9 +2740,15 @@
         "specie": "Flame",
         "region": "Kanto",
         "index": "136/151",
-        "type": ["FIRE"],
-        "strongAgainst": ["GRASS, ICE, BUG, STEEL, FAIRY"],
-        "weakAgainst": ["FIRE, WATER, ROCK, DRAGON"]
+        "type": [
+            "FIRE"
+        ],
+        "strongAgainst": [
+            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",  "WATER",  "ROCK", "DRAGON"
+        ]
     },
     {
         "id": 137,
@@ -1913,9 +2760,15 @@
         "specie": "Virtual",
         "region": "Kanto",
         "index": "137/151",
-        "type": ["NORMAL"],
-        "strongAgainst": [""],
-        "weakAgainst": ["ROCK"]
+        "type": [
+            "NORMAL"
+        ],
+        "strongAgainst": [
+            ""
+        ],
+        "weakAgainst": [
+            "ROCK"
+        ]
     },
     {
         "id": 138,
@@ -1927,9 +2780,16 @@
         "specie": "Spiral",
         "region": "Kanto",
         "index": "138/151",
-        "type": ["ROCK", "WATER"],
-        "strongAgainst": ["FIRE, FLYING, BUG, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "ROCK",
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "FLYING", "BUG",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 139,
@@ -1941,9 +2801,16 @@
         "specie": "Spiral",
         "region": "Kanto",
         "index": "139/151",
-        "type": ["ROCK", "WATER"],
-        "strongAgainst": ["FIRE, FLYING, BUG, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "ROCK",
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "FLYING", "BUG",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 140,
@@ -1955,9 +2822,16 @@
         "specie": "Shellfish",
         "region": "Kanto",
         "index": "140/151",
-        "type": ["ROCK", "WATER"],
-        "strongAgainst": ["FIRE, FLYING, BUG, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "ROCK",
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "FLYING", "BUG",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 141,
@@ -1969,9 +2843,16 @@
         "specie": "Shellfish",
         "region": "Kanto",
         "index": "141/151",
-        "type": ["ROCK", "WATER"],
-        "strongAgainst": ["FIRE, FLYING, BUG, GROUND, ROCK"],
-        "weakAgainst": ["WATER, GRASS, DRAGON, ELECTRIC"]
+        "type": [
+            "ROCK",
+            "WATER"
+        ],
+        "strongAgainst": [
+            "FIRE",  "FLYING", "BUG",  "GROUND", "ROCK"
+        ],
+        "weakAgainst": [
+            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 142,
@@ -1983,9 +2864,16 @@
         "specie": "Fossil ",
         "region": "Kanto",
         "index": "142/151",
-        "type": ["ROCK", "FLYING"],
-        "strongAgainst": ["GRASS, FIGHTING, BUG, FIRE, FLYING"],
-        "weakAgainst": ["ELECTRIC, ROCK, WATER, GRASS"]
+        "type": [
+            "ROCK",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "FIGHTING", "BUG",  "FIRE", "FLYING"
+        ],
+        "weakAgainst": [
+            "ELECTRIC",  "ROCK",  "WATER", "GRASS"
+        ]
     },
     {
         "id": 143,
@@ -1997,9 +2885,15 @@
         "specie": "Sleeping",
         "region": "Kanto",
         "index": "143/151",
-        "type": ["NORMAL"],
-        "strongAgainst": [""],
-        "weakAgainst": ["ROCK"]
+        "type": [
+            "NORMAL"
+        ],
+        "strongAgainst": [
+            ""
+        ],
+        "weakAgainst": [
+            "ROCK"
+        ]
     },
     {
         "id": 144,
@@ -2011,9 +2905,16 @@
         "specie": "Freeze",
         "region": "Kanto",
         "index": "144/151",
-        "type": ["ICE", "FLYING"],
-        "strongAgainst": ["GRASS, FIGHTING, BUG, GROUND, FLYING, DRAGON"],
-        "weakAgainst": ["ELECTRIC, ROCK, WATER, ICE"]
+        "type": [
+            "ICE",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "FIGHTING", "BUG",  "GROUND",  "FLYING", "DRAGON"
+        ],
+        "weakAgainst": [
+            "ELECTRIC",  "ROCK",  "WATER", "ICE"
+        ]
     },
     {
         "id": 145,
@@ -2025,9 +2926,16 @@
         "specie": "Electric",
         "region": "Kanto",
         "index": "145/151",
-        "type": ["ELECTRIC", "FLYING"],
-        "strongAgainst": ["WATER, FLYING, GRASS, FIGHTING, BUG"],
-        "weakAgainst": ["ELECTRIC, GRASS, DRAGON, ROCK"]
+        "type": [
+            "ELECTRIC",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "WATER",  "FLYING",  "GRASS", "FIGHTING", "BUG"
+        ],
+        "weakAgainst": [
+            "ELECTRIC",  "GRASS",  "DRAGON", "ROCK"
+        ]
     },
     {
         "id": 146,
@@ -2039,9 +2947,16 @@
         "specie": "Flame",
         "region": "Kanto",
         "index": "146/151",
-        "type": ["FIRE", "FLYING"],
-        "strongAgainst": ["GRASS, ICE, BUG, STEEL, FAIRY, FIGHTING"],
-        "weakAgainst": ["FIR, WATER, ROCK, DRAGON, ELECTRIC"]
+        "type": [
+            "FIRE",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "ICE", "BUG",  "STEEL",  "FAIRY", "FIGHTING"
+        ],
+        "weakAgainst": [
+            "FIRE",  "WATER",  "ROCK",  "DRAGON", "ELECTRIC"
+        ]
     },
     {
         "id": 147,
@@ -2053,9 +2968,15 @@
         "specie": "Dragon",
         "region": "Kanto",
         "index": "147/151",
-        "type": ["DRAGON"],
-        "strongAgainst": [""],
-        "weakAgainst": ["ICE, FAIRY"]
+        "type": [
+            "DRAGON"
+        ],
+        "strongAgainst": [
+            ""
+        ],
+        "weakAgainst": [
+            "ICE", "FAIRY"
+        ]
     },
     {
         "id": 148,
@@ -2067,9 +2988,15 @@
         "specie": "Dragon",
         "region": "Kanto",
         "index": "148/151",
-        "type": ["DRAGON"],
-        "strongAgainst": [""],
-        "weakAgainst": ["ICE, FAIRY"]
+        "type": [
+            "DRAGON"
+        ],
+        "strongAgainst": [
+            ""
+        ],
+        "weakAgainst": [
+            "ICE", "FAIRY"
+        ]
     },
     {
         "id": 149,
@@ -2081,9 +3008,16 @@
         "specie": "Dragon",
         "region": "Kanto",
         "index": "149/151",
-        "type": ["DRAGON", "FLYING"],
-        "strongAgainst": ["GRASS, FIGHTING, BUG"],
-        "weakAgainst": ["ICE, FAIRY, ELECTRIC, ROCK"]
+        "type": [
+            "DRAGON",
+            "FLYING"
+        ],
+        "strongAgainst": [
+            "GRASS", "FIGHTING", "BUG"
+        ],
+        "weakAgainst": [
+            "ICE",  "FAIRY", "ELECTRIC", "ROCK"
+        ]
     },
     {
         "id": 150,
@@ -2095,9 +3029,15 @@
         "specie": "Genetic",
         "region": "Kanto",
         "index": "150/151",
-        "type": ["PSYCHIC"],
-        "strongAgainst": ["FIGHTING, POISON, GHOST"],
-        "weakAgainst": ["BUG, SHADOW"]
+        "type": [
+            "PSYCHIC"
+        ],
+        "strongAgainst": [
+            "FIGHTING",  "POISON", "GHOST"
+        ],
+        "weakAgainst": [
+            "BUG", "SHADOW"
+        ]
     },
     {
         "id": 151,
@@ -2109,8 +3049,14 @@
         "specie": "New Species",
         "region": "Kanto",
         "index": "151/151",
-        "type": ["PSYCHIC"],
-        "strongAgainst": ["FIGHTING, POISON, GHOST"],
-        "weakAgainst": ["BUG, SHADOW"]
-    }  
+        "type": [
+            "PSYCHIC"
+        ],
+        "strongAgainst": [
+            "FIGHTING",  "POISON", "GHOST"
+        ],
+        "weakAgainst": [
+            "BUG", "SHADOW"
+        ]
+    }
 ]
