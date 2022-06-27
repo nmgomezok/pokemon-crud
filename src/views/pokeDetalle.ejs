@@ -23,13 +23,13 @@
                 <% } %>
             </div>
             <div class="pokemon-detail-main">
+                <div class="pokedex-name-prefix">
+                    <p class="poke-name-main"><%= pokemonDetail.name %></p>
+                    <p class="poke-prefix-main">#<%= pokemonDetail.prefix %></p>
+                </div>
                 <div class="pokemon-detail-submain">
                     <img class="pokemon-detail-submain-photo" src="/<%= pokemonDetail.img%>">
                     <div class="pokemon-detail-submain-flex">
-                        <div class="pokedex-name-prefix">
-                            <p class="poke-name-main"><%= pokemonDetail.name %></p>
-                            <p class="poke-prefix-main">#<%= pokemonDetail.prefix %></p>
-                        </div>
                         <p class="pokemon-text-maindescription"> <%=pokemonDetail.mainDescripcion%> </p>
                         <div class="pokedex-background-sub">
                             <div class="pokemon-detail-flex-column">

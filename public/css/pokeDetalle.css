@@ -50,6 +50,7 @@ body{
     display: flex;
     flex-direction: row;
     margin-bottom: 15px;
+    width: 100%;
 }
 
 .pokemon-detail-submain-photo{
@@ -61,41 +62,38 @@ body{
 .pokemon-detail-submain-flex{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 65%;
     justify-content: center;
 }
 
 .pokedex-name-prefix{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    position: relative;
-    right: 40px;
+    justify-content: space-evenly;
 }
 
 .poke-name-main{
     font-size: 30px;
     font-weight: 500;
     font-family: "Flexo-Bold";
-    margin-right: 18px;
 }
 
 .poke-prefix-main{
     font-family: "Flexo-Bold";
     color: #919191;
     font-size: 30px;
+
 }
 
 .pokemon-text-maindescription{
     font-family: "Flexo" ;
     text-align: justify;
-    width: 80%;
 }
 
 .pokedex-background-sub{
     background-color: #30a7d7;
     border-radius: 10px;
-    width: 80%;
+    width: 100%;
 }
 
 .pokemon-detail-flex-column{
@@ -126,7 +124,7 @@ body{
 }
 
 .poke-sub-menu{
-    margin: 10px;
+    margin: 5px;
 }
 
 .poke-sub-menu-info{
