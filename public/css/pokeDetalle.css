@@ -144,6 +144,8 @@ body{
     flex-direction: row;
     justify-content: center;
     height: 115px;
+    align-items: center;
+
 }
 
 .pokemon {
