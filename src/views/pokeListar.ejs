@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include("./partials/head")%>
     <link rel="stylesheet" href="/css/pokeListar.css">
     <link rel="stylesheet" href="/css/pokeTypes.css">
     <title>Pokelistar</title>
 </head>
     <body>
-
-        <a href="/createPokemon" class="new-pokemon"><img class="new-pokemon-photo"src="img/New-Pokemon.png"></a>
-
-        <div class="poke-flex"> 
+        <a href="/createPokemon"><img class="new-pokemon-photo"src="img/New-Pokemon.png"></a> 
+        <div class="pokemon-flex-direction"> 
             <% for (let i=0 ; i<pokemon.length ; i++) { %>
-                <div class="ash">
+                <div class="box-ash-kepchup">
                     <a href="/editar/<%=pokemon[i].id%>"><img class="poke-photo" src="/<%= pokemon[i].img%>"></a>
                     <span class="poke-prefix"> #<%= pokemon[i].prefix %> </span>
                     <span class="poke-name"> <%= pokemon[i].name %> </span>  
+
+
+                    
                     <div class="poke-flex-typo">
                         <span class="<%= pokemon[i].type[0]%>"> <%= pokemon[i].type[0] %></span>
+                        <% if (pokemon[i].type[1])  { %> 
                         <span class="<%= pokemon[i].type[1]%>"> <%= pokemon[i].type[1] %></span>
+                        <% } %>
                     </div> 
                 </div>    
             <% } %>

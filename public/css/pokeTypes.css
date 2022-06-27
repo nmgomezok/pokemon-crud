@@ -1,40 +1,20 @@
-:root{
-    --FIRE:#ef803c;
-    --ELECTRIC:#f8cf43;
-    --WATER:#6a93ee;
-    --ICE:#9bd9d8;
-    --POISON:#a0449f;
-    --FAIRY: #4fb170;
-    --STEEL:#b9b9d0;
-    --DRAGON:#7043f5; 
-    --GHOST:#705a97;
-    --ROCK: #b8a041;
-    --BUG:#a9b732;
-    --PSYCHIC:#f65b89;
-    --FLYING:#a893ee;
-    --GROUND:#e0c06e;
-    --FIGHTING:#bf322e;
-    --NORMAL:#a8a87b;
-    --GRASS:#7bc757; 
-}
-
-.FIRE {background-color: var(--FIRE)}
-.ELECTRIC {background-color: var(--ELECTRIC)}
-.WATER {background-color: var(--WATER)}
-.ICE {background-color: var(--ICE)}
-.POISON {background-color: var(--POISON)}
-.FAIRY {background-color: var(--FAIRY)}
-.STEEL {background-color: var(--STEEL)}
-.DRAGON {background-color: var(--DRAGON)}
-.GHOST {background-color: var(--GHOST)}
-.ROCK {background-color: var(--ROCK)}
-.BUG {background-color:  var(--BUG)}
-.PSYCHIC {background-color: var(--PSYCHIC)}
-.FLYING {background-color: var(--FLYING)}
-.GROUND {background-color: var(--GROUND)}
-.FIGHTING {background-color: var(--FIGHTING)}
-.NORMAL {background-color: var(--NORMAL)}
-.GRASS{background-color: var(--GRASS)} 
+.FIRE {background-color: #ef803c}
+.ELECTRIC {background-color: #f8cf43}
+.WATER {background-color: #6a93ee}
+.ICE {background-color: #9bd9d8}
+.POISON {background-color:#a0449f}
+.FAIRY {background-color: #4fb170}
+.STEEL {background-color: #b9b9d0}
+.DRAGON {background-color: #7043f5}
+.GHOST {background-color: #705a97}
+.ROCK {background-color: #b8a041}
+.BUG {background-color: #a9b732}
+.PSYCHIC {background-color: #f65b89}
+.FLYING {background-color: #a893ee}
+.GROUND {background-color: #e0c06e}
+.FIGHTING {background-color: #bf322e}
+.NORMAL {background-color: #a8a87b}
+.GRASS{background-color: #7bc757}
 
 .poke-flex-typo span{
     padding: 4px 5px;
