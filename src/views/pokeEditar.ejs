@@ -1,74 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include("./partials/head")%>
     <link rel="stylesheet" href="/css/pokeEditar.css">
-    <title>PokeDetail
-    </title>
+    <title><%=pokemonEdit.name%> | Edit></title>
 </head>
 <body>
-    <div class="team-rocket">
-        <img class="poke-photo" src="/<%= pokemonEdit.img%>">
-        <form action="/edit/<%=pokemonEdit.id%>?_method=PUT" method="POST" enctype="multipart/form-data">
-            <div class="form-edit-poke">
-            <label>Name:</label>
-            <input type="text" name="name" value="<%=pokemonEdit.name%>">
-            </div>
-
-            <div class="form-edit-poke">
-            <label>Type:</label>
-            <input type="text" name="type" value="<%=pokemonEdit.type%>">
-            </div>
-
-            <div class="form-edit-poke">
-            <label>Strong against:</label>
-            <input type="text" name="strongAgainst" value="<%=pokemonEdit.strongAgainst%>">
-            </div>
-
-            <div class="form-edit-poke">
-            <label>Weak against:</label>
-            <input type="text" name="weakAgainst" value="<%=pokemonEdit.weakAgainst%>">
-            </div>
-
-            <div class="form-edit-poke">
-            <label>Description:</label>
-            <input type="text" name="descripcion" value="<%=pokemonEdit.descripcion%>">
-            </div>
-
-            <div class="form-edit-poke">
-            <label>Generation:</label>
-            <input type="text" name="generation" value="<%=pokemonEdit.generation%>">
-            </div>
-
-            <div class="form-edit-poke">
-            <label>Specie:</label>
-            <input type="text" name="specie" value="<%=pokemonEdit.specie%>">
-            </div>
-
-            <div class="form-edit-poke">
-            <label>Region:</label>
-            <input type="text" name="region" value="<%=pokemonEdit.region%>">
-            </div>
-
-            <div class="form-edit-poke">
-            <label>Index:</label>
-            <input type="text" name="index" value="<%=pokemonEdit.index%>">
-            </div>
-
-            <div class="form-edit-poke">
-            <label>Photo:</label>
-            <input type="file" name="img">
-            </div>
+        <div class="background-image">
+            <img class="poke-edit-photo" src="../img/poke-edit.png">
             
-            <a class="volver" href="/"><button class="button">Volver</button></a>
-            <button class="button" type="submit"> Editar Pokemon</button>
+            <div class="poke-edit-main">
+                <form action="/edit/<%=pokemonEdit.id%>?_method=PUT" method="POST" enctype="multipart/form-data"></form>
                 
+                <div class="poke-edit-flex-row">
+                    <img class="pokemon-photo" src="/<%= pokemonEdit.img%>">
+                    <div class="pokemon-edit-flex">
+                        <div class="poke-edit-flex-row">
+                            <div class="form-edit-poke">
+                                <label>Name</label>
+                                <input type="text" name="name" value="<%=pokemonEdit.name%>">
+                            </div>
+                            <div class="form-edit-poke">
+                                <label>Prefix</label>
+                                <input type="text" name="prefix" value="<%=pokemonEdit.prefix%>">
+                            </div>
+                        </div>
+                        <div class="poke-edit-flex-row">
+                            <div class="form-edit-poke">
+                                <label>Generation</label>
+                                <input type="text" name="generation" value="<%=pokemonEdit.generation%>">
+                            </div>
+                            <div class="form-edit-poke">
+                                <label>Specie</label>
+                                <input type="text" name="specie" value="<%=pokemonEdit.specie%>">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="edit-description">
+                    <div class="form-edit-poke-main-description">
+                        <div class="text-desA">
+                            <label>Main Description</label>
+                            <textarea type="text" name="mainDescripcion"><%=pokemonEdit.mainDescripcion%></textarea>
+                        </div> 
+                    </div>
+
+                    <div class="form-edit-poke-description">
+                        <div class="text-desB">
+                            <label>Description</label>
+                            <textarea type="text" name="descripcion"><%=pokemonEdit.descripcion%></textarea>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="more-info-flex">
+                    <div class="form-edit-poke">
+                        <label>Region</label>
+                        <input type="text" name="region" value="<%=pokemonEdit.region%>">
+                    </div>
+                    <div class="form-edit-poke">
+                        <label>Index</label>
+                        <input type="text" name="index" value="<%=pokemonEdit.index%>">
+                    </div>
+                </div>
+
+                
+
+                <div class="type-flex">
+                    <p class="pokemon-type">Type</p>
+                    <div class="pokemon-types-input">
+                            <%for (let i=0; i<pokemonTypes.length ; i++) { %>
+                                <% if (pokemonEdit.type[0] == pokemonTypes[i].type[0]) { %>
+                                <input type="radio" name="<% pokemonTypes[i].type %>" value="<%= pokemonEdit.type %>" checked>
+                                <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                            <% } else if (pokemonEdit.type[1] == pokemonTypes[i].type[0]) { %>
+                                <input type="radio" name="<% pokemonTypes[i].type %>" value="<%= pokemonEdit.type %>" checked>
+                                <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                            <% } else { %>
+                                <input type="radio" name="<% pokemonTypes[i].type %>" value="<% pokemonTypes[i].type %>">
+                                <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                            <% } %>
+                        <% } %>
+                    </div>
+                </div>
+
+                <div class="type-flex">
+                    <p class="pokemon-type">Strong Against</p>
+                    <div class="pokemon-types-input">
+                    <%for (let i = 0; i < pokemonTypes.length ; i++ ) { %>
+                        <% if (pokemonEdit.strongAgainst[0] == pokemonTypes[i].type[0]) { %>
+                            <input type="radio" name="<% pokemonTypes[i].type %>" value="<%= pokemonEdit.type %>" checked>
+                            <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                        <% } else if (pokemonEdit.strongAgainst[1] == pokemonTypes[i].type[0]) { %>
+                            <input type="radio" name="<% pokemonTypes[i].type %>" value="<%= pokemonEdit.type %>" checked>
+                            <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                        <% } else if (pokemonEdit.strongAgainst[2] == pokemonTypes[i].type[0]) { %>
+                            <input type="radio" name="<% pokemonTypes[i].type %>" value="<%= pokemonEdit.type %>" checked>
+                            <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                        <% } else if (pokemonEdit.strongAgainst[3] == pokemonTypes[i].type[0]) { %>
+                            <input type="radio" name="<% pokemonTypes[i].type %>" value="<%= pokemonEdit.type %>" checked>
+                            <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                        <% } else if (pokemonEdit.strongAgainst[4] == pokemonTypes[i].type[0]) { %>
+                            <input type="radio" name="<% pokemonTypes[i].type %>" value="<%= pokemonEdit.type %>" checked>
+                            <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                        <% } else if (pokemonEdit.strongAgainst[5] == pokemonTypes[i].type[0]) { %>
+                            <input type="radio" name="<% pokemonTypes[i].type %>" value="<%= pokemonEdit.type %>" checked>
+                            <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                        <% } else { %>
+                                <input type="radio" name="<% pokemonTypes[i].type %>" value="<% pokemonTypes[i].type %>">
+                                <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                        <% } %>       
+                    <% } %>
+                    </div>
+                </div>
+
+                <div class="type-flex">
+                    <p class="pokemon-type">Weak Against</p>
+                    <div class="pokemon-types-input">
+                    <%for (let i = 0; i < pokemonTypes.length ; i++ ) { %>
+                        <% if (pokemonEdit.weakAgainst[0] == pokemonTypes[i].type[0]) { %>
+                            <input type="radio" name="<% pokemonTypes[i].type %>" value="<%= pokemonEdit.type %>" checked>
+                            <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                        <% } else if (pokemonEdit.weakAgainst[1] == pokemonTypes[i].type[0]) { %>
+                            <input type="radio" name="<% pokemonTypes[i].type %>" value="<%= pokemonEdit.type %>" checked>
+                            <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                        <% } else if (pokemonEdit.weakAgainst[2] == pokemonTypes[i].type[0]) { %>
+                            <input type="radio" name="<% pokemonTypes[i].type %>" value="<%= pokemonEdit.type %>" checked>
+                            <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                        <% } else if (pokemonEdit.weakAgainst[3] == pokemonTypes[i].type[0]) { %>
+                            <input type="radio" name="<% pokemonTypes[i].type %>" value="<%= pokemonEdit.type %>" checked>
+                            <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                        <% } else if (pokemonEdit.weakAgainst[4] == pokemonTypes[i].type[0]) { %>
+                            <input type="radio" name="<% pokemonTypes[i].type %>" value="<%= pokemonEdit.type %>" checked>
+                            <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                        <% } else if (pokemonEdit.weakAgainst[5] == pokemonTypes[i].type[0]) { %>
+                            <input type="radio" name="<% pokemonTypes[i].type %>" value="<%= pokemonEdit.type %>" checked>
+                            <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                        <% } else { %>
+                                <input type="radio" name="<% pokemonTypes[i].type %>" value="<% pokemonTypes[i].type %>">
+                                <label class="poke-type"><%=pokemonTypes[i].type%></label>
+                        <% } %>       
+                    <% } %>
+                    </div>
+                </div>
+            
+
+
+                <div class="form-edit-photo">
+                    <label class="photo-label">Photo</label>
+                    <input class="input-file" type="file" name="img">
+                </div>
+
+                </form>
             </div>
-
-        </form>
-
-    </div>
+                
+            <div class="editar-home">
+                <a class="volver" href="/"><button class="button">Volver</button></a>
+                <button class="button" type="submit"> Editar Pokemon</button>
+            </div>
+        </div>
+                
 </body>
 </html>
