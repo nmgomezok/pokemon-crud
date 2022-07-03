@@ -117,7 +117,7 @@ body{
 
 .poke-type{
     display: block;
-    width: 52px;
+    width: 53px;
 }
 
 .div-type{
@@ -163,6 +163,13 @@ body{
 
 
 @media (min-width: 1200px){
+    .poke-edit-main{
+        width: 550px;
+        margin: auto;
+    }
 
+    .poke-type{
+        width: 75px;
+    }
 }
 
