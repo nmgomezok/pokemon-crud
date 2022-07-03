@@ -2,70 +2,167 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Flexo";
 }
 
-.form-edit-poke{
+.background-image{
+    background: url("../img//back-list.jpg");
+    overflow: hidden;
+    background-size: contain;
+    background-attachment:fixed;
+}
+
+
+body{
+    height:max-content;
+}
+
+.poke-edit-photo{
+    width: 170px;
+    display: block;
+    margin: auto;
+    margin-top: 18px;
+    
+}
+
+.pokemon-photo{
+    width: 100px;
+}
+
+.poke-edit-main{
+    margin: 20px;
+}
+
+.poke-edit-flex-row{
     display: flex;
     flex-direction: row;
-    margin-left: 10px;
-    margin-top: 15px;
+    justify-content: space-evenly;
+    background-color: #30a7d7;
+    border-radius: 10px;
 }
 
 .form-edit-poke input{
+    width: 100px;
+    display: block;
+    text-align: center;
+
+}
+
+.pokemon-edit-flex{
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+}
+
+.form-edit-poke-main-description textarea{
+    width: 100%;
+    height: 40px;
+}
+
+.form-edit-poke-description textarea{
+    width: 100%;
+    height: 100px;
+}
+
+.edit-description{
+    margin-top: 10px;
+}
+
+.text-desA{
+    padding: 7px 11px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.text-desA label{
+   text-align: center;
+   display: block;
+}
+
+.text-desB{
+    padding: 7px 11px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: yellow;
+}
+
+.text-desB label{
+   text-align: center;
+   display: block;
+}
+
+.more-info-flex{
     display: flex;
-    justify-content: right;
+    flex-direction: row;
+    border-radius: 10px;
+    background-color: greenyellow;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    padding: 5px;
 }
 
 .form-edit-poke label{
-    display: inline-block;
-    width: 90px;
-    font-size: 13px;
-    border: 1px solid white;
-    text-align: right;
-    position: relative;
-    right: 5px;
+    text-align: center;
+    display: block;
 }
 
-.team-rocket{
+.type-flex{
+    padding: 5px;
+    font-size: 9.5px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.poke-type{
+    display: block;
+    width: 47px;
+}
+
+.div-type{
     display: flex;
     flex-direction: row;
-    border: 1px black solid;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    padding: 5px;
-    width: 520px;
-    margin: auto;
-    transform: translateY(+45%);
+    margin: 5px 0;
 }
 
-.poke-photo{
-    width: 220px;
-    height: 220px;
-    align-self: center;
+.input-file{
+    width: 100%;
+    display: block; 
+    position: relative;
+    left: 50px;
 }
 
-.button{
-    background-color: #000000;
-    color: #FFFFFF;
-    border-radius: 15px;
-    font-size: 16px;
-    padding: 5px 10px;
-    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    will-change: transform;
-    margin-top: 8px;
-    cursor: pointer;
-    display: inline-block;
+
+.form-edit-photo{
     text-align: center;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 5px;
 }
 
-.button:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
+.pokemon-type{
+    font-size: 15px;
 }
 
-.button:active {
-  box-shadow: none;
-  transform: translateY(0);
+.editar-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px 10px 20px 10px;
 }
+
+.pokemon-types-input{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    margin: 5px 0;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 1200px){
+
+}
+

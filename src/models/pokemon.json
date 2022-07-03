@@ -10,9 +10,29 @@
         "specie": "Seed",
         "region": "Kanto",
         "index": "001/151",
-        "type": ["GRASS", "POISON"],
-        "strongAgainst": ["WATER", "GROUND", "ROCK", "GRASS", "BUG", "FAIRY"],
-        "weakAgainst": ["FIRE", "GRASS", "POISON", "FLYING", "BUG", "DRAGON", "GROUND", "ROCK", "GHOST"]
+        "type": [
+            "GRASS",
+            "POISON"
+        ],
+        "strongAgainst": [
+            "WATER",
+            "GROUND",
+            "ROCK",
+            "GRASS",
+            "BUG",
+            "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",
+            "GRASS",
+            "POISON",
+            "FLYING",
+            "BUG",
+            "DRAGON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
+        ]
     },
     {
         "id": 2,
@@ -29,8 +49,25 @@
             "GRASS",
             "POISON"
         ],
-        "strongAgainst": ["WATER", "GROUND", "ROCK", "GRASS", "BUG", "FAIRY"],
-        "weakAgainst": ["FIRE", "GRASS", "POISON", "FLYING", "BUG", "DRAGON", "GROUND", "ROCK", "GHOST"]
+        "strongAgainst": [
+            "WATER",
+            "GROUND",
+            "ROCK",
+            "GRASS",
+            "BUG",
+            "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",
+            "GRASS",
+            "POISON",
+            "FLYING",
+            "BUG",
+            "DRAGON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
+        ]
     },
     {
         "id": 3,
@@ -47,8 +84,25 @@
             "GRASS",
             "POISON"
         ],
-        "strongAgainst": ["WATER", "GROUND", "ROCK", "GRASS", "BUG", "FAIRY"],
-        "weakAgainst": ["FIRE", "GRASS", "POISON", "FLYING", "BUG", "DRAGON", "GROUND", "ROCK", "GHOST"]
+        "strongAgainst": [
+            "WATER",
+            "GROUND",
+            "ROCK",
+            "GRASS",
+            "BUG",
+            "FAIRY"
+        ],
+        "weakAgainst": [
+            "FIRE",
+            "GRASS",
+            "POISON",
+            "FLYING",
+            "BUG",
+            "DRAGON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
+        ]
     },
     {
         "id": 4,
@@ -65,10 +119,17 @@
             "FIRE"
         ],
         "strongAgainst": [
-            "GRASS", "ICE", "BUG", "STEEL", "FAIRY"
+            "GRASS",
+            "ICE",
+            "BUG",
+            "STEEL",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE", "WATER", "ROCK", "DRAGON"
+            "FIRE",
+            "WATER",
+            "ROCK",
+            "DRAGON"
         ]
     },
     {
@@ -86,10 +147,17 @@
             "FIRE"
         ],
         "strongAgainst": [
-            "GRASS", "ICE", "BUG", "STEEL", "FAIRY"
+            "GRASS",
+            "ICE",
+            "BUG",
+            "STEEL",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE", "WATER", "ROCK", "DRAGON"
+            "FIRE",
+            "WATER",
+            "ROCK",
+            "DRAGON"
         ]
     },
     {
@@ -108,10 +176,19 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "ICE", "BUG", "STEEL", "FAIRY", "FIGHTING"
+            "GRASS",
+            "ICE",
+            "BUG",
+            "STEEL",
+            "FAIRY",
+            "FIGHTING"
         ],
         "weakAgainst": [
-            "FIRE", "WATER", "ROCK", "DRAGON", "ELECTRIC"
+            "FIRE",
+            "WATER",
+            "ROCK",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -129,10 +206,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE", "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER", "GRASS", "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -150,10 +232,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE", "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER", "GRASS", "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -171,10 +258,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE", "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER", "GRASS", "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -192,10 +284,15 @@
             "BUG"
         ],
         "strongAgainst": [
-            "GRASS", "POISON", "PSYCHIC"
+            "GRASS",
+            "POISON",
+            "PSYCHIC"
         ],
         "weakAgainst": [
-            "FIRE", "FIGHTING", "FLYING", "GHOST"
+            "FIRE",
+            "FIGHTING",
+            "FLYING",
+            "GHOST"
         ]
     },
     {
@@ -213,10 +310,15 @@
             "BUG"
         ],
         "strongAgainst": [
-            "GRASS", "POISON", "PSYCHIC"
+            "GRASS",
+            "POISON",
+            "PSYCHIC"
         ],
         "weakAgainst": [
-            "FIRE", "FIGHTING", "FLYING", "GHOST"
+            "FIRE",
+            "FIGHTING",
+            "FLYING",
+            "GHOST"
         ]
     },
     {
@@ -235,10 +337,19 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "POISON", "PSYCHIC", "FIGHTING", "BUG"
+            "GRASS",
+            "POISON",
+            "PSYCHIC",
+            "FIGHTING",
+            "BUG"
         ],
         "weakAgainst": [
-            "FIRE", "FIGHTING", "FLYING", "GHOST", "ELECTRIC", "ROCK"
+            "FIRE",
+            "FIGHTING",
+            "FLYING",
+            "GHOST",
+            "ELECTRIC",
+            "ROCK"
         ]
     },
     {
@@ -257,10 +368,20 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "POISON", "PSYCHIC", "BUG", "FAIRY"
+            "GRASS",
+            "POISON",
+            "PSYCHIC",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE", "FIGHTING", "FLYING", "GHOST", "POISON", "GROUND", "ROCK"
+            "FIRE",
+            "FIGHTING",
+            "FLYING",
+            "GHOST",
+            "POISON",
+            "GROUND",
+            "ROCK"
         ]
     },
     {
@@ -279,10 +400,20 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "POISON", "PSYCHIC", "BUG", "FAIRY"
+            "GRASS",
+            "POISON",
+            "PSYCHIC",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE", "FIGHTING", "FLYING", "GHOST", "POISON", "GROUND", "ROCK"
+            "FIRE",
+            "FIGHTING",
+            "FLYING",
+            "GHOST",
+            "POISON",
+            "GROUND",
+            "ROCK"
         ]
     },
     {
@@ -301,10 +432,20 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "POISON", "PSYCHIC", "BUG", "FAIRY"
+            "GRASS",
+            "POISON",
+            "PSYCHIC",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE", "FIGHTING", "FLYING", "GHOST", "POISON", "GROUND", "ROCK"
+            "FIRE",
+            "FIGHTING",
+            "FLYING",
+            "GHOST",
+            "POISON",
+            "GROUND",
+            "ROCK"
         ]
     },
     {
@@ -323,10 +464,13 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "FIGHTING", "BUG"
+            "GRASS",
+            "FIGHTING",
+            "BUG"
         ],
         "weakAgainst": [
-            "ELECTRIC", "ROCK"
+            "ELECTRIC",
+            "ROCK"
         ]
     },
     {
@@ -345,10 +489,13 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "FIGHTING", "BUG"
+            "GRASS",
+            "FIGHTING",
+            "BUG"
         ],
         "weakAgainst": [
-            "ELECTRIC", "ROCK"
+            "ELECTRIC",
+            "ROCK"
         ]
     },
     {
@@ -367,10 +514,13 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "FIGHTING", "BUG"
+            "GRASS",
+            "FIGHTING",
+            "BUG"
         ],
         "weakAgainst": [
-            "ELECTRIC", "ROCK"
+            "ELECTRIC",
+            "ROCK"
         ]
     },
     {
@@ -378,7 +528,7 @@
         "name": "Rattata",
         "prefix": "019",
         "img": "img/Rattata.png",
-        "mainDescripcion":"Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.",
+        "mainDescripcion": "Will chew on anything with its fangs. If you see one, you can be certain that 40 more live in the area.",
         "descripcion": "Rattata is rat-like, with large incisors, a slight hump on its back towards the rear, a slightly pudgy belly, and a whisker on both sides. Female Rattata have shorter whiskers than the males. The fur of a normal variant is purple, with a white or cream colored underside: the fur of an Alolan variant is black with dark cram underside. Rattata have red eyes, with no obvious pupils. The tail is long, and curled slightly at the tip. Rattata have three-toed paws, which are the same color as its underbelly.",
         "generation": "I",
         "specie": "Mouse",
@@ -390,14 +540,16 @@
         "strongAgainst": [
             " "
         ],
-        "weakAgainst": ["ROCK"]
+        "weakAgainst": [
+            "ROCK"
+        ]
     },
     {
         "id": 20,
         "name": "Raticate",
         "prefix": "020",
         "img": "img/Raticate.png",
-        "mainDescripcion":"Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey.",
+        "mainDescripcion": "Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey.",
         "descripcion": "Compared to Rattata, Raticate is far more of a predator, and the majority of its features are adapted for this purpose. Its most notable feature are its large teeth; like most rodents, Raticate's teeth grow continuously throughout its life, and must be constantly worn down by gnawing. It is also known that Raticate's fangs are tough enough to break through concrete. It has long whiskers and a long tail. Raticate looks like a pudgy rat, just like Rattata. Raticate tends to stand on its hind legs, as opposed to its pre-evolution.",
         "generation": "I",
         "specie": "Mouse",
@@ -429,10 +581,13 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "FIGHTING", "BUG"
+            "GRASS",
+            "FIGHTING",
+            "BUG"
         ],
         "weakAgainst": [
-            "ELECTRIC", "ROCK"
+            "ELECTRIC",
+            "ROCK"
         ]
     },
     {
@@ -451,10 +606,13 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "FIGHTING", "BUG"
+            "GRASS",
+            "FIGHTING",
+            "BUG"
         ],
         "weakAgainst": [
-            "ELECTRIC", "ROCK"
+            "ELECTRIC",
+            "ROCK"
         ]
     },
     {
@@ -472,10 +630,15 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "BUG", "FAIRY"
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "POISON", "GROUND", "ROCK", "GHOST"
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -493,10 +656,15 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "BUG", "FAIRY"
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "POISON", "GROUND", "ROCK", "GHOST"
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -510,9 +678,18 @@
         "specie": "Mouse",
         "region": "Kanto",
         "index": "025/151",
-        "type": ["ELECTRIC"],
-        "strongAgainst": ["WATER", "FLYING"],
-        "weakAgainst": ["ELECTRIC", "GRASS", "DRAGON"]
+        "type": [
+            "ELECTRIC"
+        ],
+        "strongAgainst": [
+            "WATER",
+            "FLYING"
+        ],
+        "weakAgainst": [
+            "ELECTRIC",
+            "GRASS",
+            "DRAGON"
+        ]
     },
     {
         "id": 26,
@@ -528,8 +705,15 @@
         "type": [
             "ELECTRIC"
         ],
-        "strongAgainst": ["WATER", "FLYING"],
-        "weakAgainst": ["ELECTRIC", "GRASS", "DRAGON"]
+        "strongAgainst": [
+            "WATER",
+            "FLYING"
+        ],
+        "weakAgainst": [
+            "ELECTRIC",
+            "GRASS",
+            "DRAGON"
+        ]
     },
     {
         "id": 27,
@@ -546,10 +730,15 @@
             "GROUND"
         ],
         "strongAgainst": [
-            "FIRE", "ELECTRIC", "POISON", "ROCK", "STEEL"
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "ROCK",
+            "STEEL"
         ],
         "weakAgainst": [
-            "GRASS", "BUG"
+            "GRASS",
+            "BUG"
         ]
     },
     {
@@ -567,10 +756,15 @@
             "GROUND"
         ],
         "strongAgainst": [
-            "FIRE", "ELECTRIC", "POISON", "ROCK", "STEEL"
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "ROCK",
+            "STEEL"
         ],
         "weakAgainst": [
-            "GRASS", "BUG"
+            "GRASS",
+            "BUG"
         ]
     },
     {
@@ -588,10 +782,15 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "BUG", "FAIRY"
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "POISON", "GROUND", "ROCK", "GHOST"
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -609,10 +808,15 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "BUG", "FAIRY"
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "POISON", "GROUND", "ROCK", "GHOST"
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -631,10 +835,22 @@
             "GROUND"
         ],
         "strongAgainst": [
-            "FIRE", "ELECTRIC", "POISON", "ROCK", "STEEL", "GRASS", "BUG", "FAIRY"
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "ROCK",
+            "STEEL",
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "GRASS", "BUG", "POISON", "GROUND", "ROCK", "GHOST"
+            "GRASS",
+            "BUG",
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -652,10 +868,15 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "BUG", "FAIRY"
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "POISON", "GROUND", "ROCK", "GHOST"
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -673,10 +894,15 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "BUG", "FAIRY"
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "POISON",  "GROUND",  "ROCK", "GHOST"
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -695,10 +921,22 @@
             "GROUND"
         ],
         "strongAgainst": [
-            "FIRE", "ELECTRIC",  "POISON",  "ROCK",  "STEEL",  "GRASS", "BUG", "FAIRY"
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "ROCK",
+            "STEEL",
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "GRASS", "BUG",  "POISON",  "GROUND",  "ROCK", "GHOST"
+            "GRASS",
+            "BUG",
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -716,10 +954,13 @@
             "FAIRY"
         ],
         "strongAgainst": [
-            "FIGHTING", "BUG", "SHADOW"
+            "FIGHTING",
+            "BUG",
+            "SHADOW"
         ],
         "weakAgainst": [
-            "POISON", "STEEL"
+            "POISON",
+            "STEEL"
         ]
     },
     {
@@ -737,10 +978,13 @@
             "FAIRY"
         ],
         "strongAgainst": [
-            "FIGHTING", "BUG", "SHADOW"
+            "FIGHTING",
+            "BUG",
+            "SHADOW"
         ],
         "weakAgainst": [
-            "POISON", "STEEL"
+            "POISON",
+            "STEEL"
         ]
     },
     {
@@ -758,10 +1002,17 @@
             "FIRE"
         ],
         "strongAgainst": [
-            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+            "GRASS",
+            "ICE",
+            "BUG",
+            "STEEL",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE",  "WATER",  "ROCK", "DRAGON"
+            "FIRE",
+            "WATER",
+            "ROCK",
+            "DRAGON"
         ]
     },
     {
@@ -779,10 +1030,17 @@
             "FIRE"
         ],
         "strongAgainst": [
-            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+            "GRASS",
+            "ICE",
+            "BUG",
+            "STEEL",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE",  "WATER",  "ROCK", "DRAGON"
+            "FIRE",
+            "WATER",
+            "ROCK",
+            "DRAGON"
         ]
     },
     {
@@ -801,10 +1059,14 @@
             "FAIRY"
         ],
         "strongAgainst": [
-            "FIGHTING", "BUG", "SHADOW"
+            "FIGHTING",
+            "BUG",
+            "SHADOW"
         ],
         "weakAgainst": [
-            "POISON",  "STEEL", "ROCK"
+            "POISON",
+            "STEEL",
+            "ROCK"
         ]
     },
     {
@@ -823,10 +1085,14 @@
             "FAIRY"
         ],
         "strongAgainst": [
-            "FIGHTING", "BUG", "SHADOW"
+            "FIGHTING",
+            "BUG",
+            "SHADOW"
         ],
         "weakAgainst": [
-            "POISON",  "STEEL", "ROCK"
+            "POISON",
+            "STEEL",
+            "ROCK"
         ]
     },
     {
@@ -845,10 +1111,17 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "FIGHTING", "BUG", "FAIRY"
+            "GRASS",
+            "FIGHTING",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "ELECTRIC",  "ROCK",  "POISON",  "GROUND", "GHOST"
+            "ELECTRIC",
+            "ROCK",
+            "POISON",
+            "GROUND",
+            "GHOST"
         ]
     },
     {
@@ -867,10 +1140,17 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "FIGHTING", "BUG", "FAIRY"
+            "GRASS",
+            "FIGHTING",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "ELECTRIC",  "ROCK",  "POISON",  "GROUND", "GHOST"
+            "ELECTRIC",
+            "ROCK",
+            "POISON",
+            "GROUND",
+            "GHOST"
         ]
     },
     {
@@ -889,10 +1169,23 @@
             "POISON"
         ],
         "strongAgainst": [
-            "WATER",  "GROUND",  "ROCK",  "GRASS", "BUG", "FAIRY"
+            "WATER",
+            "GROUND",
+            "ROCK",
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON",  "GROUND",  "ROCK", "GHOST"
+            "FIRE",
+            "GRASS",
+            "POISON",
+            "FLYING",
+            "BUG",
+            "DRAGON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -911,10 +1204,23 @@
             "POISON"
         ],
         "strongAgainst": [
-            "WATER",  "GROUND",  "ROCK",  "GRASS", "BUG", "FAIRY"
+            "WATER",
+            "GROUND",
+            "ROCK",
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON",  "GROUND",  "ROCK", "GHOST"
+            "FIRE",
+            "GRASS",
+            "POISON",
+            "FLYING",
+            "BUG",
+            "DRAGON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -933,10 +1239,23 @@
             "POISON"
         ],
         "strongAgainst": [
-            "WATER",  "GROUND",  "ROCK",  "GRASS", "BUG", "FAIRY"
+            "WATER",
+            "GROUND",
+            "ROCK",
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON",  "GROUND",  "ROCK", "GHOST"
+            "FIRE",
+            "GRASS",
+            "POISON",
+            "FLYING",
+            "BUG",
+            "DRAGON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -955,10 +1274,22 @@
             "GRASS"
         ],
         "strongAgainst": [
-            "GRASS",  "POISON",  "PSYCHIC",  "WATER",  "GROUND", "ROCK"
+            "GRASS",
+            "POISON",
+            "PSYCHIC",
+            "WATER",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "FIRE", "FIGHTING",  "FLYING",  "GHOST",  "GRASS",  "POISON", "BUG", "DRAGON"
+            "FIRE",
+            "FIGHTING",
+            "FLYING",
+            "GHOST",
+            "GRASS",
+            "POISON",
+            "BUG",
+            "DRAGON"
         ]
     },
     {
@@ -977,10 +1308,22 @@
             "GRASS"
         ],
         "strongAgainst": [
-            "GRASS",  "POISON",  "PSYCHIC",  "WATER",  "GROUND", "ROCK"
+            "GRASS",
+            "POISON",
+            "PSYCHIC",
+            "WATER",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "FIRE", "FIGHTING",  "FLYING",  "GHOST",  "GRASS",  "POISON", "BUG", "DRAGON"
+            "FIRE",
+            "FIGHTING",
+            "FLYING",
+            "GHOST",
+            "GRASS",
+            "POISON",
+            "BUG",
+            "DRAGON"
         ]
     },
     {
@@ -999,10 +1342,20 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS",  "POISON",  "PSYCHIC", "BUG", "FAIRY"
+            "GRASS",
+            "POISON",
+            "PSYCHIC",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE", "FIGHTING",  "FLYING",  "GHOST",  "POISON",  "GROUND", "ROCK"
+            "FIRE",
+            "FIGHTING",
+            "FLYING",
+            "GHOST",
+            "POISON",
+            "GROUND",
+            "ROCK"
         ]
     },
     {
@@ -1021,10 +1374,20 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS",  "POISON",  "PSYCHIC", "BUG", "FAIRY"
+            "GRASS",
+            "POISON",
+            "PSYCHIC",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE", "FIGHTING",  "FLYING",  "GHOST",  "POISON",  "GROUND", "ROCK"
+            "FIRE",
+            "FIGHTING",
+            "FLYING",
+            "GHOST",
+            "POISON",
+            "GROUND",
+            "ROCK"
         ]
     },
     {
@@ -1042,10 +1405,15 @@
             "GROUND"
         ],
         "strongAgainst": [
-            "FIRE", "ELECTRIC",  "POISON",  "ROCK", "STEEL"
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "ROCK",
+            "STEEL"
         ],
         "weakAgainst": [
-            "GRASS", "BUG"
+            "GRASS",
+            "BUG"
         ]
     },
     {
@@ -1053,6 +1421,7 @@
         "name": "Dugtrio",
         "prefix": "051",
         "img": "img/Dugtrio.png",
+        "mainDescripcion": "A team of Diglett triplets. It triggers huge earthquakes by burrowing 60 miles underground.",
         "descripcion": "Dugtrio resembles a congregated trio of Diglett. Although they look the same, the heights are varied. The middle body is the tallest, the left body is the 2nd tallest, and the right body is the shortest. The holes that Dugtrio make are bigger due to the increase in size during its evolution. It's brown and it looks similar to a mole, but with a large, pink nose.",
         "generation": "I",
         "specie": "Mole",
@@ -1062,10 +1431,15 @@
             "GROUND"
         ],
         "strongAgainst": [
-            "FIRE", "ELECTRIC",  "POISON",  "ROCK", "STEEL"
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "ROCK",
+            "STEEL"
         ],
         "weakAgainst": [
-            "GRASS", "BUG"
+            "GRASS",
+            "BUG"
         ]
     },
     {
@@ -1073,6 +1447,7 @@
         "name": "Meowth",
         "prefix": "052",
         "img": "img/Meowth.webp",
+        "mainDescripcion": "It loves to collect shiny things. If it’s in a good mood, it might even let its Trainer have a look at its hoard of treasures.",
         "descripcion": "Meowth is a small, bipedal, feline Pokémon. It has two cream whiskers on each side of its oval-shaped face and two hairs sticking up on either side of the golden coin-like gem on its forehead. Meowth also has a curled tail. Meowth's tail and feet are cream-colored like the rest of it, but they are brown at the end. It has small paw pads on the undersides of its heels and toes. It is much like a Maneki Neko, a toy of Japanese descent known for bobbing its arm and hand up and down.",
         "generation": "I",
         "specie": "Scratch Cat",
@@ -1093,6 +1468,7 @@
         "name": "Persian",
         "prefix": "053",
         "img": "img/Persian.webp",
+        "mainDescripcion": "Getting this prideful Pokémon to warm up to you takes a lot of effort, and it will claw at you the moment it gets annoyed.",
         "descripcion": "Persian resembles a large cat. Its fur is beige in color, and it has a curly tail. There is also a small, red gem on its forehead, which is said to give the Pokémon power. The Persian is named after the Persian breed of cat, although it resembles a cougar, with a yellowish white fur color. It may possibly be an albino cougar. Another possibility is that it is based on a Siamese cat, a breed of cat which, much like Persian, has a beige coloring and black ears and medium-sized whiskers.",
         "generation": "I",
         "specie": "Classy Cat",
@@ -1113,6 +1489,7 @@
         "name": "Psyduck",
         "prefix": "054",
         "img": "img/Psyduck.webp",
+        "mainDescripcion": "Psyduck is constantly beset by headaches. If the Pokémon lets its strange power erupt, apparently the pain subsides for a while.",
         "descripcion": "Psyduck is a medium-sized, yellow platypus-like or duck-like Pokémon. Only the feet and bill are tan. The other body parts are all yellow. Psyduck has three black hairs on top of its head, and its hands are always on its head due to its constant headache.",
         "generation": "I",
         "specie": "Duck",
@@ -1122,10 +1499,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -1133,6 +1515,7 @@
         "name": "Golduck",
         "prefix": "055",
         "img": "img/Golduck.png",
+        "mainDescripcion": "This Pokémon lives in gently flowing rivers. It paddles through the water with its long limbs, putting its graceful swimming skills on display.",
         "descripcion": "Golduck is a blue-colored duck Pokémon. Its hands and feet are now webbed, which result in Golduck's superior swimming skills. Golduck has red eyes and a red gem on its head. Its head has four spikes on top. It has a long tail and its hands and feet have three long claws.",
         "generation": "I",
         "specie": "Duck",
@@ -1142,10 +1525,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -1153,6 +1541,7 @@
         "name": "Mankey",
         "prefix": "056",
         "img": "img/Mankey.png",
+        "mainDescripcion": "An agile Pokémon that lives in trees. It angers easily and will not hesitate to attack anything.",
         "descripcion": "Mankey is a small, monkey-like Pokémon. They are a mostly tan in color, with a round body, long limbs and a tail. They have a pig nose due to it being the Pig Monkey species. Mankey are also renowned for their pointy ears and medium length fur. They have triangular eyes with red irises; this clearly represents the anger this Pokémon is known for.",
         "generation": "I",
         "specie": "Pig Monkey",
@@ -1162,10 +1551,17 @@
             "FIGHTING"
         ],
         "strongAgainst": [
-            "NORMAL", "ICE",  "ROCK", "STEEL"
+            "NORMAL",
+            "ICE",
+            "ROCK",
+            "STEEL"
         ],
         "weakAgainst": [
-            "POISON",  "FLYING",  "PSYCHIC", "BUG", "FAIRY"
+            "POISON",
+            "FLYING",
+            "PSYCHIC",
+            "BUG",
+            "FAIRY"
         ]
     },
     {
@@ -1173,6 +1569,7 @@
         "name": "Primeape",
         "prefix": "057",
         "img": "img/Primeape.png",
+        "mainDescripcion": "It stops being angry only when nobody else is around. To view this moment is very difficult.",
         "descripcion": "Primeape is a bipedal, simian Pokémon with a round body covered in whitish, shaggy fur. There is usually a throbbing vein on the left side of its forehead, and it has triangular ears with pink insides, narrow eyes with tiny pupils, and a pink, snout-like nose. Its arms and legs are brown and have metal shackles on the wrists and ankles. This is probably indicative of a method of training with weights. The hands have no visible fingers, instead resembling mittens or boxing gloves, and the feet have two toes.",
         "generation": "I",
         "specie": "Pig Monkey",
@@ -1182,10 +1579,17 @@
             "FIGHTING"
         ],
         "strongAgainst": [
-            "NORMAL", "ICE",  "ROCK", "STEEL"
+            "NORMAL",
+            "ICE",
+            "ROCK",
+            "STEEL"
         ],
         "weakAgainst": [
-            "POISON",  "FLYING",  "PSYCHIC", "BUG", "FAIRY"
+            "POISON",
+            "FLYING",
+            "PSYCHIC",
+            "BUG",
+            "FAIRY"
         ]
     },
     {
@@ -1193,6 +1597,7 @@
         "name": "Growlithe",
         "prefix": "058",
         "img": "img/Growlithe.png",
+        "mainDescripcion": "It has a brave and trustworthy nature. It fearlessly stands up to bigger and stronger foes.",
         "descripcion": "Growlithe is a puppy like Pokémon. It has bright orange fur with black stripes. Its belly, tail, and fluff on top of its head are a cream color. There are no gender differences. ts Hisuian form has dark orange fur. The tuft on Hisuian Growlithe's head grows into curls long enough to cover its eyes. It has a small horn on top of its head. The igneous rock components in its fur are believed to be the result of volcanic activity in its habitat.",
         "generation": "I",
         "specie": "Puppy",
@@ -1202,10 +1607,17 @@
             "FIRE"
         ],
         "strongAgainst": [
-            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+            "GRASS",
+            "ICE",
+            "BUG",
+            "STEEL",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE",  "WATER",  "ROCK", "DRAGON"
+            "FIRE",
+            "WATER",
+            "ROCK",
+            "DRAGON"
         ]
     },
     {
@@ -1213,6 +1625,7 @@
         "name": "Arcanine",
         "prefix": "059",
         "img": "img/Arcanine.png",
+        "mainDescripcion": "The sight of it running over 6,200 miles in a single day and night has captivated many people.",
         "descripcion": "Arcanine is a large, bulky canine Pokémon that also possesses traits of tigers and lions. It has a distinct long dog-like muzzle with a large round black nose. Its eyes are triangular in shape, with black pupils. It has short diamond-shaped orange ears with cream colored insides. The majority of Arcanine's body is covered with bright orange fur with jagged black stripes, resembling the fur of a tiger. Its most of its head and face, and its chest, legs, are covered in light cream colored fluffy tufts of fur. It has a long puffy cream-colored tail.",
         "generation": "I",
         "specie": "Legendary",
@@ -1222,10 +1635,17 @@
             "FIRE"
         ],
         "strongAgainst": [
-            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+            "GRASS",
+            "ICE",
+            "BUG",
+            "STEEL",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE",  "WATER",  "ROCK", "DRAGON"
+            "FIRE",
+            "WATER",
+            "ROCK",
+            "DRAGON"
         ]
     },
     {
@@ -1233,6 +1653,7 @@
         "name": "Poliwag",
         "prefix": "060",
         "img": "img/Poliwag.png",
+        "mainDescripcion": "For Poliwag, swimming is easier than walking. The swirl pattern on its belly is actually part of the Pokémon’s innards showing through the skin.",
         "descripcion": "It is so soft its organs are actually visible. It also has trouble walking on its feet due to its lack of arms which causes it to be unbalanced. The swirl on its belly is its internal organs showing through. If the swirl is tinged, that means it's affected by some disease.",
         "generation": "I",
         "specie": "Tadpole",
@@ -1242,10 +1663,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -1253,6 +1679,7 @@
         "name": "Poliwhirl",
         "prefix": "061",
         "img": "img/Poliwhirl.webp",
+        "mainDescripcion": "Staring at the swirl on its belly causes drowsiness. This trait of Poliwhirl’s has been used in place of lullabies to get children to go to sleep.",
         "descripcion": "Poliwhirl is a large, amphibious froglet-like Pokémon. Poliwhirl has large hands and the hands appear to be like gloves. When a Poliwag evolves, the spiral on its belly reverses direction. Poliwhirl are amphibious. Though they are not nearly as clumsy on land as Poliwag, they still prefer to remain in the  WATER, where they have fewer predators.",
         "generation": "I",
         "specie": "Tadpole",
@@ -1262,10 +1689,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -1273,6 +1705,7 @@
         "name": "Poliwrath",
         "prefix": "062",
         "img": "img/Poliwrath.png",
+        "mainDescripcion": "Its body is solid muscle. When swimming through cold seas, Poliwrath uses its impressive arms to smash through drift ice and plow forward.",
         "descripcion": "Poliwrath appears to have a blue round shaped body with a white belly and a black spiral on it. It also appears to have white fists and its pupil grow smaller than its pre-evolutions. Poliwrath is an adept swimmer and can outspeed even the fastest of human swimmers. However, it prefers to inhabit dry land rather than spending most of its life in aquatic habitats.",
         "generation": "I",
         "specie": "Tadpole",
@@ -1283,10 +1716,23 @@
             "FIGHTING"
         ],
         "strongAgainst": [
-            "NORMAL", "ICE",  "ROCK",  "STEEL",  "FIRE", "GROUND"
+            "NORMAL",
+            "ICE",
+            "ROCK",
+            "STEEL",
+            "FIRE",
+            "GROUND"
         ],
         "weakAgainst": [
-            "POISON",  "FLYING",  "PSYCHIC", "BUG",  "FAIRY",  "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "POISON",
+            "FLYING",
+            "PSYCHIC",
+            "BUG",
+            "FAIRY",
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -1294,6 +1740,7 @@
         "name": "Abra",
         "prefix": "063",
         "img": "img/Abra.png",
+        "mainDescripcion": "This Pokémon uses its psychic powers while it sleeps. The contents of Abra’s dreams affect the powers that the Pokémon wields.",
         "descripcion": "Abra is a golden-brown, human-like fox Pokémon with three fingers and toes on both arms and legs. Its eyes are mostly closed because of its tendency to sleep a lot. The shoulders are brown. Abra has a long tail with one brown stripe. Feet have 3 sharp claws, 2 on the front and 1 on the heel. Abra stands 2'11 and has the same physical appearance, no matter what its gender is. It has slightly pointed ears and its body looks slightly like it has a type of body armour on its top half.",
         "generation": "I",
         "specie": "Psi",
@@ -1303,10 +1750,13 @@
             "PSYCHIC"
         ],
         "strongAgainst": [
-            "FIGHTING",  "POISON", "GHOST"
+            "FIGHTING",
+            "POISON",
+            "GHOST"
         ],
         "weakAgainst": [
-            "BUG", "SHADOW"
+            "BUG",
+            "SHADOW"
         ]
     },
     {
@@ -1314,6 +1764,7 @@
         "name": "Kadabra",
         "prefix": "064",
         "img": "img/Kadabra.png",
+        "mainDescripcion": "Using its psychic power, Kadabra levitates as it sleeps. It uses its springy tail as a pillow.",
         "descripcion": "Kadabra has a similar anatomy to Abra; however, there are some differences. Kadabra holds a metal spoon forged by its psychic powers. Also, Kadabra's tail is large and curly. It also has a mustache. The mustache is larger on male Kadabra's. Kadabra's stomach has three red stripes, while its forehead has a five-pointed red star.",
         "generation": "I",
         "specie": "Psi",
@@ -1323,10 +1774,13 @@
             "PSYCHIC"
         ],
         "strongAgainst": [
-            "FIGHTING",  "POISON", "GHOST"
+            "FIGHTING",
+            "POISON",
+            "GHOST"
         ],
         "weakAgainst": [
-            "BUG", "SHADOW"
+            "BUG",
+            "SHADOW"
         ]
     },
     {
@@ -1334,6 +1788,7 @@
         "name": "Alakazam",
         "prefix": "065",
         "img": "img/Alakazam.png",
+        "mainDescripcion": "It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.",
         "descripcion": "Alakazam is a human-like Pokémon. It is colored yellow and brown, and it has some fox-like features. It is also shown carrying two spoons, which it uses to fight with strong, telekinetic powers. Like Kadabra, Alakazam's gender can be identified by the length of its mustache. Alakazam are highly intelligent Pokémon they exude so much psychic energy from their brains that those nearby may develop headaches.",
         "generation": "I",
         "specie": "Psi",
@@ -1343,10 +1798,13 @@
             "PSYCHIC"
         ],
         "strongAgainst": [
-            "FIGHTING",  "POISON", "GHOST"
+            "FIGHTING",
+            "POISON",
+            "GHOST"
         ],
         "weakAgainst": [
-            "BUG", "SHADOW"
+            "BUG",
+            "SHADOW"
         ]
     },
     {
@@ -1354,6 +1812,7 @@
         "name": "Machop",
         "prefix": "066",
         "img": "img/Machop.png",
+        "mainDescripcion": "Its whole body is composed of muscles. Even though it’s the size of a human child, it can hurl 100 grown-ups.",
         "descripcion": "Machop is a bluish-gray Pokémon with large arm muscles. It has three brown ridges on its head, rib-like protrusions on its sides, has a tail, and resembles a human child. Machop can have the abilities Guts and No Guard. Guts increases Machop's attack when it has a status effect. No Guard allows both the opponent's and Machop's attacks to hit more often. Machop is very strong and is capable of mastering many types of martial arts.",
         "generation": "I",
         "specie": "Superpower",
@@ -1363,10 +1822,17 @@
             "FIGHTING"
         ],
         "strongAgainst": [
-            "NORMAL", "ICE",  "ROCK", "STEEL"
+            "NORMAL",
+            "ICE",
+            "ROCK",
+            "STEEL"
         ],
         "weakAgainst": [
-            "POISON",  "FLYING",  "PSYCHIC", "BUG", "FAIRY"
+            "POISON",
+            "FLYING",
+            "PSYCHIC",
+            "BUG",
+            "FAIRY"
         ]
     },
     {
@@ -1374,6 +1840,7 @@
         "name": "Machoke",
         "prefix": "067",
         "img": "img/Machoke.png",
+        "mainDescripcion": "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
         "descripcion": "Machoke is a very muscular Pokémon. It has lost its tail and has become more human-like. Its arms have exposed veins which express its phenomenal power, and it wears a belt to contain this power. Machoke are really helpful, because they are usually willing to help when a family moves in or other things, they will help, even if demanded.Machoke have incredible stamina like their pre-evolutions, not tiring even when doing the most strenuous of activities.",
         "generation": "I",
         "specie": "Superpower",
@@ -1383,10 +1850,17 @@
             "FIGHTING"
         ],
         "strongAgainst": [
-            "NORMAL", "ICE",  "ROCK", "STEEL"
+            "NORMAL",
+            "ICE",
+            "ROCK",
+            "STEEL"
         ],
         "weakAgainst": [
-            "POISON",  "FLYING",  "PSYCHIC", "BUG", "FAIRY"
+            "POISON",
+            "FLYING",
+            "PSYCHIC",
+            "BUG",
+            "FAIRY"
         ]
     },
     {
@@ -1394,6 +1868,7 @@
         "name": "Machamp",
         "prefix": "068",
         "img": "img/Machamp.png",
+        "mainDescripcion": "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
         "descripcion": "Machamp is a large, four-armed humanoid Pokémon. Machamp's physical appearance is similar to Machoke's, except without the snout, red lines on its arms, and the belt. It is bluish gray in color unlike its pre-evolution, Machoke, which is purple in color. Machamp are really fierce and strong, as they are able to knock a foe over the horizon, they can also throw over 1,000 punches in 2 seconds, so Machamp are really deadly.",
         "generation": "I",
         "specie": "Superpower",
@@ -1403,10 +1878,17 @@
             "FIGHTING"
         ],
         "strongAgainst": [
-            "NORMAL", "ICE",  "ROCK", "STEEL"
+            "NORMAL",
+            "ICE",
+            "ROCK",
+            "STEEL"
         ],
         "weakAgainst": [
-            "POISON",  "FLYING",  "PSYCHIC", "BUG", "FAIRY"
+            "POISON",
+            "FLYING",
+            "PSYCHIC",
+            "BUG",
+            "FAIRY"
         ]
     },
     {
@@ -1414,6 +1896,7 @@
         "name": "Bellsprout",
         "prefix": "069",
         "img": "img/Bellsprout.png",
+        "mainDescripcion": "Prefers hot and humid places. It ensnares tiny bugs with its vines and devours them.",
         "descripcion": "Bellsprout is a plant-like Pokémon resembling a pitcher plant. The body is a thin brown root and stem system with secondary roots making up Bellsprout's legs. It has two leaves on each side of its body. Its head is yellow and shaped like a bulb while the tip of its mouth is colored pink, resembling lips.",
         "generation": "I",
         "specie": "Flower",
@@ -1424,10 +1907,23 @@
             "POISON"
         ],
         "strongAgainst": [
-            "WATER",  "GROUND",  "ROCK",  "GRASS", "BUG", "FAIRY"
+            "WATER",
+            "GROUND",
+            "ROCK",
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON",  "GROUND",  "ROCK", "GHOST"
+            "FIRE",
+            "GRASS",
+            "POISON",
+            "FLYING",
+            "BUG",
+            "DRAGON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -1435,6 +1931,7 @@
         "name": "Weepinbell",
         "prefix": "070",
         "img": "img/Weepinbell.png",
+        "mainDescripcion": "When hungry, it swallows anything that moves. Its hapless prey is dissolved by strong acids.",
         "descripcion": "Weepinbell is a plant Pokémon. It lacks legs, so it hovers in the air. The head of Weepinbell is yellow with three yellow-green spots on it. On the top of its head is a vine. It somewhat resembles a venus flytrap-like plant, just like Victreebel. All Weepinbell have the ability Chlorophyll. Chlorophyll increases Weepinbell's Speed when the sun is out.",
         "generation": "I",
         "specie": "Flycatcher",
@@ -1445,10 +1942,23 @@
             "POISON"
         ],
         "strongAgainst": [
-            "WATER",  "GROUND",  "ROCK",  "GRASS", "BUG", "FAIRY"
+            "WATER",
+            "GROUND",
+            "ROCK",
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON",  "GROUND",  "ROCK", "GHOST"
+            "FIRE",
+            "GRASS",
+            "POISON",
+            "FLYING",
+            "BUG",
+            "DRAGON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -1456,6 +1966,7 @@
         "name": "Victreebel",
         "prefix": "071",
         "img": "img/Victreebel.png",
+        "mainDescripcion": "Lures prey with the sweet aroma of honey. Swallowed whole, the prey is dissolved in a day, bones and all.",
         "descripcion": "Victreebel's body greatly resembles its pre-evolution Weepinbell, having a yellow bulbous head with dark green spots. It also sports two eyes close to its large mouth, which has a pink tip that resembles lips. It has two green leaves at the sides of its body. Inside its mouth are two fangs. A brown vine is also connected to the back of its body which sports a yellow bulb on one end and a large leaf covering its mouth on the other.",
         "generation": "I",
         "specie": "Flycatcher",
@@ -1466,10 +1977,23 @@
             "POISON"
         ],
         "strongAgainst": [
-            "WATER",  "GROUND",  "ROCK",  "GRASS", "BUG", "FAIRY"
+            "WATER",
+            "GROUND",
+            "ROCK",
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON",  "GROUND",  "ROCK", "GHOST"
+            "FIRE",
+            "GRASS",
+            "POISON",
+            "FLYING",
+            "BUG",
+            "DRAGON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -1477,6 +2001,7 @@
         "name": "Tentacool",
         "prefix": "072",
         "img": "img/Tentacool.png",
+        "mainDescripcion": "Tentacool is not a particularly strong swimmer. It drifts across the surface of shallow seas as it searches for prey.",
         "descripcion": "Tentacool is an aquatic Pokémon based on the box jellyfish. Tentacool have two long tentacles that extend from the base of its large, blue head. There are three red gems on this Pokémon's head: two on the sides of its head and one on its forehead. It drifts aimlessly wherever the ocean currents take it, sometimes ending up in shallow waters where it may be accidentally caught in fishing lines.",
         "generation": "I",
         "specie": "Jellyfish",
@@ -1487,10 +2012,22 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "BUG",  "FAIRY",  "FIRE",  "GROUND", "ROCK"
+            "GRASS",
+            "BUG",
+            "FAIRY",
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "POISON",  "GROUND",  "ROCK",  "GHOST",  "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST",
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -1498,6 +2035,7 @@
         "name": "Tentacruel",
         "prefix": "073",
         "img": "img/Tentacruel.png",
+        "mainDescripcion": "When the red orbs on Tentacruel’s head glow brightly, watch out. The Pokémon is about to fire off a burst of ultrasonic waves.",
         "descripcion": "Tentacruel has only a few differences from its pre-evolved form. It now has 14 long tentacles. It also has a beak; the mouthparts are on the front and back of Tentacruel's head, resembling blue pincers. Also, as seen in the image above, Tentacruel has two huge eyes below its head. Tentacruel can have the ability Clear Body or the ability Liquid Ooze. Clear Body prevents the opponent from lowering any of Tentacruel's stats. Liquid Ooze damages any opponent that tries to drain Tentacruel's HP.",
         "generation": "I",
         "specie": "Jellyfish",
@@ -1508,10 +2046,22 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "BUG",  "FAIRY",  "FIRE",  "GROUND", "ROCK"
+            "GRASS",
+            "BUG",
+            "FAIRY",
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "POISON",  "GROUND",  "ROCK",  "GHOST",  "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST",
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -1519,6 +2069,7 @@
         "name": "Geodude",
         "prefix": "074",
         "img": "img/Geodude.png",
+        "mainDescripcion": "Commonly found near mountain trails and the like. If you step on one by accident, it gets angry.",
         "descripcion": "Geodude has a rock for a head, no nose, and two long arms that start with a bulging muscle and end with rock hands resembling a human's. Alolan Geodude are slate gray with black eyebrows and three-fingered hands (the middle, ring and pinky fingers are now one). Geodude most frequently are found in fields and on mountains. People step or trip on them from time to time, mistaking them for rocks. Its arms are so strong that it can use them to climb mountains. Rhyperior sometimes accidentally shoot Geodude from their cannon-like arms, mistaken them as normal rocks.",
         "generation": "I",
         "specie": "Rock",
@@ -1529,10 +2080,18 @@
             "GROUND"
         ],
         "strongAgainst": [
-            "FIRE", "ELECTRIC",  "POISON",  "ROCK",  "STEEL",  "FLYING", "BUG"
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "ROCK",
+            "STEEL",
+            "FLYING",
+            "BUG"
         ],
         "weakAgainst": [
-            "GRASS", "BUG", "WATER"
+            "GRASS",
+            "BUG",
+            "WATER"
         ]
     },
     {
@@ -1540,6 +2099,7 @@
         "name": "Graveler",
         "prefix": "075",
         "img": "img/Graveler.png",
+        "mainDescripcion": "Often seen rolling down mountain trails. Obstacles are just things to roll straight over, not avoid.",
         "descripcion": "Graveler has four arms which can curl up to its body to roll at any time. Above its eyes is a wide rock crest. Unlike its pre-evolved form, Graveler has feet. Graveler live atop the mountains. When they roll down, it is nearly impossible for it to be stopped.",
         "generation": "I",
         "specie": "Rock",
@@ -1550,10 +2110,18 @@
             "GROUND"
         ],
         "strongAgainst": [
-            "FIRE", "ELECTRIC",  "POISON",  "ROCK",  "STEEL",  "FLYING", "BUG"
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "ROCK",
+            "STEEL",
+            "FLYING",
+            "BUG"
         ],
         "weakAgainst": [
-            "GRASS", "BUG", "WATER"
+            "GRASS",
+            "BUG",
+            "WATER"
         ]
     },
     {
@@ -1561,6 +2129,7 @@
         "name": "Golem",
         "prefix": "076",
         "img": "img/Golem.png",
+        "mainDescripcion": "Once it sheds its skin, its body turns tender and whitish. Its hide hardens when it’s exposed to air.",
         "descripcion": "Golem's body resembles a large boulder. It has claws on its hands and feet. An Alolan Golem is much different than its Kantonian counterpart. Two crystalline formations protrude from Golem's back while what appear to be a mustache and beard are actually iron filings. Golem's arms are much shorter as well.",
         "generation": "I",
         "specie": "Megaton",
@@ -1571,10 +2140,18 @@
             "GROUND"
         ],
         "strongAgainst": [
-            "FIRE", "ELECTRIC",  "POISON",  "ROCK",  "STEEL",  "FLYING", "BUG"
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "ROCK",
+            "STEEL",
+            "FLYING",
+            "BUG"
         ],
         "weakAgainst": [
-            "GRASS", "BUG", "WATER"
+            "GRASS",
+            "BUG",
+            "WATER"
         ]
     },
     {
@@ -1582,6 +2159,7 @@
         "name": "Ponyta",
         "prefix": "077",
         "img": "img/Ponyta.png",
+        "mainDescripcion": "It can’t run properly when it’s newly born. As it races around with others of its kind, its legs grow stronger.",
         "descripcion": "Ponyta is a horse Pokémon that has cream colored fur. Rather than having a fur mane, Ponyta has one made of fire, which burns when it is happy or excited. On its heels are streaks of fire. About an hour after birth, its fiery mane and tail grow out, giving it an impressive appearance. Galarian Ponyta is white and its mane resembles light blue and purple clouds. The fire on its legs are replaced with purple fluffy fur.",
         "generation": "I",
         "specie": "Fire Horse",
@@ -1591,10 +2169,17 @@
             "FIRE"
         ],
         "strongAgainst": [
-            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+            "GRASS",
+            "ICE",
+            "BUG",
+            "STEEL",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE",  "WATER",  "ROCK", "DRAGON"
+            "FIRE",
+            "WATER",
+            "ROCK",
+            "DRAGON"
         ]
     },
     {
@@ -1602,6 +2187,7 @@
         "name": "Rapidash",
         "prefix": "078",
         "img": "img/Rapidash.png",
+        "mainDescripcion": "This Pokémon can be seen galloping through fields at speeds of up to 150 mph, its fiery mane fluttering in the wind.",
         "descripcion": "Rapidash is a cream-colored, equine Pokémon with red eyes and a long horn atop its head, similar to a unicorn. Its mane and tail are comprised of red and yellow flames, while smaller embers trail from its fetlocks. Rapidash is rather competitive and tends to have a rash nature. The fastest Rapidash will be chosen as its herd's leader, which determines the direction the herd is heading and the speed its herd runs.",
         "generation": "I",
         "specie": "Fire Horse",
@@ -1611,10 +2197,17 @@
             "FIRE"
         ],
         "strongAgainst": [
-            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+            "GRASS",
+            "ICE",
+            "BUG",
+            "STEEL",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE",  "WATER",  "ROCK", "DRAGON"
+            "FIRE",
+            "WATER",
+            "ROCK",
+            "DRAGON"
         ]
     },
     {
@@ -1622,6 +2215,7 @@
         "name": "Slowpoke",
         "prefix": "079",
         "img": "img/Slowpoke.png",
+        "mainDescripcion": "Slow-witted and oblivious, this Pokémon won’t feel any pain if its tail gets eaten. It won’t notice when its tail grows back, either.",
         "descripcion": "Slowpoke is a mostly pink Pokémon. It stands on four legs, and has a long tail that is used like a fishing pole. Its mouth is a pale brown color. Galarian Slowpoke's appearance is a result of particles being built from eating Galarica seeds. The main difference is that it has gained yellow markings on its forehead and tail. Its limbs are more generally spread out while its tail remains closer to the ground rather than in a curved shape like Kantonian Slowpoke.",
         "generation": "I",
         "specie": "Dopey",
@@ -1632,10 +2226,20 @@
             "PSYCHIC"
         ],
         "strongAgainst": [
-            "FIGHTING",  "POISON",  "GHOST",  "FIRE",  "GROUND", "ROCK"
+            "FIGHTING",
+            "POISON",
+            "GHOST",
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "BUG", "SHADOW",  "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "BUG",
+            "SHADOW",
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -1643,6 +2247,7 @@
         "name": "Slowbro",
         "prefix": "080",
         "img": "img/Slowbro.png",
+        "mainDescripcion": "Slowpoke became Slowbro when a Shellder bit on to its tail. Sweet flavors seeping from the tail make the Shellder feel as if its life is a dream.",
         "descripcion": "Slowbro is a bipedal, pink Pokémon with a tan, striped belly and a tan muzzle. It has large, vacant eyes, curled ears, and two pointed teeth protruding from its upper jaw. On its hands, it has three clawed fingers, and two clawed toes on its feet. There is a Shellder attached to its tail. This Shellder has a gray, spiraled shell with darker gray spots. There are several spikes across the surface of the Shellder, and it holds onto Slowbro with many sharp teeth.",
         "generation": "I",
         "specie": "Hermit Crab",
@@ -1653,10 +2258,20 @@
             "PSYCHIC"
         ],
         "strongAgainst": [
-            "FIGHTING",  "POISON",  "GHOST",  "FIRE",  "GROUND", "ROCK"
+            "FIGHTING",
+            "POISON",
+            "GHOST",
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "BUG", "SHADOW",  "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "BUG",
+            "SHADOW",
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -1664,6 +2279,7 @@
         "name": "Magnemite",
         "prefix": "081",
         "img": "img/Magnemite.png",
+        "mainDescripcion": "At times, Magnemite runs out of electricity and ends up on the ground. If you give batteries to a grounded Magnemite, it’ll start moving again.",
         "descripcion": "Magnemite has light bluish-gray steel body in the shape of a sphere which is kept bound together with the two screws and one large screw at the top of its head. It has one big eye that is as big as the magnets it uses; which can launch electric attacks. On the side of its body are two horseshoe magnets which expel antigravity, allowing it to float in mid-air.",
         "generation": "I",
         "specie": "Magnet",
@@ -1674,10 +2290,19 @@
             "STEEL"
         ],
         "strongAgainst": [
-            "WATER",  "FLYING", "ICE",  "ROCK", "FAIRY"
+            "WATER",
+            "FLYING",
+            "ICE",
+            "ROCK",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "ELECTRIC",  "GRASS",  "DRAGON",  "FIRE",  "GROUND", "FLYING"
+            "ELECTRIC",
+            "GRASS",
+            "DRAGON",
+            "FIRE",
+            "GROUND",
+            "FLYING"
         ]
     },
     {
@@ -1685,6 +2310,7 @@
         "name": "Magneton",
         "prefix": "082",
         "img": "img/Magneton.png",
+        "mainDescripcion": "This Pokémon is three Magnemite that have linked together. Magneton sends out powerful radio waves to study its surroundings.",
         "descripcion": "Magneton is simply the result of three Magnemite linked together through a strong, magnetic force. The Magnemite that make up Magneton are usually linked together in a triangle formation (with two on the bottom and one on top). However, some 3-D games (usually the Stadium series) depict Magneton as three separate Magnemite. Magneton emits a powerful magnetic force that holds it together. Similar to its pre-evolved form, Magnemite, Magneton is able use electromagnetism to levitate and move around.",
         "generation": "I",
         "specie": "Magnet",
@@ -1695,10 +2321,19 @@
             "STEEL"
         ],
         "strongAgainst": [
-            "WATER",  "FLYING", "ICE",  "ROCK", "FAIRY"
+            "WATER",
+            "FLYING",
+            "ICE",
+            "ROCK",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "ELECTRIC",  "GRASS",  "DRAGON",  "FIRE",  "GROUND", "FLYING"
+            "ELECTRIC",
+            "GRASS",
+            "DRAGON",
+            "FIRE",
+            "GROUND",
+            "FLYING"
         ]
     },
     {
@@ -1706,6 +2341,7 @@
         "name": "Farfetch'd",
         "prefix": "083",
         "img": "img/Farfetch'd.png",
+        "mainDescripcion": "The stalk this Pokémon carries in its wings serves as a sword to cut down opponents. In a dire situation, the stalk can also serve as food.",
         "descripcion": "Farfetch'd is an avian Pokémon that bears a resemblance to a duck. It is brown in color; contrasted with a yellow bill and white underbelly. The wings of a Farfetch'd show a dexterous quality, as they are equally adapted to manipulate objects much like hands in addition of being used for flight. Farfetch'd has webbed feet, a characteristic common with most ducks. Its face is adorned with a black V-shaped marking along with a trio of feathers that crown its head. It is also holding a leek stalk, which it brandishes as a weapon.",
         "generation": "I",
         "specie": "Wild Duck",
@@ -1716,10 +2352,13 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "FIGHTING", "BUG"
+            "GRASS",
+            "FIGHTING",
+            "BUG"
         ],
         "weakAgainst": [
-            "ELECTRIC", "ROCK"
+            "ELECTRIC",
+            "ROCK"
         ]
     },
     {
@@ -1727,6 +2366,7 @@
         "name": "Doduo",
         "prefix": "084",
         "img": "img/Doduo.png",
+        "mainDescripcion": "Its short wings make flying difficult. Instead, this Pokémon runs at high speed on developed legs.",
         "descripcion": "Doduo is a tall, bird Pokémon resembling an ostrich. It has two heads that are exactly identical. Doduo is covered in brown down and has large taloned feet. The difference between a male and female Doduo is their necks. Male Doduo have black necks while females have beige necks. Doduo alternately bob their heads to keep balance while running. Their two heads have identical brains (though a few with differing ones have been discovered on occasion) and can communicate ​with each other through telepathy in order to accomplish common goals.",
         "generation": "I",
         "specie": "Twin Bird",
@@ -1737,10 +2377,13 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "FIGHTING", "BUG"
+            "GRASS",
+            "FIGHTING",
+            "BUG"
         ],
         "weakAgainst": [
-            "ELECTRIC", "ROCK"
+            "ELECTRIC",
+            "ROCK"
         ]
     },
     {
@@ -1748,6 +2391,7 @@
         "name": "Dodrio",
         "prefix": "085",
         "img": "img/Dodrio.png",
+        "mainDescripcion": "One of Doduo’s two heads splits to form a unique species. It runs close to 40 mph in prairies.",
         "descripcion": "Dodrio is an ostrich-like Pokémon. It has three heads that each have a black V-shaped crest on top. Its body is nearly all covered in brown down. It has large clawed feet. Its tail is made up of large red feathers. Even though no wings are seen it is still part Flying type. Unlike its pre-evolved form named Doduo, the faces on Dodrio's faces look different, with each one representing an emotion: joy, sadness, and anger. Like Doduo, the males have black necks while the females have beige necks.",
         "generation": "I",
         "specie": "Triple Bird",
@@ -1758,10 +2402,13 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "FIGHTING", "BUG"
+            "GRASS",
+            "FIGHTING",
+            "BUG"
         ],
         "weakAgainst": [
-            "ELECTRIC", "ROCK"
+            "ELECTRIC",
+            "ROCK"
         ]
     },
     {
@@ -1769,6 +2416,7 @@
         "name": "Seel",
         "prefix": "086",
         "img": "img/Seel.png",
+        "mainDescripcion": "Loves freezing-cold conditions. Relishes swimming in a frigid climate of around 14 degrees Fahrenheit.",
         "descripcion": "Seel is a chubby pinniped Pokémon with a thick, fatty hide covered in bluish white fur. It has a pale tan maw with a large red tongue and a pair of tusks on its lower jaw. It has circular eyes and a black nose that is capable of closing when it swims. There is a small horn on its forehead, which it uses in combination with its tusks to bore through ice floes. It has two flippers on its chest, and two more on the end of its tail. When the tail is raised, it resembles a waterspout.",
         "generation": "I",
         "specie": "Sea Lion",
@@ -1778,10 +2426,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -1789,6 +2442,7 @@
         "name": "Dewgong",
         "prefix": "087",
         "img": "img/Dewgong.png",
+        "mainDescripcion": "Its entire body is a snowy white. Unharmed by even intense cold, it swims powerfully in icy waters.",
         "descripcion": "Dewgong is a long, somewhat plump, completely white Pokémon. It has billowing fins. There is also a horn on its head that is useful for bashing through thick ice. It is somewhat just a more elegant version of Seel. Like Seel, Dewgong prefer frigid waters. They can swim at a steady 8 knots, undeterred by the cooler temperatures around them. In fact, like their pre-evolutions, Dewgong become more active in colder waters. When resting, though they do still sometimes sleep on the ocean floor or shore like Seel, they now prefer to rest on ice floes.",
         "generation": "I",
         "specie": "Sea Lion",
@@ -1799,10 +2453,19 @@
             "ICE"
         ],
         "strongAgainst": [
-            "GRASS",  "GROUND",  "FLYING",  "DRAGON",  "FIRE", "ROCK"
+            "GRASS",
+            "GROUND",
+            "FLYING",
+            "DRAGON",
+            "FIRE",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER", "ICE",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "ICE",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -1810,6 +2473,7 @@
         "name": "Grimer",
         "prefix": "088",
         "img": "img/Grimer.png",
+        "mainDescripcion": "Made of congealed sludge. It smells too putrid to touch. Even weeds won’t grow in its path.",
         "descripcion": "Grimer was created when sludge in a dirty stream was exposed to the moon's X-rays. It is composed primarily of putrid, hardened sludge and grime. It smells incredibly foul, and can influence the abandonment of entire cities due to its polluting nature－even weeds don't grow where a Grimer has appeared. Grimer thrives in filthy areas, such as factories, garbage dumps, sewers and polluted water systems. It survives and matures by sucking up polluted sludge that is pumped out of factories, adding toxic waste to its already toxic girth.",
         "generation": "I",
         "specie": "Sludge",
@@ -1819,10 +2483,15 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "BUG", "FAIRY"
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "POISON",  "GROUND",  "ROCK", "GHOST"
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -1830,6 +2499,7 @@
         "name": "Muk",
         "prefix": "089",
         "img": "img/Muk.png",
+        "mainDescripcion": "Smells so awful, it can cause fainting. Through degeneration of its nose, it lost its sense of smell.",
         "descripcion": "Muk is a large purple mass of sludge, toxic fluids, and other filthy materials. It has two large arms that capture the prey and its eyes are barely visible through the sludge. In Alola, Muk's appearance changes drastically. Rather than being just purple, Alolan Muk is a mixture of bright color tones that consist of pink, green, and yellow with dark blue streaks separating each color; this gives Muk the appearance of an oil slick. In addition, crystals formed by solidified toxins cover most of Muk's mouth and hands that gives Muk the appearance of having claws and sharp teeth.",
         "generation": "I",
         "specie": "Sludge ",
@@ -1839,10 +2509,15 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "BUG", "FAIRY"
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "POISON",  "GROUND",  "ROCK", "GHOST"
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -1850,6 +2525,7 @@
         "name": "Shellder",
         "prefix": "090",
         "img": "img/Shellder.png",
+        "mainDescripcion": "It swims facing backward by opening and closing its two-piece shell. It is surprisingly fast.",
         "descripcion": "Shellder is protected by its two large shells. Its large tongue is always kept hanging out. It has two large eyes inside the shell. Shellder live on the sea floor, digging holes with their tongues and hiding in them with their tongues out to catch prey. Their tongues are never withdrawn, even when sleeping. Yanking on them will cause them to open up in shock. Shellder can move surprisingly quickly by flapping their shells. They can also lampoon prey with Icicle Spear.Shellder enjoy eating Slowpoke tail secretions and will bite these tails on sight.",
         "generation": "I",
         "specie": "Bivalve",
@@ -1859,10 +2535,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -1870,6 +2551,7 @@
         "name": "Cloyster",
         "prefix": "091",
         "img": "img/Cloyster.png",
+        "mainDescripcion": "Its shell is extremely hard. It cannot be shattered, even with a bomb. The shell opens only when it is attacking.",
         "descripcion": "Cloyster is actually a black pearl within two shells. The first shell is purple and rugged, while the second shell is gray. When the second shell is opened, a spike is revealed. Its face has a cruel look upon it. To catch food, Cloyster wait on the ocean floor for prey swim by before shooting these spikes by using the move Spike Cannon. The harpooned prey then slowly float down to the waiting Cloyster.",
         "generation": "I",
         "specie": "Bivalve",
@@ -1880,10 +2562,19 @@
             "ICE"
         ],
         "strongAgainst": [
-            "GRASS",  "GROUND",  "FLYING",  "DRAGON",  "FIRE", "ROCK"
+            "GRASS",
+            "GROUND",
+            "FLYING",
+            "DRAGON",
+            "FIRE",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER", "ICE",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "ICE",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -1891,6 +2582,7 @@
         "name": "Gastly",
         "prefix": "092",
         "img": "img/Gastly.png",
+        "mainDescripcion": "Born from gases, anyone would faint if engulfed by its gaseous body, which contains poison.",
         "descripcion": "Gastly's appearance consists of a dark sphere (its head) surrounded by light purple gas. Gastly has large, white eyes and a large mouth with a small pair of fangs.They capture prey by enveloping them in their poisonous gas, which can seep through skin and cause fainting. They may also immobilize prey with the paralyzing move Lick. Despite their poor reputation, though, Gastly are not blatantly malicious and do not “haunt” beings with the intent of harming them.",
         "generation": "I",
         "specie": "Gas",
@@ -1901,10 +2593,16 @@
             "GHOST"
         ],
         "strongAgainst": [
-            "GRASS", "BUG", "FAIRY"
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "PSYCHIC",  "POISON",  "GROUND",  "ROCK", "GHOST"
+            "PSYCHIC",
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -1912,6 +2610,7 @@
         "name": "Haunter",
         "prefix": "093",
         "img": "img/Haunter.png",
+        "mainDescripcion": "Its tongue is made of gas. If licked, its victim starts shaking constantly until death eventually comes.",
         "descripcion": "Haunter is a purple, spiky, floating figure with triangular eyes, tiny pupils, fangs and disembodied, three-fingered, clawed hands. They feed on the life force of living things, waiting in the darkness for unwary prey to wander by. Then, they sneak up on their victims and lick them. This causes uncontrollable shuddering in their prey, who are slowly drained of life until they die. Like Gastly, Haunter are also pranksters. ",
         "generation": "I",
         "specie": "Gas",
@@ -1922,10 +2621,16 @@
             "GHOST"
         ],
         "strongAgainst": [
-            "GRASS", "BUG", "FAIRY"
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "PSYCHIC",  "POISON",  "GROUND",  "ROCK", "GHOST"
+            "PSYCHIC",
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -1933,6 +2638,7 @@
         "name": "Gengar",
         "prefix": "094",
         "img": "img/Gengar.png",
+        "mainDescripcion": "On the night of a full moon, if shadows move on their own and laugh, it must be Gengar’s doing.",
         "descripcion": "Gengar is a shadow-like, round-bodied Pokémon with two large, pointed ears and short spikes lining its back. Gengar has two red eyes and a toothy, sinister smile. It has claws on its hands. Gengar stands on its two short legs, but it can Levitate as well. In Mega Gengar, it has a hot pink smoke around it, and it has a 3rd yellow eye, its hands are buried in the ground, it also got more spikes in its back and tail.",
         "generation": "I",
         "specie": "Shadow",
@@ -1943,10 +2649,16 @@
             "GHOST"
         ],
         "strongAgainst": [
-            "GRASS", "BUG", "FAIRY"
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "PSYCHIC",  "POISON",  "GROUND",  "ROCK", "GHOST"
+            "PSYCHIC",
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -1954,6 +2666,7 @@
         "name": "Onix",
         "prefix": "095",
         "img": "img/Onix.png",
+        "mainDescripcion": "As it digs through the ground, it absorbs many hard objects. This is what makes its body so solid.",
         "descripcion": "Onix is a Rock Snake Pokémon. Its serpentine body is made up of large gray boulders and little pebbles. It has a long horn atop its head and small eyes. Onix spend most of their time burrowing through the earth, twisting and turning their massive bodies as they dig. They constantly eat while burrowing, consuming boulders, dirt, and whatever else they come across. These tunnels often later become homes and pathways for other subterranean Pokémon, such as Diglett and Druddigon.",
         "generation": "I",
         "specie": "Rock Snake",
@@ -1964,10 +2677,18 @@
             "GROUND"
         ],
         "strongAgainst": [
-            "FIRE", "ELECTRIC",  "POISON",  "ROCK",  "STEEL",  "FLYING", "BUG"
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "ROCK",
+            "STEEL",
+            "FLYING",
+            "BUG"
         ],
         "weakAgainst": [
-            "GRASS", "BUG", "WATER"
+            "GRASS",
+            "BUG",
+            "WATER"
         ]
     },
     {
@@ -1975,6 +2696,7 @@
         "name": "Drowzee",
         "prefix": "096",
         "img": "img/Drowzee.png",
+        "mainDescripcion": "If you sleep by it all the time, it will sometimes show you dreams it had eaten in the past.",
         "descripcion": "Drowzee is a tapir-like Pokémon that is mostly yellow. The bottom half of its body is covered in mud, as if it was bathing in it. When Drowzee uses Hypnosis, its eyes glow a light blue. Drowzee consume dreams--especially those of young children and Pokémon, as they are said to be tastier than those of adults. For this reason, they can sometimes be found lurking outside daycares or kindergartens during naptime.There are many “signs” people believe Drowzee leave after eating dreams.",
         "generation": "I",
         "specie": "Hypnosis",
@@ -1984,10 +2706,13 @@
             "PSYCHIC"
         ],
         "strongAgainst": [
-            "FIGHTING",  "POISON", "GHOST"
+            "FIGHTING",
+            "POISON",
+            "GHOST"
         ],
         "weakAgainst": [
-            "BUG", "SHADOW"
+            "BUG",
+            "SHADOW"
         ]
     },
     {
@@ -1995,6 +2720,7 @@
         "name": "Hypno",
         "prefix": "097",
         "img": "img/Hypno.png",
+        "mainDescripcion": "Avoid eye contact if you come across one. It will try to put you to sleep by using its pendulum.",
         "descripcion": "Hypno is a human-like Pokémon with yellow skin. On the top of its head are large, catlike ears. Its eyes are usually squinted, and lower down. It also has a large nose. On its neck, Hypno has a large white mane, which stretches completely around. Hypno also has human-like arms and hands, which both have five digits. It is also always carrying a small pendulum, which it uses in most of its Psychic based attacks. Female Hypno have longer collar-fur than the males.",
         "generation": "I",
         "specie": "Hypnosis",
@@ -2004,10 +2730,13 @@
             "PSYCHIC"
         ],
         "strongAgainst": [
-            "FIGHTING",  "POISON", "GHOST"
+            "FIGHTING",
+            "POISON",
+            "GHOST"
         ],
         "weakAgainst": [
-            "BUG", "SHADOW"
+            "BUG",
+            "SHADOW"
         ]
     },
     {
@@ -2015,6 +2744,7 @@
         "name": "Krabby",
         "prefix": "098",
         "img": "img/Krabby.png",
+        "mainDescripcion": "It can be found near the sea. The large pincers grow back if they are torn out of their sockets.",
         "descripcion": "Krabby is a River Crab Pokémon. It is red on top and mostly tan on the bottom. Its signature feature are the two long pincers it has. Krabby is an omnivore and a scavenger; it rarely hunts for itself. It can also act as a filter feeder by harmonizing bacteria in the sand, but this is rare. It is territorial, and in beaches where there is little food, fights between Krabby are common. Krabby also uses camouflage; it can form mucus sacs around itself if threatened, making it seem larger or making it harder to spot against sea sand. It is usually very small, but it makes up for this with its aggressiveness.",
         "generation": "I",
         "specie": "River Crab",
@@ -2024,10 +2754,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2035,6 +2770,7 @@
         "name": "Kingler",
         "prefix": "099",
         "img": "img/Kingler.png",
+        "mainDescripcion": "Its large and hard pincer has 10,000-horsepower strength. However, being so big, it is unwieldy to move.",
         "descripcion": "Kingler is a crab Pokémon. It has a 5 spiked crest on top of its head and more teeth on its mandible than Krabby. It has two pincers with different sizes. When it Gigantamaxes, it gains a foam beard and its eyes turn red. Its arms and legs become longer and spikier. Like other Dynamax Pokémon, it gains three swirling red clouds around its head.",
         "generation": "I",
         "specie": "Pincer",
@@ -2044,10 +2780,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2055,6 +2796,7 @@
         "name": "Voltorb",
         "prefix": "100",
         "img": "img/Voltorb.png",
+        "mainDescripcion": "It is said to camouflage itself as a Poké Ball. It will self-destruct with very little stimulus.",
         "descripcion": "Voltorb is a Pokémon that looks like a large Poké Ball. Spherical in shape, Voltorb's top half is colored red while its bottom half is white. Voltorb does not have much else in features besides its eyes, which usually indicate that it is angry. Voltorb's Hisuian form instead resembles the ancient Pokeballs of the era, with a hole on top, akin to Wailord's spout. Their body surfaces' texture is akin to the one of wood-grain.",
         "generation": "I",
         "specie": "Ball",
@@ -2064,10 +2806,13 @@
             "ELECTRIC"
         ],
         "strongAgainst": [
-            "WATER", "FLYING"
+            "WATER",
+            "FLYING"
         ],
         "weakAgainst": [
-            "ELECTRIC",  "GRASS", "DRAGON"
+            "ELECTRIC",
+            "GRASS",
+            "DRAGON"
         ]
     },
     {
@@ -2075,6 +2820,7 @@
         "name": "Electrode",
         "prefix": "101",
         "img": "img/Electrode.png",
+        "mainDescripcion": "Stores electrical energy inside its body. Even the slightest shock could trigger a huge explosion.",
         "descripcion": "Electrode is a spherical Pokémon that bears a resemblance to an upside-down Poké Ball. Its top half is white, and its bottom half is red. Electrode has two small beady black eyes, large prominent eyebrows, and a wide mischievously grinning mouth. Electrode also resembles the upside-down Poké Balls of the time period, with a wooden pattern on its top half. Its eyes are large black holes inside a debossed pattern resembling an angry glare. Its lower half is dark red with a constant frown. Interestingly, its surface tissue is similar to that of an Apricorn.",
         "generation": "I",
         "specie": "Ball",
@@ -2084,10 +2830,13 @@
             "ELECTRIC"
         ],
         "strongAgainst": [
-            "WATER", "FLYING"
+            "WATER",
+            "FLYING"
         ],
         "weakAgainst": [
-            "ELECTRIC",  "GRASS", "DRAGON"
+            "ELECTRIC",
+            "GRASS",
+            "DRAGON"
         ]
     },
     {
@@ -2095,6 +2844,7 @@
         "name": "Exeggcute",
         "prefix": "102",
         "img": "img/Exeggcute.png",
+        "mainDescripcion": "Though it may look like it’s just a bunch of eggs, it’s a proper Pokémon. Exeggcute communicates with others of its kind via telepathy, apparently.",
         "descripcion": "Exeggcute resemble a set of six, separate eggs. The eggs each have a face, and each has a series of cracks or even broken pieces on them. Even though they appear as eggs, Exeggcute are closer to seeds, given their Grass-type status. Exeggcute are actually more like seeds despite looking more like eggs.They always must be in groups of 6 to maintain balance; lone Exeggcute will quickly be joined by five others almost immediately. They can communicate with each other telepathically. If one member of a pack is threatened, the others will swarm the attacker to defend it.",
         "generation": "I",
         "specie": "Egg",
@@ -2105,10 +2855,21 @@
             "PSYCHIC"
         ],
         "strongAgainst": [
-            "WATER",  "GROUND",  "ROCK", "FIGHTING",  "POISON", "GHOST"
+            "WATER",
+            "GROUND",
+            "ROCK",
+            "FIGHTING",
+            "POISON",
+            "GHOST"
         ],
         "weakAgainst": [
-            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON", "SHADOW"
+            "FIRE",
+            "GRASS",
+            "POISON",
+            "FLYING",
+            "BUG",
+            "DRAGON",
+            "SHADOW"
         ]
     },
     {
@@ -2116,6 +2877,7 @@
         "name": "Exeggutor",
         "prefix": "103",
         "img": "img/Exeggutor.png",
+        "mainDescripcion": "Each of Exeggutor’s three heads is thinking different thoughts. The three don’t seem to be very interested in one another.",
         "descripcion": "Exeggutor is known as the Coconut Pokémon. This Pokémon looks like a walking palm tree with three coconut-like heads. Each of its head has its own will. It has two stubby legs. If a head grows too big, it falls off and becomes an Exeggcute. They use Telepathy to discuss their plan before coming to a joint decision. Alolan Exeggutor is much taller and slim than its Kantonian counterpart. It has a tail with the end being a coconut with an additional face.",
         "generation": "I",
         "specie": "Coconut",
@@ -2126,10 +2888,21 @@
             "PSYCHIC"
         ],
         "strongAgainst": [
-            "WATER",  "GROUND",  "ROCK", "FIGHTING",  "POISON", "GHOST"
+            "WATER",
+            "GROUND",
+            "ROCK",
+            "FIGHTING",
+            "POISON",
+            "GHOST"
         ],
         "weakAgainst": [
-            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG",  "DRAGON", "SHADOW"
+            "FIRE",
+            "GRASS",
+            "POISON",
+            "FLYING",
+            "BUG",
+            "DRAGON",
+            "SHADOW"
         ]
     },
     {
@@ -2137,6 +2910,7 @@
         "name": "Cubone",
         "prefix": "104",
         "img": "img/Cubone.png",
+        "mainDescripcion": "When the memory of its departed mother brings it to tears, its cries echo mournfully within the skull it wears on its head.",
         "descripcion": "Cubone, known as the Lonely Pokémon, appears to be a small, brown, dinosaur-like Pokémon that constantly wears its skull like helmet. The skull masks its true face from view, which makes it a puzzlement for many Trainers and researchers. Its cries echo within the skull and it comes out as a pained and sad melody. On the night of a full moon, it cries, for it seems to recognize its mother's face in the moon. Its tears create stains on the skull. Cubone has a plump body with a paler-colored underbelly, with strong, clawed limbs to carry a bone as a weapon around wherever it goes. Cubone has a single, nailed toe on each foot, with two spikes on its back. A small tail is also present for balance, but it can be used for attacking.",
         "generation": "I",
         "specie": "Lonely",
@@ -2146,10 +2920,15 @@
             "GROUND"
         ],
         "strongAgainst": [
-            "FIRE", "ELECTRIC",  "POISON",  "ROCK", "STEEL"
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "ROCK",
+            "STEEL"
         ],
         "weakAgainst": [
-            "GRASS", "BUG"
+            "GRASS",
+            "BUG"
         ]
     },
     {
@@ -2157,6 +2936,7 @@
         "name": "Marowak",
         "prefix": "105",
         "img": "img/Marowak.png",
+        "mainDescripcion": "This Pokémon overcame its sorrow to evolve a sturdy new body. Marowak faces its opponents bravely, using a bone as a weapon.",
         "descripcion": "Marowak is a Pokémon that has a brown body with a sandy-colored underside. It has a single claw on its hands and feet. Its tail has a single protrusion near the end. The Pokémon's head seems to be an exoskeleton helmet and wields a long bone. Alolan Marowak has a black body. Its arms are longer and lankier compared to a standard Marowak. Its back has white skeletal marking. The middle part of its skull has a pattern that resembles the appearance of an extruded high-cylinder cap. Its bone has two light green flames constantly burning on both ends.",
         "generation": "I",
         "specie": "Bone Keeper",
@@ -2166,10 +2946,15 @@
             "GROUND"
         ],
         "strongAgainst": [
-            "FIRE", "ELECTRIC",  "POISON",  "ROCK", "STEEL"
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "ROCK",
+            "STEEL"
         ],
         "weakAgainst": [
-            "GRASS", "BUG"
+            "GRASS",
+            "BUG"
         ]
     },
     {
@@ -2177,6 +2962,7 @@
         "name": "Hitmonlee",
         "prefix": "106",
         "img": "img/Hitmonlee.png",
+        "mainDescripcion": "This amazing Pokémon has an awesome sense of balance. It can kick in succession from any position.",
         "descripcion": "Hitmonlee is light brown in color with tape-like markings around its forearms and legs. While it looks like it has tape wrapped around its legs, the tape is actually its legs coiled like a spring which stretch to increase the distance of his kicks. Hitmonlee and their relatives Hitmonchan and Hitmontop are found in cites, training peacefully alongside humans. They also occasionally head to mountains to train, though they generally return to urban areas at night.",
         "generation": "I",
         "specie": "Kicking",
@@ -2186,10 +2972,17 @@
             "FIGHTING"
         ],
         "strongAgainst": [
-            "NORMAL", "ICE",  "ROCK", "STEEL"
+            "NORMAL",
+            "ICE",
+            "ROCK",
+            "STEEL"
         ],
         "weakAgainst": [
-            "POISON",  "FLYING",  "PSYCHIC", "BUG", "FAIRY"
+            "POISON",
+            "FLYING",
+            "PSYCHIC",
+            "BUG",
+            "FAIRY"
         ]
     },
     {
@@ -2197,6 +2990,7 @@
         "name": "Hitmonchan",
         "prefix": "107",
         "img": "img/Hitmonchan.png",
+        "mainDescripcion": "Its punches slice the air. They are launched at such high speed, even a slight graze could cause a burn.",
         "descripcion": "Hitmonchan's appearance is very similar to a human, when compared to other Pokémon. Its skin is a light brown color. Its appears to be wearing a purple, skirt-like attire and bright red boxing gloves. Its feet are also a purple color, giving it the appearance that he is wearing shoes. Its enlarged shoulders appear as large shoulder pads. The very top of its head is separated into five sections, and its face has visible eyes and a mouth but no nose.",
         "generation": "I",
         "specie": "Punching",
@@ -2206,10 +3000,17 @@
             "FIGHTING"
         ],
         "strongAgainst": [
-            "NORMAL", "ICE",  "ROCK", "STEEL"
+            "NORMAL",
+            "ICE",
+            "ROCK",
+            "STEEL"
         ],
         "weakAgainst": [
-            "POISON",  "FLYING",  "PSYCHIC", "BUG", "FAIRY"
+            "POISON",
+            "FLYING",
+            "PSYCHIC",
+            "BUG",
+            "FAIRY"
         ]
     },
     {
@@ -2217,6 +3018,7 @@
         "name": "Lickitung",
         "prefix": "108",
         "img": "img/Lickitung.png",
+        "mainDescripcion": "If this Pokémon’s sticky saliva gets on you and you don’t clean it off, an intense itch will set in. The itch won’t go away, either.",
         "descripcion": "Lickitung is a pink, reptilian Pokémon with some white designs on its stomach, legs, and hands. It has a bulky body with a long tail and most importantly, a long tongue. Their tongues are actually the most receptive part of their bodies, even more sensitive than their hands. When they come across unfamiliar objects, they will lick them, as they associate things by texture and taste. Lickitung do not enjoy sourness, however, and will avoid things that are tart.",
         "generation": "I",
         "specie": "Licking",
@@ -2237,6 +3039,7 @@
         "name": "Koffing",
         "prefix": "109",
         "img": "img/Koffing.png",
+        "mainDescripcion": "Its body is full of poisonous gas. It floats into garbage dumps, seeking out the fumes of raw, rotting trash.",
         "descripcion": "Koffing is a Poison Gas Pokémon. Its body is purple and spherical with a skull and crossbones on the lower parts of its body. It has openings that allow gases to escape. A Koffing will spew a harmless gas if its happy, and a poisonous gas if it's angry. Koffing mainly eats rotten kitchen garbage.",
         "generation": "I",
         "specie": "Poison Gas",
@@ -2246,10 +3049,15 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "BUG", "FAIRY"
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "POISON",  "GROUND",  "ROCK", "GHOST"
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -2257,6 +3065,7 @@
         "name": "Weezing",
         "prefix": "110",
         "img": "img/Weezing.png",
+        "mainDescripcion": "It mixes gases between its two bodies. It’s said that these Pokémon were seen all over the Galar region back in the day.",
         "descripcion": "Weezing is a much more bulky and large version of its pre-evolved form Koffing. After evolving from Koffing, Weezing gains a secondary (although smaller) head. The larger primary head has two fang-like teeth protruding from its lower mouth and two flat teeth protruding from its upper mouth, as well as a skull and crossbones marking. The smaller head has a simple frown and a circular marking. Weezing also has multiple pores surrounding its body that releases poisonous gases.",
         "generation": "I",
         "specie": "Poison Gas",
@@ -2266,10 +3075,15 @@
             "POISON"
         ],
         "strongAgainst": [
-            "GRASS", "BUG", "FAIRY"
+            "GRASS",
+            "BUG",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "POISON",  "GROUND",  "ROCK", "GHOST"
+            "POISON",
+            "GROUND",
+            "ROCK",
+            "GHOST"
         ]
     },
     {
@@ -2277,6 +3091,7 @@
         "name": "Rhyhorn",
         "prefix": "111",
         "img": "img/Rhyhorn.png",
+        "mainDescripcion": "Strong, but not too bright, this Pokémon can shatter even a skyscraper with its charging tackles.",
         "descripcion": "Rhyhorn is a gray rhinoceros-like Pokémon that has rock hard skin and armor covering its body. It has spikes on top of it to protect itself from its foes. It walks on four legs and has a horn that can be used as a drill. And it has two toes on each foot and two sharp teeth sticking out of its mouth. The male's nose horn is longer than the female's.",
         "generation": "I",
         "specie": "Spikes",
@@ -2287,10 +3102,18 @@
             "ROCK"
         ],
         "strongAgainst": [
-            "FIRE", "ELECTRIC",  "POISON",  "ROCK",  "STEEL",  "FLYING", "BUG"
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "ROCK",
+            "STEEL",
+            "FLYING",
+            "BUG"
         ],
         "weakAgainst": [
-            "GRASS", "BUG", "WATER"
+            "GRASS",
+            "BUG",
+            "WATER"
         ]
     },
     {
@@ -2298,6 +3121,7 @@
         "name": "Rhydon",
         "prefix": "112",
         "img": "img/Rhydon.png",
+        "mainDescripcion": "It begins walking on its hind legs after evolution. It can punch holes through boulders with its horn.",
         "descripcion": "It is a gray rock-hard Pokémon that developed a long tail and learned to stand bipedally, meaning on two legs. It is a rhinoceros-like creature that can crush rocks and has a long drill that can drill through rocks. A female Rhydon is similar in appearance to a male Rhydon. However, her horn is shorter than that of a male Rhydon's.",
         "generation": "I",
         "specie": "Drill",
@@ -2308,10 +3132,18 @@
             "ROCK"
         ],
         "strongAgainst": [
-            "FIRE", "ELECTRIC",  "POISON",  "ROCK",  "STEEL",  "FLYING", "BUG"
+            "FIRE",
+            "ELECTRIC",
+            "POISON",
+            "ROCK",
+            "STEEL",
+            "FLYING",
+            "BUG"
         ],
         "weakAgainst": [
-            "GRASS", "BUG", "WATER"
+            "GRASS",
+            "BUG",
+            "WATER"
         ]
     },
     {
@@ -2319,6 +3151,7 @@
         "name": "Chansey",
         "prefix": "113",
         "img": "img/Chansey.png",
+        "mainDescripcion": "The egg Chansey carries is not only delicious but also packed with nutrition. It’s used as a high-class cooking ingredient.",
         "descripcion": "Chansey is a round, pink Pokémon. It has stubby arms and legs with no visible digits. It has small black eyes and a mouth with no visible nose. It has three long frills on each side of its head. It also has a short tail and a pouch with a white egg. Its feet, pouch, and the ends of its frills are a darker shade of pink. Chansey is an extremely brave and kind Pokémon and it always smiles, regardless of its mood. It is known to bring anyone happiness.",
         "generation": "I",
         "specie": "Egg",
@@ -2339,6 +3172,7 @@
         "name": "Tangela",
         "prefix": "114",
         "img": "img/Tangela.png",
+        "mainDescripcion": "Hidden beneath a tangle of vines that grows nonstop even if the vines are torn off, this Pokémon’s true appearance remains a mystery.",
         "descripcion": "Tangela is a Vine Pokémon. Its body is covered with blue vines covered with tiny hairs that grow to give the impression that Tangela is circular in shape. Two big eyes are all people see inside the vines and there are no visible arms. It also has two red feet that poke out of the vines. A Tangela's vines never stop moving. Though they are genetically closely related to seaweed, they do not require any more water than the average plant. Their vines never stop growing and can regenerate. This allows Tangela to snap off vines painlessly to distract predators and regrow them later as soon as the next day.",
         "generation": "I",
         "specie": "Vine",
@@ -2348,10 +3182,17 @@
             "GRASS"
         ],
         "strongAgainst": [
-            "WATER",  "GROUND", "ROCK"
+            "WATER",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "FIRE",  "GRASS",  "POISON",  "FLYING", "BUG", "DRAGON"
+            "FIRE",
+            "GRASS",
+            "POISON",
+            "FLYING",
+            "BUG",
+            "DRAGON"
         ]
     },
     {
@@ -2359,6 +3200,7 @@
         "name": "Kangaskhan",
         "prefix": "115",
         "img": "img/Kangaskhan.png",
+        "mainDescripcion": "Although it’s carrying its baby in a pouch on its belly, Kangaskhan is swift on its feet. It intimidates its opponents with quick jabs.",
         "descripcion": "Kangaskhan is known as a Parent Pokémon. She resembles a large dinosaur with elements of a kangaroo. Her baby is often seen in her pouch. When Mega Evolution is activated, the adult remains unchanged physically, while the juvenile emerges from the pouch and increases in size and power. Kangaskhan is a caring and devoted Pokémon, with strong maternal instincts. A mother will carry her young in the marsupial-like pouch on her stomach, and rarely lets her out of her sight.",
         "generation": "I",
         "specie": "Parent",
@@ -2379,6 +3221,7 @@
         "name": "Horsea",
         "prefix": "116",
         "img": "img/Horsea.png",
+        "mainDescripcion": "Horsea makes its home in oceans with gentle currents. If this Pokémon is under attack, it spits out pitch-black ink and escapes.",
         "descripcion": "Horsea is a Water-type Pokémon that resembles a seahorse. It is a small, light blue seahorse with tiny scales. Its belly and fin are cream colored. Its tail is always curled up tightly, and it has a single fin on its back that is used for locomotion in the water. If they sense trouble, they spit ink towards the instigator. If the enemy is too strong, it quickly swims to safety. When they are a safe location, they can be seen playfully tangling their tails together. Horsea do like swimming around, making them adept in using their fin.",
         "generation": "I",
         "specie": "Dragon",
@@ -2388,10 +3231,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2399,6 +3247,7 @@
         "name": "Seadra",
         "prefix": "117",
         "img": "img/Seadra.png",
+        "mainDescripcion": "It’s the males that raise the offspring. While Seadra are raising young, the spines on their backs secrete thicker and stronger poison.",
         "descripcion": "It has a long snout and a number of spikes on its head, to the sides and on the top, and a pair of pectoral fins on the sides of its head. Its torso is covered with rough, cream-colored scales. Seadra's dorsal fins have sharp, pointed, cream-colored tips from which it exudes venom. Seadra also has a large tail which is generally coiled up. Seadra's quills can render its victim unconscious.",
         "generation": "I",
         "specie": "Dragon",
@@ -2408,10 +3257,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2419,6 +3273,7 @@
         "name": "Goldeen",
         "prefix": "118",
         "img": "img/Goldeen.png",
+        "mainDescripcion": "Its dorsal, pectoral, and tail fins wave elegantly in water. That is why it is known as the Water Dancer.",
         "descripcion": "Goldeen is a fish-like Pokémon, with long, billowing fins. It is colored orange and white. Goldeen also has a horn on its forehead which it uses to attack foes. The male's horn is longer than the female's. Goldeen can have the ability Swift Swim or the ability Water Veil. Swift Swim increases Goldeen's Speed when it is raining. Water Veil prevents Goldeen from getting Burned. Despite its looks, its horn is extremely powerful.",
         "generation": "I",
         "specie": "Goldfish",
@@ -2428,10 +3283,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2439,6 +3299,7 @@
         "name": "Seaking",
         "prefix": "119",
         "img": "img/Seaking.png",
+        "mainDescripcion": "In autumn, its body becomes more fatty in preparing to propose to a mate. It takes on beautiful colors.",
         "descripcion": "Seaking is a primarily orange and white, fish-like Pokémon. It has round, dark eyes, prominent pink lips, two small fangs, and a cream-colored horn in the center of its forehead. A female will have a smaller horn than a male. Most of its body is orange with a patch of white under its mouth and along its underside. There are several black markings on its body: two thick lines under each eye, a large wavy patch on its back, and several speckles near its tail. It has billowing pectoral fins and a pair of tail fins shaped like butterfly wings, all of which are white specked with black. However, its dorsal fin is pure white and rigid.",
         "generation": "I",
         "specie": "Goldfish",
@@ -2448,10 +3309,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2459,6 +3325,7 @@
         "name": "Staryu",
         "prefix": "120",
         "img": "img/Staryu.png",
+        "mainDescripcion": "If you visit a beach at the end of summer, you’ll be able to see groups of Staryu lighting up in a steady rhythm.",
         "descripcion": "Staryu is a star shaped Pokémon. Its arms are brown. It seems to have some kind of crystal or gem for a core. The core is surrounded by a yellow or gold barrier. Staryu are mysterious Pokémon that lie on the seabed during the day and float up to the surface at night.For this reason, Pokémon like Lumineon often nibble on them as a reliable source of food.",
         "generation": "I",
         "specie": "Star Shape",
@@ -2468,10 +3335,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2479,6 +3351,7 @@
         "name": "Starmie",
         "prefix": "121",
         "img": "img/Starmie.png",
+        "mainDescripcion": "This Pokémon has an organ known as its core. The organ glows in seven colors when Starmie is unleashing its potent psychic powers.",
         "descripcion": "Starmie is a purple starfish-like Pokémon with a red core environed by a golden formation. It appears to have more than five appendages. Interestingly Starmie's back-half has been depicted several different ways. In the anime Starmie has the appearance of two starfish fused together; while in more modern games the back-half has been shown to spin wildly completely independent of the front-half of the Pokémon. Many fans tend to think of the anime's depiction as the more realistic of the two, considering the rapid spinning would obviously get in the way of any trainer trying to surf on this particular Pokémon. Starmie's core shines in a rainbow of seven colors, some people value this core as a type of jewelry.",
         "generation": "I",
         "specie": "Mysterious",
@@ -2489,10 +3362,20 @@
             "PSYCHIC"
         ],
         "strongAgainst": [
-            "FIGHTING",  "POISON",  "GHOST",  "FIRE",  "GROUND", "ROCK"
+            "FIGHTING",
+            "POISON",
+            "GHOST",
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "BUG", "SHADOW",  "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "BUG",
+            "SHADOW",
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2500,6 +3383,7 @@
         "name": "Mr. Mime",
         "prefix": "122",
         "img": "img/Mr.Mime.png",
+        "mainDescripcion": "The broadness of its hands may be no coincidence—many scientists believe its palms became enlarged specifically for pantomiming.",
         "descripcion": "Mr. Mime is a bipedal, humanoid Pokémon. Blue growths resembling clown hair extend from the sides of its pale pink head, and there is a magenta circle on each cheek. Its jaw is curved inward, resembling the mouth of a wooden dummy. It has a round, white body with a magenta spot in the middle, light pink arms and legs that connect to its body via magenta spheres, and small white coverings over its knees. Its white hands resemble gloves with magenta pads on the tips of its white fingers and its dark blue feet curl upward at the tips.",
         "generation": "I",
         "specie": "Barrier",
@@ -2510,10 +3394,17 @@
             "FAIRY"
         ],
         "strongAgainst": [
-            "FIGHTING", "BUG", "SHADOW",  "POISON", "GHOST"
+            "FIGHTING",
+            "BUG",
+            "SHADOW",
+            "POISON",
+            "GHOST"
         ],
         "weakAgainst": [
-            "POISON",  "STEEL", "BUG", "SHADOW"
+            "POISON",
+            "STEEL",
+            "BUG",
+            "SHADOW"
         ]
     },
     {
@@ -2521,6 +3412,7 @@
         "name": "Scyther",
         "prefix": "123",
         "img": "img/Scyther.png",
+        "mainDescripcion": "As Scyther fights more and more battles, its scythes become sharper and sharper. With a single slice, Scyther can fell a massive tree.",
         "descripcion": "Scyther resembles a mantis. It is green with two wings that enable flight. It has two razor-sharp scythes for arms are cream-colored section between its head, thorax, and abdomen. Its feet are tall and almost extends its thighs, rounded, and conical; each foot ends in three small, white claws on its front side. Scyther is an adept hunter that tears at its prey with its scythes. Thanks to its green coloration, it can camouflage itself well in the grasslands and forests where it lives. Humans rarely encounter wild Scyther in these areas, however.",
         "generation": "I",
         "specie": "Mantis",
@@ -2531,10 +3423,19 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS",  "POISON",  "PSYCHIC", "FIGHTING", "BUG"
+            "GRASS",
+            "POISON",
+            "PSYCHIC",
+            "FIGHTING",
+            "BUG"
         ],
         "weakAgainst": [
-            "FIRE", "FIGHTING",  "FLYING",  "GHOST", "ELECTRIC", "ROCK"
+            "FIRE",
+            "FIGHTING",
+            "FLYING",
+            "GHOST",
+            "ELECTRIC",
+            "ROCK"
         ]
     },
     {
@@ -2542,6 +3443,7 @@
         "name": "Jynx",
         "prefix": "124",
         "img": "img/Jynx.png",
+        "mainDescripcion": "In certain parts of Galar, Jynx was once feared and worshiped as the Queen of Ice.",
         "descripcion": "Jynx is a purple-skinned humanoid Pokémon. It has long blonde hair and a flowing lower body which resembles a red dress, the top of which has a red chestplate outlined in gold that most closely resembles female breasts, as well as luscious pink lips. Its hands have five fingers each and its arms are white. Jynx is a female-only species with no male counterpart. Jynx originally had black skin, which was dropped due to the resemblance to blackface and the response of a small group of activists to the resemblance.",
         "generation": "I",
         "specie": "Human Shape",
@@ -2552,10 +3454,19 @@
             "PSYCHIC"
         ],
         "strongAgainst": [
-            "GRASS",  "GROUND",  "FLYING",  "DRAGON", "FIGHTING",  "POISON", "GHOST"
+            "GRASS",
+            "GROUND",
+            "FLYING",
+            "DRAGON",
+            "FIGHTING",
+            "POISON",
+            "GHOST"
         ],
         "weakAgainst": [
-            "WATER", "ICE", "BUG", "SHADOW"
+            "WATER",
+            "ICE",
+            "BUG",
+            "SHADOW"
         ]
     },
     {
@@ -2563,6 +3474,7 @@
         "name": "Electabuzz",
         "prefix": "125",
         "img": "img/Electabuzz.png",
+        "mainDescripcion": "Many power plants keep Ground-type Pokémon around as a defense against Electabuzz that come seeking electricity.",
         "descripcion": "Electabuzz is a type of bipedal, feline-like Pokémon with bright yellow coloring and black stripes. It has lightning bolt shaped-markings on its body and large forearms. Some of its feline properties are its long tail which resembles a tiger's and large fangs. Its two legs are short, and its feet are large with two sharp claws on either one. The more human aspects of its appearance are its long arms and five-digit hands.",
         "generation": "I",
         "specie": "Electric",
@@ -2572,10 +3484,13 @@
             "ELECTRIC"
         ],
         "strongAgainst": [
-            "WATER", "FLYING"
+            "WATER",
+            "FLYING"
         ],
         "weakAgainst": [
-            "ELECTRIC",  "GRASS", "DRAGON"
+            "ELECTRIC",
+            "GRASS",
+            "DRAGON"
         ]
     },
     {
@@ -2583,6 +3498,7 @@
         "name": "Magmar",
         "prefix": "126",
         "img": "img/Magmar.png",
+        "mainDescripcion": "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
         "descripcion": "Magmar's body is designed to let it camouflage itself in fire, so it is mainly red and yellow all over. It has a flame pattern on its torso, and a fire on its tail, similar to Charmander and Chimchar (though Chimchar's fire actually is its tail). It has a large beak that can spit out fire, thus giving it the species name the 'Spitfire' Pokémon.",
         "generation": "I",
         "specie": "Spitfire",
@@ -2592,10 +3508,17 @@
             "FIRE"
         ],
         "strongAgainst": [
-            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+            "GRASS",
+            "ICE",
+            "BUG",
+            "STEEL",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE",  "WATER",  "ROCK", "DRAGON"
+            "FIRE",
+            "WATER",
+            "ROCK",
+            "DRAGON"
         ]
     },
     {
@@ -2603,6 +3526,7 @@
         "name": "Pinsir",
         "prefix": "127",
         "img": "img/Pinsir.png",
+        "mainDescripcion": "These Pokémon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender.",
         "descripcion": "They seem to be based on a flat-stag beetle and have long, pricked horns on their heads. Their whole body is a light brown color with three claws on each limb. Their mouths have multiple sharp teeth arranged horizontally rather than vertically. Their feet are thicker than their hands. As Mega Pinsir, it gains a large pair of clear, yellow wings with an area of orange venation near the base. Additionally, a set of brown elytra appear. Slicing through each side of the elytra is a pair of orange blades. Its arms are longer and it has a T-shaped spike on each forearm. The pincers on its head are now longer with larger spikes, and its eyes are now yellow.",
         "generation": "I",
         "specie": "Stag Beetle",
@@ -2612,10 +3536,15 @@
             "BUG"
         ],
         "strongAgainst": [
-            "GRASS",  "POISON", "PSYCHIC"
+            "GRASS",
+            "POISON",
+            "PSYCHIC"
         ],
         "weakAgainst": [
-            "FIRE", "FIGHTING",  "FLYING", "GHOST"
+            "FIRE",
+            "FIGHTING",
+            "FLYING",
+            "GHOST"
         ]
     },
     {
@@ -2623,6 +3552,7 @@
         "name": "Tauros",
         "prefix": "128",
         "img": "img/Tauros.png",
+        "mainDescripcion": "When Tauros begins whipping itself with its tails, it’s a warning that the Pokémon is about to charge with astounding speed.",
         "descripcion": "Tauros resembles a bull. He is a tan color, with a brown mane that covers part of his stout body, a slightly chubby belly, somewhat fat haunches, and a hump on his back. Tauros has blue hooves and horns. He also has three long tails. On his head, he has three blue circles from his forehead down to his eyes. Tauros is a violent, rowdy Pokémon that whips itself into a frenzy using its three tails. It serves as a warning to others that Tauros is about to charge with astonishing speed.",
         "generation": "I",
         "specie": "Wild Bull",
@@ -2643,6 +3573,7 @@
         "name": "Magikarp",
         "prefix": "129",
         "img": "img/Magikarp.png",
+        "mainDescripcion": "It is virtually worthless in terms of both power and speed. It is the most weak and pathetic Pokémon in the world.",
         "descripcion": "Magikarp is a Fish Pokémon. Its body is made up of/covered in red scales. Its fins are either yellow or white. They also have whiskers or Maxilliary Barbells. Female Magikarp have white barbells while male Magikarp have yellow barbells. Magikarp refers to them as his magnificent barbs in PokéPark Wii: Pikachu's Adventure. The way to tell a male and female Magikarp apart is that a male Magikarp has gold whiskers while a female has white whiskers.",
         "generation": "I",
         "specie": "Fish",
@@ -2652,10 +3583,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2663,6 +3599,7 @@
         "name": "Gyarados",
         "prefix": "130",
         "img": "img/Gyarados.png",
+        "mainDescripcion": "It has an extremely aggressive nature. The Hyper Beam it shoots from its mouth totally incinerates all targets",
         "descripcion": "It is a dragon-like Pokémon that is serpentine in shape and covered in blue and yellow scales. It has white fins on top of its body and it has a tan underbelly. It has fins on the side of its face and a large, blue crest on its forehead. Like Magikarp, it has whiskers. Gyarados are known to be extremely violent, often flying into an Outrage and destroying anything they see. This includes small towns that stand on their wake. This is likely due to them having undergone structural brain transformation that stimulated their brain cells, leading to them becoming ferocious.",
         "generation": "I",
         "specie": "Atrocious",
@@ -2673,10 +3610,19 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "FIGHTING", "BUG",  "FIRE",  "GROUND", "ROCK"
+            "GRASS",
+            "FIGHTING",
+            "BUG",
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "ELECTRIC",  "ROCK",  "WATER",  "GRASS", "DRAGON"
+            "ELECTRIC",
+            "ROCK",
+            "WATER",
+            "GRASS",
+            "DRAGON"
         ]
     },
     {
@@ -2684,6 +3630,7 @@
         "name": "Lapras",
         "prefix": "131",
         "img": "img/Lapras.png",
+        "mainDescripcion": "A smart and kindhearted Pokémon, it glides across the surface of the sea while its beautiful song echoes around it.",
         "descripcion": "Lapras is a very large Water/Ice-type Pokémon that resembles a plesiosaur. Its skin is mainly a light blue with a cream/white underside. It has a very long neck with a rounded head. Its ears are shaped like spirals and it has a small horn on its forehead. Having no legs, it instead has four flippers for easy mobility in the water. Lapras also has a large, gray shell on its backs with knobs covering them.",
         "generation": "I",
         "specie": "Transport",
@@ -2694,10 +3641,19 @@
             "ICE"
         ],
         "strongAgainst": [
-            "GRASS",  "GROUND",  "FLYING",  "DRAGON",  "FIRE", "ROCK"
+            "GRASS",
+            "GROUND",
+            "FLYING",
+            "DRAGON",
+            "FIRE",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER", "ICE",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "ICE",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2705,6 +3661,7 @@
         "name": "Ditto",
         "prefix": "132",
         "img": "img/Ditto.png",
+        "mainDescripcion": "It can reconstitute its entire cellular structure to change into what it sees, but it returns to normal when it relaxes.",
         "descripcion": "Ditto's appearance is very plain. It is a simple, pinkish-purple, amorphous blob, with two small dots as eyes and a long, curved mouth. Ditto will transform into anything it sees, even inanimate objects. When it sees an enemy, it will change its DNA code to match theirs. It avoids being attacked while sleeping by changing its appearance to look like a rock. While trying to transform into something from memory, it will get details wrong. They will try to befriend other Pokémon by transforming into one of their kind. However, they are hostile to each other.",
         "generation": "I",
         "specie": "Transform",
@@ -2725,6 +3682,7 @@
         "name": "Eevee",
         "prefix": "133",
         "img": "img/Eevee.png",
+        "mainDescripcion": "It has the ability to alter the composition of its body to suit its surrounding environment.",
         "descripcion": "Eevee is a small, fox-like creature with bushy, brown fur. Its muzzle is very catlike, with a small, black and triangular nose. It has a fluffy cream-colored ruff around its neck and a short, bushy and fox-like tail with a creamy tip. Eevee has round, deep-brown eyes, long rabbit-like ears, and pink paw pads on its little feet. Its paws are small with three toes and no visible claws. A shiny Eevee has white fur with the ruff on its neck being silver in color. Eevee is said to have an irregularly-shaped genetic structure, enabling it to evolve into multiple Pokémon.",
         "generation": "I",
         "specie": "Evolution",
@@ -2745,6 +3703,7 @@
         "name": "Vaporeon",
         "prefix": "134",
         "img": "img/Vaporeon.png",
+        "mainDescripcion": "When Vaporeon’s fins begin to vibrate, it is a sign that rain will come within a few hours.",
         "descripcion": "Vaporeon shares physical traits with aquatic animals and land creatures in appearance. Its body is light-blue with a white ruff around its neck. Vaporeon has cream-yellowish ears-like fins made of webbing on both sides of its head along with a third on the top. Vaporeon has blue ridges that run down the length of its spine and on to its tail-fin. The tail resembles that of a dolphin or whale. A shiny Vaporeon is mostly pink in color while its ridges turn dark purple. Its ear-like fins and ruff stay the same.",
         "generation": "I",
         "specie": "Bubble Jet",
@@ -2754,10 +3713,15 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "GROUND", "ROCK"
+            "FIRE",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2765,6 +3729,7 @@
         "name": "Jolteon",
         "prefix": "135",
         "img": "img/Jolteon.png",
+        "mainDescripcion": "If it is angered or startled, the fur all over its body bristles like sharp needles that pierce foes.",
         "descripcion": "Jolteon is a quadruped mammalian Pokémon, covered in spiny bright yellow fur. It has long ears resembling a rabbit, deep purple almond-shaped eyes, and a blunt catlike muzzle with a small black triangular nose. It has a spiky white mane encircling its neck. Its legs and paws are slender, with three toes on each and no visible claws. Jolteon has a spiny fringe of fur covering its backside, and it has a small short spike-like tail that is not often visible (but seen in games such as Pokémon Stadium). Its back legs seems to be powerfully-built, allowing it to run at high speeds like a cheetah.",
         "generation": "I",
         "specie": "Lightning",
@@ -2774,10 +3739,13 @@
             "ELECTRIC"
         ],
         "strongAgainst": [
-            "WATER", "FLYING"
+            "WATER",
+            "FLYING"
         ],
         "weakAgainst": [
-            "ELECTRIC",  "GRASS", "DRAGON"
+            "ELECTRIC",
+            "GRASS",
+            "DRAGON"
         ]
     },
     {
@@ -2785,6 +3753,7 @@
         "name": "Flareon",
         "prefix": "136",
         "img": "img/Flareon.png",
+        "mainDescripcion": "Once it has stored up enough heat, this Pokémon’s body temperature can reach up to 1,700 degrees Fahrenheit.",
         "descripcion": "Flareon is a quadruped mammalian Pokémon. It has vivid flame-orange fur with a bushy yellow mane, a wide, fluffy flame-shaped long tail, and a tuft of yellow fur atop its head, in a fireball shape. It has a short catlike muzzle, wide black almond-shaped eyes, and a small black triangular nose. Its ears are long and rabbit-like, with flare-like tips. It has large, bulky paws with no visible claws. Its body is generally bulkier than most of the Eeveelutions. Of all the Eeveelutions, Flareon resembles Eevee the most.",
         "generation": "I",
         "specie": "Flame",
@@ -2794,10 +3763,17 @@
             "FIRE"
         ],
         "strongAgainst": [
-            "GRASS", "ICE", "BUG",  "STEEL", "FAIRY"
+            "GRASS",
+            "ICE",
+            "BUG",
+            "STEEL",
+            "FAIRY"
         ],
         "weakAgainst": [
-            "FIRE",  "WATER",  "ROCK", "DRAGON"
+            "FIRE",
+            "WATER",
+            "ROCK",
+            "DRAGON"
         ]
     },
     {
@@ -2805,6 +3781,7 @@
         "name": "Porygon",
         "prefix": "137",
         "img": "img/Porygon.png",
+        "mainDescripcion": "State-of-the-art technology was used to create Porygon. It was the first artificial Pokémon to be created via computer programming.",
         "descripcion": "Porygon is a virtual Pokémon. It is based on early 3D animation models, and is thus created completely out of polygons. It looks a little like a duck or some kind of bird. The various parts of Porygon's body are colored pink, white, and blue. Its eyes are in the shape of hexagons. Porygon is the first artificial Pokémon, created by the scientists at the Silph Co. company.",
         "generation": "I",
         "specie": "Virtual",
@@ -2825,6 +3802,7 @@
         "name": "Omanyte",
         "prefix": "138",
         "img": "img/Omanyte.png",
+        "mainDescripcion": "Because some Omanyte manage to escape after being restored or are released into the wild by people, this species is becoming a problem.",
         "descripcion": "Omanyte is a nautilus-like Pokémon that died out millions of years ago. Omanyte's sturdy shell protects it from enemy attacks. It has many tentacles, which it used to crawl along the muddy seafloor. It has two large eyes that just stick out under its curvy shell. Omanyte has the abilities Swift Swim and Shell Armor. Swift Swim allows Omanyte's speed to increase when in the rain while Shell Armor protects Omanyte against Critical Hits.",
         "generation": "I",
         "specie": "Spiral",
@@ -2835,10 +3813,17 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "FLYING", "BUG",  "GROUND", "ROCK"
+            "FIRE",
+            "FLYING",
+            "BUG",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2846,6 +3831,7 @@
         "name": "Omastar",
         "prefix": "139",
         "img": "img/Omastar.png",
+        "mainDescripcion": "Weighed down by a large and heavy shell, Omastar couldn’t move very fast. Some say it went extinct because it was unable to catch food.",
         "descripcion": "Omastar looks a lot like an ammonite, a prehistoric cephalopod. Omastar has a spiked spiral shell, which is heavy enough that it is hard for Omastar to swim. It has eight blue tentacles all over its body. Omastar also has a mouth that has two pairs of mandibles. It has yellow eyes with a slight black split pupil. Its face resembles that of a seastar, except for that the top of the star is cut off by the spiral shell.",
         "generation": "I",
         "specie": "Spiral",
@@ -2856,10 +3842,17 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "FLYING", "BUG",  "GROUND", "ROCK"
+            "FIRE",
+            "FLYING",
+            "BUG",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2867,6 +3860,7 @@
         "name": "Kabuto",
         "prefix": "140",
         "img": "img/Kabuto.png",
+        "mainDescripcion": "This species is almost entirely extinct. Kabuto molt every three days, making their shells harder and harder.",
         "descripcion": "Kabuto is a flat Pokémon with a brown shell. It has two circular dents on its shell and its small, black eyes are visible from the top. Its underside is black with two red spots, which are its secondary eyes. It has four yellow, pointed legs. While concealed, Kabuto leaves exposed only its hard shell, which protects it from predators, while the small, black eyes on its back allow it to continue monitoring its surroundings.",
         "generation": "I",
         "specie": "Shellfish",
@@ -2877,10 +3871,17 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "FLYING", "BUG",  "GROUND", "ROCK"
+            "FIRE",
+            "FLYING",
+            "BUG",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2888,6 +3889,7 @@
         "name": "Kabutops",
         "prefix": "141",
         "img": "img/Kabutops.png",
+        "mainDescripcion": "Kabutops slices its prey apart and sucks out the fluids. The discarded body parts become food for other Pokémon.",
         "descripcion": "Kabutops is a large, bipedal Pokémon. There are six hard spikes going down from the back of its neck, three on each side that lead down towards the beginning of its tail. Two long, sharp claws (or sickles) extend from Kabutops's exoskeleton and several plates close the opening that used to be there. Its head is covered in a rock-hard, semicircular-shaped armor. A tail protrudes from its back, bearing the same color as approximately seventy-five percent of its body.",
         "generation": "I",
         "specie": "Shellfish",
@@ -2898,10 +3900,17 @@
             "WATER"
         ],
         "strongAgainst": [
-            "FIRE",  "FLYING", "BUG",  "GROUND", "ROCK"
+            "FIRE",
+            "FLYING",
+            "BUG",
+            "GROUND",
+            "ROCK"
         ],
         "weakAgainst": [
-            "WATER",  "GRASS",  "DRAGON", "ELECTRIC"
+            "WATER",
+            "GRASS",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -2909,6 +3918,7 @@
         "name": "Aerodactyl",
         "prefix": "142",
         "img": "img/Aerodactyl.png",
+        "mainDescripcion": "This is a ferocious Pokémon from ancient times. Apparently even modern technology is incapable of producing a perfectly restored specimen.",
         "descripcion": "Aerodactyl is a pterosaur-like Pokémon. It has an arrowhead-shaped point at the tip of its tail, a cone-shaped spike on its back, purplish-gray skin, and a lower jaw full of sharp teeth. When it Mega Evolves, it gains black stone spike-like protrusions on it body; five on each wing, five on its head, one one its back, and three on its tail. It also has smoother black protrusions; one on its forehead and three on its chest.",
         "generation": "I",
         "specie": "Fossil ",
@@ -2919,10 +3929,17 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "FIGHTING", "BUG",  "FIRE", "FLYING"
+            "GRASS",
+            "FIGHTING",
+            "BUG",
+            "FIRE",
+            "FLYING"
         ],
         "weakAgainst": [
-            "ELECTRIC",  "ROCK",  "WATER", "GRASS"
+            "ELECTRIC",
+            "ROCK",
+            "WATER",
+            "GRASS"
         ]
     },
     {
@@ -2930,6 +3947,7 @@
         "name": "Snorlax",
         "prefix": "143",
         "img": "img/Snorlax.png",
+        "mainDescripcion": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
         "descripcion": "Snorlax is a very large and fat, mammalian Pokémon that has grayish-blue fur and an apricot-color underbelly. Its eyes are always closed, making it look as if it is sleeping. It has two visible lower teeth that stick out of its mouth when closed. In its Gigantamax form, its belly forms a hill with plants and tree on top of it, causing Snorlax to lie on its back.",
         "generation": "I",
         "specie": "Sleeping",
@@ -2938,18 +3956,15 @@
         "type": [
             "NORMAL"
         ],
-        "strongAgainst": [
-            ""
-        ],
-        "weakAgainst": [
-            "ROCK"
-        ]
+        "strongAgainst": "",
+        "weakAgainst": "ROCK"
     },
     {
         "id": 144,
         "name": "Articuno",
         "prefix": "144",
         "img": "img/Articuno.png",
+        "mainDescripcion": "It’s said that this Pokémon’s beautiful blue wings are made of ice. Articuno flies over snowy mountains, its long tail fluttering along behind it.",
         "descripcion": "Articuno is a large bird with blue plumage resembling ice crystals. Its coloring is darkest on its head crest and long, streaming tail. Its body is colored sky blue while growing lighter on its front, and its chest is a lighter blue than its body. Its most distinctive trait is its large wings, which are said to be made of ice. Its eyes are a medium shade of red. Galarian Articuno is a large bird with lavender plumage. Its coloring is darkest on its head crest and long, streaming tail.",
         "generation": "I",
         "specie": "Freeze",
@@ -2960,10 +3975,18 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "FIGHTING", "BUG",  "GROUND",  "FLYING", "DRAGON"
+            "GRASS",
+            "FIGHTING",
+            "BUG",
+            "GROUND",
+            "FLYING",
+            "DRAGON"
         ],
         "weakAgainst": [
-            "ELECTRIC",  "ROCK",  "WATER", "ICE"
+            "ELECTRIC",
+            "ROCK",
+            "WATER",
+            "ICE"
         ]
     },
     {
@@ -2971,6 +3994,7 @@
         "name": "Zapdos",
         "prefix": "145",
         "img": "img/Zapdos.png",
+        "mainDescripcion": "This Pokémon has complete control over electricity. There are tales of Zapdos nesting in the dark depths of pitch-black thunderclouds.",
         "descripcion": "Zapdos is an avian Pokémon with predominantly yellow plumage. Black rings encircle its eyes, and it has a long, thin, light orange beak. Its wings and tail are a mass of spiky feathers, with black feathers covering the back of its wings and inner tail feathers. A large crest of spiked feathers surrounds its head. Its thighs are a khaki color, and it has anisodactyl feet ending in talons.",
         "generation": "I",
         "specie": "Electric",
@@ -2981,10 +4005,17 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "WATER",  "FLYING",  "GRASS", "FIGHTING", "BUG"
+            "WATER",
+            "FLYING",
+            "GRASS",
+            "FIGHTING",
+            "BUG"
         ],
         "weakAgainst": [
-            "ELECTRIC",  "GRASS",  "DRAGON", "ROCK"
+            "ELECTRIC",
+            "GRASS",
+            "DRAGON",
+            "ROCK"
         ]
     },
     {
@@ -2992,6 +4023,7 @@
         "name": "Moltres",
         "prefix": "146",
         "img": "img/Moltres.png",
+        "mainDescripcion": "It’s one of the legendary bird Pokémon. When Moltres flaps its flaming wings, they glimmer with a dazzling red glow.",
         "descripcion": "Moltres is a large, avian Pokémon with golden plumage similar to that of the Phoenix. It has a long, flowing head crest and a billowing tail, both made of reddish-orange and yellow flames. Additionally, its wings are also shrouded in fiery plumage. It has a long, thin neck, a pointed, brown beak, and small, triangular eyes. Its thin, brown legs have feet that have three forward facing toes and one backward facing toe. It has short talons. alarian Moltres is a large, avian Pokémon with red and black plumage. It has a long, flowing head crest and a billowing tail, both made of reddish-pink and yellow flames.",
         "generation": "I",
         "specie": "Flame",
@@ -3002,10 +4034,19 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "ICE", "BUG",  "STEEL",  "FAIRY", "FIGHTING"
+            "GRASS",
+            "ICE",
+            "BUG",
+            "STEEL",
+            "FAIRY",
+            "FIGHTING"
         ],
         "weakAgainst": [
-            "FIRE",  "WATER",  "ROCK",  "DRAGON", "ELECTRIC"
+            "FIRE",
+            "WATER",
+            "ROCK",
+            "DRAGON",
+            "ELECTRIC"
         ]
     },
     {
@@ -3013,6 +4054,7 @@
         "name": "Dratini",
         "prefix": "147",
         "img": "img/Dratini.png",
+        "mainDescripcion": "Dratini dwells near bodies of rapidly flowing water, such as the plunge pools of waterfalls. As it grows, Dratini will shed its skin many times.",
         "descripcion": "It has a white, circular, gem-like object on its forehead, and its eyes are light purple. It has two developing wings at the sides of its head, which grow to be enormous as it evolves. It has a white belly, and is light blue the rest of the way. Dratini looks like some sort of snake or sea monster. Dratini are born large, and as they shed their skin, they grow larger. They have a massive amount of energy rapidly increasing inside of their bodies, hence, they have great strength, which grows exponentially as they evolve.",
         "generation": "I",
         "specie": "Dragon",
@@ -3025,7 +4067,8 @@
             ""
         ],
         "weakAgainst": [
-            "ICE", "FAIRY"
+            "ICE",
+            "FAIRY"
         ]
     },
     {
@@ -3033,6 +4076,7 @@
         "name": "Dragonair",
         "prefix": "148",
         "img": "img/Dragonair.png",
+        "mainDescripcion": "This Pokémon lives in pristine oceans and lakes. It can control the weather, and it uses this power to fly into the sky, riding on the wind.",
         "descripcion": "Dragonair's appearance are like sea serpents with long, sleek bodies. The upper part of their body is light blue while its underside is white. They have a small, white horn on the forehead and two wing-shaped protuberances on the sides of the head which are often said to be ears, but are in fact wings, as evidenced in the short film preceding Pokémon: The Movie 2000. They have a blue orb placed at the neck and another two near the tip of the tail. Along with Dratini, its mouth is rarely seen. It is unknown if it even has a mouth.",
         "generation": "I",
         "specie": "Dragon",
@@ -3045,7 +4089,8 @@
             ""
         ],
         "weakAgainst": [
-            "ICE", "FAIRY"
+            "ICE",
+            "FAIRY"
         ]
     },
     {
@@ -3053,6 +4098,7 @@
         "name": "Dragonite",
         "prefix": "149",
         "img": "img/Dragonite.png",
+        "mainDescripcion": "It’s a kindhearted Pokémon. If it spots a drowning person or Pokémon, Dragonite simply must help them.",
         "descripcion": "Dragonite greatly differ from their sea serpent-like pre-evolved forms. Both Dratini and Dragonair had a blue coloring with no limbs or wings (excluding the wing-like ears of Dragonair). Dragonite are large, orange, bipedal dragons with two turquoise wings on its back. Dragonite largely resembles a Charizard, as both have the same orange coloring, and the same blue underside of their wings, except for its lack of a flame on the end of their tails, and a somewhat rounder, and friendlier appearance. Shiny Dragonite's main color is green while the inside of its wings are purple.",
         "generation": "I",
         "specie": "Dragon",
@@ -3063,10 +4109,15 @@
             "FLYING"
         ],
         "strongAgainst": [
-            "GRASS", "FIGHTING", "BUG"
+            "GRASS",
+            "FIGHTING",
+            "BUG"
         ],
         "weakAgainst": [
-            "ICE",  "FAIRY", "ELECTRIC", "ROCK"
+            "ICE",
+            "FAIRY",
+            "ELECTRIC",
+            "ROCK"
         ]
     },
     {
@@ -3074,6 +4125,7 @@
         "name": "Mewtwo",
         "prefix": "150",
         "img": "img/Mewtwo.png",
+        "mainDescripcion": "Its DNA is almost the same as Mew’s. However, its size and disposition are vastly different.",
         "descripcion": "Mewtwo is a bipedal feline-like Pokémon. Its appearance is loosely based on Mew, with a more of a mutated humanoid look in addition to its feline traits. Its body is purple and it has three fingers on each hand. Mewtwo projects a faint purple aura when at full power.",
         "generation": "I",
         "specie": "Genetic",
@@ -3083,10 +4135,13 @@
             "PSYCHIC"
         ],
         "strongAgainst": [
-            "FIGHTING",  "POISON", "GHOST"
+            "FIGHTING",
+            "POISON",
+            "GHOST"
         ],
         "weakAgainst": [
-            "BUG", "SHADOW"
+            "BUG",
+            "SHADOW"
         ]
     },
     {
@@ -3094,6 +4149,7 @@
         "name": "Mew",
         "prefix": "151",
         "img": "img/Mew.png",
+        "mainDescripcion": "When viewed through a microscope, this Pokémon’s short, fine, delicate hair can be seen.",
         "descripcion": "Mew is a small, catlike Pokémon with small, pointed ears, blue eyes, a long, thin tail with a large bulge at the end, and large feet with three toes. It is covered with a layer of fine, pink hair, only visible with the aid of a microscope. It has extremely short arms with three fingers on each paw, and has small, orange paw pads on the undersides of its feet.",
         "generation": "I",
         "specie": "New Species",
@@ -3103,10 +4159,13 @@
             "PSYCHIC"
         ],
         "strongAgainst": [
-            "FIGHTING",  "POISON", "GHOST"
+            "FIGHTING",
+            "POISON",
+            "GHOST"
         ],
         "weakAgainst": [
-            "BUG", "SHADOW"
+            "BUG",
+            "SHADOW"
         ]
     }
 ]

@@ -18,8 +18,8 @@ body{
     overflow: hidden;
     background-size: contain;
     background-attachment:fixed;
+   
 }
-
 .pokedex-image{
     width: 150px;
     margin: auto;
@@ -85,7 +85,7 @@ body{
 }
 
 .pokemon-text-maindescription{
-    font-family: "Flexo" ;
+    font-family: "Flexo";
     text-align: justify;
 }
 
@@ -288,7 +288,7 @@ body{
         margin: auto;
         margin-top: 0.3%;
         background-color: #FFFFFF;
-        height: 73vh;
+        height: fit-content;
     }
 
     .pokemon-detail-submain-photo{
@@ -305,5 +305,5 @@ body{
         align-items:flex-start;
         display: flex;
         flex-direction: column;
-    }     
+    }  
 }

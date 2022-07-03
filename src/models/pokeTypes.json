@@ -1,0 +1,56 @@
+[
+    {
+        "type": ["SHADOW"]
+    },
+    {
+        "type": ["ELECTRIC"]
+    },
+    {
+        "type": ["WATER"]
+    },
+    {
+        "type": ["ICE"]
+    },
+    {
+        "type": ["POISON"]
+    },
+    {
+        "type": ["FAIRY"]
+    },
+    {
+        "type": ["STEEL"]
+    },
+    {
+        "type": ["DRAGON"]
+    },
+    {
+        "type": ["GHOST"]
+    },
+    {
+        "type": ["ROCK"]
+    },
+    {
+        "type": ["GRASS"]
+    },
+    {
+        "type": ["PSYCHIC"]
+    },
+    {
+        "type": ["FLYING"]
+    },
+    {
+        "type": ["GROUND"]
+    },
+    {
+        "type": ["FIGHTING"]
+    },
+    {
+        "type": ["NORMAL"]
+    },
+    {
+        "type": ["BUG"]
+    },
+    {
+        "type": ["FIRE"]
+    } 
+]

@@ -1,10 +1,16 @@
 let pokemon = require ("../models/pokemon.json");
+let pokemonTypes = require ("../models/pokeTypes.json")
 const fs = require ("fs");
 const path = require ("path");
+const {validationResult} = require ("express-validator");
 
 const controller = {
 
     //list all pokemon => GET
+    search: (req, res) => {
+        res.render("ver", {pokemon})
+    },
+
     listAll: (req, res) => {
         res.render("pokeListar", {pokemon})
     }, 
@@ -45,7 +51,7 @@ const controller = {
         let id = req.params.id;
         if (pokemon.find((item)=> item.id == id)){
             let pokemonEdit = pokemon.find((item)=> item.id == id);
-            res.render("pokeEditar", {pokemonEdit})
+            res.render("pokeEditar", {pokemonEdit, pokemonTypes})
         } else {
             res.render("error404")
         }
@@ -59,7 +65,7 @@ const controller = {
         pokemon.forEach(item => {
             if(item.id == id) {
                 item.name = name;
-                item.type = type;
+                item.type = type.split(" ");
                 item.strongAgainst = strongAgainst;
                 item.weakAgainst = weakAgainst;
                 item.descripcion = descripcion; 
@@ -82,11 +88,17 @@ const controller = {
 
     //create form => GET
     createA: (req, res) => {
-        res.render('pokeCrear');
+        res.render('pokeCrear'); 
     },
 
     //processing create form => POST
     createB: (req, res) => {
+        let resultValidation  = validationResult(req)
+        if (resultValidation.errors.length > 0) {
+            return res.render('pokeCrear', {
+                errors: resultValidation.mapped(),
+            });
+        }
         const newId = pokemon[(pokemon.length - 1)].id + 1;
         let file = req.file;
         let newPokemon = {

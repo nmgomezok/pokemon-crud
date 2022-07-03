@@ -5,7 +5,7 @@
 }
 
 .background-image{
-    background: url("../img//back-list.jpg");
+    background: url("../img/back-list.jpg");
     overflow: hidden;
     background-size: contain;
     background-attachment:fixed;
