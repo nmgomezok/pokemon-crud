@@ -1,98 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include("./partials/head")%>
     <link rel="stylesheet" href="/css/pokeCrear.css">
+    <script src="/js/inputRadio.js"></script>
     <title>Create</title>
 </head>
     <body>
-        
-        <div class="team-rocket">
+        <div class="background-image">
+            <img class="new-pokemon-photo" src="img/New-Pokemon.png">
+            <div class="main-create-form">
+                <form action="/createPokemon" method="POST" enctype="multipart/form-data">
 
-            
-            <form action="/createPokemon" method="POST" enctype="multipart/form-data">
+                        <!-- name -->
+                        <div class="main-create-form-flex">
+                            <label>Name</label>
+                            <input type="text" name="name">
+                        </div>
 
-                    <p class="newPoke">New Pokemon</p>
-                  
-                           
-                                     
-                    <div class="form-edit-poke">
-                        <label>Name:</label>
-                        <input type="text" name="name" value="<%= locals.old && old.name ? old.name : " " %>">
-                        <% if (locals.errors && errors.name) { %>
-                            <div class="warning-text">
-                                <i class="fas fa-exclamation-circle"></i>
-                                <%= errors.name.msg %>
-                            </div>
-                        <% } %>
-                    </div>
+                        <!-- prefix -->
+                        <div class="main-create-form-flex">
+                            <label>Prefix</label>
+                            <input type="text" name="prefix">
+                        </div>
 
-                    <div class="form-edit-poke">
-                        <label>Description:</label>
-                        <input type="text" name="descripcion">
-              
-                    </div>
+                        <!-- Main description -->
+                        <div class="main-create-form-flex">
+                            <label>Main description</label>
+                            <textarea class="textarea-main" type="text" name="mainDescripcion"></textarea>
+                        </div>
 
-                    <div class="form-edit-poke">
-                        <label>Generation:</label>
-                        <input type="text" name="generation">
-                  
-                    </div>
+                        <!-- Description -->
+                        <div class="main-create-form-flex">
+                            <label>Description</label>
+                            <textarea class="textarea" type="text" name="descripcion"></textarea>
+                        </div>
 
-                    <div class="form-edit-poke">
-                        <label>Specie:</label>
-                        <input type="text" name="specie">
-                    
-                    </div>
-
-                    <div class="form-edit-poke">
-                        <label>Region:</label>
-                        <input type="text" name="region">
-                       
-                    </div>
-
-                    
-                    <div class="form-edit-poke">
-                        <label>Index:</label>
-                        <input type="text" name="index">
-                       
-                    </div>
-
-                    <div class="form-edit-poke">
-                        <label>Type:</label>
-                        <input type="text" name="type">
-                     
-                    </div>
-
-                    <div class="form-edit-poke">
-                        <label>Strong against:</label>
-                        <input type="text" name="strongAgainst">
-                      
-                    </div>
-
-                    <div class="form-edit-poke">
-                        <label>Weak against:</label>
-                        <input type="text" name="weakAgainst">
+                        <!-- Generation -->
+                        <div class="main-create-form-flex">
+                            <label>Generation</label>
+                            <input type="text" name="generation">
+                        </div>
                         
-                    </div>
-               
+                        <!-- Specie -->
+                        <div class="main-create-form-flex">
+                            <label>Specie</label>
+                            <input type="text" name="specie">
+                        </div>
 
-                    <div class="form-edit-poke">
-                        <label>Photo:</label>
-                        <input type="file" name="img">
+                        <!-- Region -->
+                        <div class="main-create-form-flex">
+                            <label>Region</label>
+                            <input type="text" name="region">
+                        </div>
+
+                        <!-- Index     -->
+                        <div class="main-create-form-flex">
+                            <label>Index</label>
+                            <input type="text" name="index">
+                        </div>
+
+
+                    <!-- Type -->
+                    <div class="main-create-typeA">
+                        <label class="main-label">Type</label>
+                        <div class="radio-option-flex">
+                        <% for (let i=0 ; i<pokemonTypes.length ; i++) { %> 
+                            <input id="choiseA" name="type" type="checkbox" value="<%=pokemonTypes[i].type%>">
+                            <label class="label-option"><%=pokemonTypes[i].type%></label>
+                        <% } %>
+                        </div>
                     </div>
-                    
-                
+
+                    <!-- Strong against -->
+                    <div class="main-create-typeB">
+                        <label class="main-label">Strong against</label>
+                        <div class="radio-option-flex">
+                            <% for (let i=0 ; i<pokemonTypes.length ; i++) { %> 
+                                <input id="choiseB" name="strongAgainst" type="checkbox" name="<%=pokemonTypes[i].type%>" value="<%=pokemonTypes[i].type%>">
+                                <label class="label-option"><%=pokemonTypes[i].type%></label>
+                            <% } %>
+                        </div>
+                    </div>
+
+
+                    <!-- Weak against -->
+                    <div class="main-create-typeC">
+                        <label class="main-label">Weak against</label>
+                        <div class="radio-option-flex">
+                            <% for (let i=0 ; i<pokemonTypes.length ; i++) { %> 
+                                <input id="choiseC" name="weakAgainst" type="checkbox" name="<%=pokemonTypes[i].type%>" value="<%=pokemonTypes[i].type%>">
+                                <label class="label-option"><%=pokemonTypes[i].type%></label>
+                            <% } %>
+                        </div>
+                    </div>
+
+                    <!-- Photo -->
+                    <div class="photo-create-poke">
+                        <label class="photo-label">Photo</label>
+                        <input type="file" name="img" class="input-file">
+                    </div>
+
                     <div class="button-div">
-                        <button class="button" type="submit">Crear Pokemon</button>
+                        <button onclick="pokeInput()" class="button" type="submit">Crear Pokemon</button>
                         <a href="/"><button type="button" class="button">Home</button></a>
                     </div>
 
+                </form>
 
-            </form>
-           
+            </div>
         </div>
 
     </body>

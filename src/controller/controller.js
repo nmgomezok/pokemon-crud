@@ -61,18 +61,21 @@ const controller = {
     editB: (req, res) => {
         let id = req.params.id;
         let file = req.file;
-        const {name, type, strongAgainst, weakAgainst, descripcion, generation, specie, region, index} = req.body;
+        console.log(req.body)
+        const {name, prefix, mainDescripcion, descripcion, generation, specie, region, index, type, strongAgainst, weakAgainst} = req.body;
         pokemon.forEach(item => {
             if(item.id == id) {
                 item.name = name;
-                item.type = type.split(" ");
-                item.strongAgainst = strongAgainst;
-                item.weakAgainst = weakAgainst;
+                item.prefix = prefix;
+                item.mainDescripcion = mainDescripcion;
                 item.descripcion = descripcion; 
                 item.generation = generation; 
                 item.specie = specie; 
-                item.region = region; 
-                item.index = index;
+                item.region = region;
+                item.index = index; 
+                item.type = type;
+                item.strongAgainst = strongAgainst;
+                item.weakAgainst = weakAgainst;
                 item.img = `img/${file.filename}`
             }
         });
@@ -88,29 +91,28 @@ const controller = {
 
     //create form => GET
     createA: (req, res) => {
-        res.render('pokeCrear'); 
+        res.render('pokeCrear', {pokemonTypes}); 
     },
 
     //processing create form => POST
     createB: (req, res) => {
-        let resultValidation  = validationResult(req)
-        if (resultValidation.errors.length > 0) {
-            return res.render('pokeCrear', {
-                errors: resultValidation.mapped(),
-            });
-        }
+        
+        console.log(req.body)
         const newId = pokemon[(pokemon.length - 1)].id + 1;
         let file = req.file;
         let newPokemon = {
             id: newId,
             name: req.body.name,
+            prefix: req.body.prefix,
+            mainDescripcion: req.body.mainDescripcion,
             descripcion: req.body.descripcion,
             generation: req.body.generation,
             specie: req.body.specie,
             region: req.body.region,
             index: req.body.index,
             type: req.body.type,
-            strongAgainst: req.body.strongAgainst.split(" "),
+            strongAgainst: req.body.strongAgainst,
+            weakAgainst: req.body.weakAgainst,
             img: `img/${file.filename}`
         }
         pokemon.push(newPokemon);

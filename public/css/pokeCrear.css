@@ -2,78 +2,127 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Flexo";
 }
 
-.button{
-    background-color: #000000;
-    color: #FFFFFF;
-    border-radius: 15px;
-    font-size: 16px;
-    padding: 5px 10px;
-    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    will-change: transform;
-    cursor: pointer;
+.background-image{
+    background: url("../img/back-list.jpg");
+    overflow: hidden;
+    background-size: contain;
+    background-attachment:fixed;
 }
 
-.button:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
+body{
+    height:max-content;
 }
 
-.button:active {
-  box-shadow: none;
-  transform: translateY(0);
+.new-pokemon-photo{
+    width: 250px;
+    display: block;
+    margin: 10px auto;
 }
 
-.team-rocket{
-    display: flex;
-    flex-direction: column;
-    border: 1px black solid;
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+.main-create-form{
+    margin: 20px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
     padding: 5px;
-    width:fit-content;
-    margin: auto;
-    transform: translateY(+45%);
 }
 
-.button-div {
+.textarea-main{
+    height: 80px;
+}
+
+.textarea{
+    height: 150px;
+}
+
+.main-create-form-flex{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 10px;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.main-create-form-flex label{
+    width: 150px;
+    text-align: center;
+}
+
+.main-label{
+    display: block;
+    text-align: center;
     margin-bottom: 10px;
 }
 
-.form-edit-poke{
+.label-option{
+    width: 58px;
+    font-size: 9.5px;
+    text-align: center;
+}
+
+.radio-option-flex{
     display: flex;
     flex-direction: row;
-    margin-left: 10px;
+    flex-wrap: wrap;
+}
+
+.main-create-typeA{
+    margin-top: 15px;
+}
+.main-create-typeB{
+    margin-top: 15px;
+}
+.main-create-typeC{
     margin-top: 15px;
 }
 
-.form-edit-poke input{
-    display: flex;
-    justify-content: right;
+.photo-create-poke{
+    margin: 15px 0;
 }
 
-.form-edit-poke label{
-    display: inline-block;
-    width: 90px;
-    font-size: 13px;
-    border: 1px solid white;
-    text-align: right;
-    position: relative;
-    right: 5px;
-}
-
-.newPoke{
+.photo-label{
     text-align: center;
-    font-size: 20px;
-    font-weight: 800;
-    margin-top: 5px;
+    display: block;
 }
 
+.input-file{
+    width: 100%;
+    display: block; 
+    position: relative;
+    left: 50px;
+}
 
+.button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media (min-width: 1200px){
+
+    .main-create-form{
+        width: 500px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .main-create-form-flex label{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-create-form-flex input{
+        width: 300px;
+    }
+
+    .textarea-main, .textarea{
+        width: 300px;
+    }
+    
+    .label-option{
+    width: 68px;
+    font-size: 11px;
+    }
+}
