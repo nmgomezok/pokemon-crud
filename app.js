@@ -3,6 +3,7 @@ const methodOverride = require("method-override");
 const error404 = require ("./src/middlewares/error404Mid")
 const router = require ("./src/routes/index.routes");
 const path = require ("path")
+const session = require ("express-session")
 const port = process.env.PORT || 3000
 
 const app = express();

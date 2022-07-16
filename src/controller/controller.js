@@ -1,16 +1,13 @@
+const {validationResult} = require ("express-validator")
 let pokemon = require ("../models/pokemon.json");
-let pokemonTypes = require ("../models/pokeTypes.json")
+let pokemonTypes = require ("../models/pokeTypes.json");
 const fs = require ("fs");
 const path = require ("path");
-const {validationResult} = require ("express-validator");
+
 
 const controller = {
 
     //list all pokemon => GET
-    search: (req, res) => {
-        res.render("ver", {pokemon})
-    },
-
     listAll: (req, res) => {
         res.render("pokeListar", {pokemon})
     }, 
@@ -95,9 +92,24 @@ const controller = {
     },
 
     //processing create form => POST
-    createB: (req, res) => {
-        
-        console.log(req.body)
+    createB: (req, res) => { 
+          
+
+        let errors = validationResult(req)  
+        // si existen errores..
+        if (!errors.isEmpty()) {
+            // si existe un archivo con propiedad filename..
+            if (req.file.filename) {
+                //lo borramos
+                fs.unlinkSync(path.join(__dirname, "../../public/img/", req.file.filename));
+            }; 
+            return res.render('pokeCrear',
+            {
+                pokemonTypes, 
+                errors: errors.mapped(),
+                old: req.body
+            })
+        }  
         const newId = pokemon[(pokemon.length - 1)].id + 1;
         let file = req.file;
         let newPokemon = {

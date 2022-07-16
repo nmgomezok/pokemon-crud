@@ -1,30 +1,13 @@
 const express = require ("express");
-const controller = require ("../controller/controller");
+
+const registerMid = require ("../middlewares/validations/registerMid");
+const createMid = require ("../middlewares/validations/createMid");
 const upload = require ("../middlewares/multerMid");
+
+const controller = require ("../controller/controller");
+const userController = require ("../controller/userController");
+
 const router = express.Router();
-
-
-const {body} = require ("express-validator");
-
-// const validatePokeCrear = [
-
-//     body("name")
-//     body("prefix")
-//     body("img")
-//     body("mainDescripcion")
-//     body("descripcion")
-//     body("generation")
-//     body("specie")
-//     body("region")
-//     body("index")
-//     body("type").
-//     body("strongAgainst")
-//     body("weakAgainst")
-// ]
-
-
-router.get("/ver", controller.search);
-
 
 //list all pokemon
 router.get("/", controller.listAll);
@@ -45,6 +28,16 @@ router.delete("/:id", controller.delete)
 router.get('/createPokemon', controller.createA);
 
 //processing create form
-router.post("/createPokemon", upload.single("img"), controller.createB)
+router.post("/createPokemon", upload.single("img"), createMid, controller.createB)
+
+
+//register use form 
+router.post("/", registerMid, userController.register)
+
+
+
+
+
+
 
 module.exports = router;

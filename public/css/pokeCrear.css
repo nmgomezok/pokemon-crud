@@ -99,6 +99,24 @@ body{
     justify-content: space-evenly;
 }
 
+.error-error{
+    color: red;
+    font-size: 15px;
+}
+
+.error-create{
+    color:red;
+    text-align: center;
+    font-size: 12px;
+}
+
+.error-create-check{
+    color: red;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+}
+
 @media (min-width: 1200px){
 
     .main-create-form{

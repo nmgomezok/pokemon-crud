@@ -15,49 +15,89 @@
                         <!-- name -->
                         <div class="main-create-form-flex">
                             <label>Name</label>
-                            <input type="text" name="name">
-                        </div>
+                            <div>
+                                <input type="text" name="name" value="<%=locals.old && old.name %>">  
+                                <% if (locals.errors && errors.name) { %>
+                                    <p class="error-create"><%= errors.name.msg%></p>
+                                <% } %> 
+                            </div>
+                        </div>                    
 
                         <!-- prefix -->
                         <div class="main-create-form-flex">
                             <label>Prefix</label>
-                            <input type="text" name="prefix">
+                            <div>
+                                <input type="text" name="prefix" value="<%=locals.old && old.prefix %>">
+                                <% if (locals.errors && errors.prefix) { %>
+                                    <p class="error-create"><%= errors.prefix.msg%></p>
+                                <% } %> 
+                            </div>
                         </div>
 
                         <!-- Main description -->
                         <div class="main-create-form-flex">
                             <label>Main description</label>
-                            <textarea class="textarea-main" type="text" name="mainDescripcion"></textarea>
+                            <div>
+                            <textarea class="textarea-main" type="text" name="mainDescripcion"><%=locals.old && old.mainDescripcion%></textarea>
+                            <% if (locals.errors && errors.mainDescripcion) { %>
+                                <p class="error-create"><%= errors.mainDescripcion.msg%></p>
+                            <% } %> 
+                            </div>
                         </div>
 
                         <!-- Description -->
                         <div class="main-create-form-flex">
                             <label>Description</label>
-                            <textarea class="textarea" type="text" name="descripcion"></textarea>
+                            <div>
+                                <textarea class="textarea" type="text" name="descripcion"><%=locals.old && old.descripcion%></textarea></textarea>
+                                <% if (locals.errors && errors.descripcion) { %>
+                                    <p class="error-create"><%= errors.descripcion.msg%></p>
+                                <% } %> 
+                            </div>
                         </div>
 
                         <!-- Generation -->
                         <div class="main-create-form-flex">
                             <label>Generation</label>
-                            <input type="text" name="generation">
+                            <div>
+                                <input type="text" name="generation" value="<%=locals.old && old.generation%>">
+                                <% if (locals.errors && errors.generation) { %>
+                                    <p class="error-create"><%= errors.generation.msg%></p>
+                                <% } %> 
+                            </div>
                         </div>
                         
                         <!-- Specie -->
                         <div class="main-create-form-flex">
                             <label>Specie</label>
-                            <input type="text" name="specie">
+                            <div>
+                                <input type="text" name="specie" value="<%=locals.old && old.specie%>">
+                                <% if (locals.errors && errors.specie) { %>
+                                    <p class="error-create"><%= errors.specie.msg%></p>
+                                <% } %> 
+                            </div>
                         </div>
 
                         <!-- Region -->
                         <div class="main-create-form-flex">
                             <label>Region</label>
-                            <input type="text" name="region">
+                            <div>
+                                <input type="text" name="region" value="<%=locals.old && old.region%>">
+                                <% if (locals.errors && errors.region) { %>
+                                    <p class="error-create"><%= errors.region.msg%></p>
+                                <% } %> 
+                            </div>
                         </div>
 
                         <!-- Index     -->
                         <div class="main-create-form-flex">
                             <label>Index</label>
-                            <input type="text" name="index">
+                            <div>
+                                <input type="text" name="index"  value="<%=locals.old && old.index%>">
+                                <% if (locals.errors && errors.index) { %>
+                                    <p class="error-create"><%= errors.index.msg%></p>
+                                <% } %>
+                            </div>
                         </div>
 
 
@@ -69,6 +109,9 @@
                             <input id="choiseA" name="type" type="checkbox" value="<%=pokemonTypes[i].type%>">
                             <label class="label-option"><%=pokemonTypes[i].type%></label>
                         <% } %>
+                        <% if (locals.errors && errors.type) { %>
+                            <p class="error-create-check"><%= errors.type.msg%></p>
+                        <% } %>
                         </div>
                     </div>
 
@@ -77,8 +120,11 @@
                         <label class="main-label">Strong against</label>
                         <div class="radio-option-flex">
                             <% for (let i=0 ; i<pokemonTypes.length ; i++) { %> 
-                                <input id="choiseB" name="strongAgainst" type="checkbox" name="<%=pokemonTypes[i].type%>" value="<%=pokemonTypes[i].type%>">
+                                <input id="choiseB" name="strongAgainst" type="checkbox" value="<%=pokemonTypes[i].type%>">
                                 <label class="label-option"><%=pokemonTypes[i].type%></label>
+                            <% } %>
+                            <% if (locals.errors && errors.strongAgainst) { %>
+                                <p class="error-create-check"><%= errors.strongAgainst.msg%></p>
                             <% } %>
                         </div>
                     </div>
@@ -89,8 +135,11 @@
                         <label class="main-label">Weak against</label>
                         <div class="radio-option-flex">
                             <% for (let i=0 ; i<pokemonTypes.length ; i++) { %> 
-                                <input id="choiseC" name="weakAgainst" type="checkbox" name="<%=pokemonTypes[i].type%>" value="<%=pokemonTypes[i].type%>">
+                                <input id="choiseC" name="weakAgainst" type="checkbox" value="<%=pokemonTypes[i].type%>">
                                 <label class="label-option"><%=pokemonTypes[i].type%></label>
+                            <% } %>
+                            <% if (locals.errors && errors.weakAgainst) { %>
+                                <p class="error-create-check"><%= errors.weakAgainst.msg%></p>
                             <% } %>
                         </div>
                     </div>
@@ -98,7 +147,12 @@
                     <!-- Photo -->
                     <div class="photo-create-poke">
                         <label class="photo-label">Photo</label>
-                        <input type="file" name="img" class="input-file">
+                        <div>
+                            <input type="file" name="img" class="input-file">
+                            <% if (locals.errors && errors.img) { %>
+                                <p class="error-create-check"><%= errors.img.msg%></p>
+                            <% } %>
+                        </div>
                     </div>
 
                     <div class="button-div">

@@ -8,6 +8,73 @@
 </head>
     <body>
         <div class="background-image">
+            <dialog id="dialog" class="dialog">
+                <div class="cross-cancel">
+                    <button class="material-icons" id="cancel"> <i class="material-icons">close</i></button>
+                </div>
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                        <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                    </div>
+
+                    <!-- LOGIN FORM -->
+                    <form action="/login" method="POST" id="login" class="input-group">
+                        <input type="text" class="input-field" placeholder="User Id">
+                        <input type="text" class="input-field" placeholder="Password">
+                        <input type="checkbox" class="check-box"><span class="remember-me">Remember Password</span>
+                        <button type="submit" class="submit-btn-login">Log In</button>
+                    </form>
+
+                    <!-- REGISTER FORM -->
+                    <form action="/" method="POST" id="register" class="input-group">
+                        <div>
+                            <input name="userId" type="text" class="input-field" placeholder="User Id" value="<%=locals.old && old.userId %>" id="user">
+                            <% if (locals.errors && errors.userId) { %>
+                                <p class="error-create"><%= errors.userId.msg%></p>
+                            <% } %> 
+                        </div>
+    
+                        <div>
+                            <input name="email" type="email" class="input-field" placeholder="Email">
+                            <% if (locals.errors && errors.email) { %>
+                                <p class="error-create"><%= errors.email.msg%></p>
+                            <% } %> 
+                        </div>
+    
+                        <div>
+                            <input name="password" type="password" class="input-field" placeholder="Password">
+                            <% if (locals.errors && errors.password) { %>
+                                <p class="error-create"><%= errors.password.msg%></p>
+                            <% } %> 
+                        </div>
+    
+                        <div>
+                            <input name="repassword"type="password" class="input-field" placeholder="Re-enter password">
+                            <% if (locals.errors && errors.repassword) { %>
+                                <p class="error-create"><%= errors.repassword.msg%></p>
+                            <% } %>
+                        </div>
+                        <button type="submit" class="submit-btn-register">Register</button>
+                    </form>
+                    <script>
+
+                        let form = document.getElementById("register")
+
+                        form.addEventListener('submt', function(e) {
+                            e.preventDefault()
+
+                            let usernmae = document.getElementById('user').value
+                        })
+
+                    </script>
+                </div>
+            </dialog>
+            <div class="button-session">
+                <button class="session" id="show">Session</button>
+            </div>
+            <script src="/js/pokeListModal.js"></script>
             <a href="/createPokemon"><img class="new-pokemon-photo"src="img/New-Pokemon.png"></a> 
             <div class="pokemon-flex-direction"> 
                 <% for (let i=0 ; i<pokemon.length ; i++) { %>
